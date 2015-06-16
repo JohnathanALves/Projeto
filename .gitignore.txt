@@ -1,1 +1,2 @@
 Cake/tmp/**
+Cake/logs/error
