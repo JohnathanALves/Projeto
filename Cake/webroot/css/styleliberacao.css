@@ -1,0 +1,23 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+    background: url("http://127.0.0.1/ProjetoESII/Cake/webroot/res/img/backpattern.png");
+}
+
+body > .container {
+	padding: 60px 15px 0;
+}
+
+#navbar {
+	background-color: #5cb85c;
+	color:  #000;
+}
+
+#obrigatorio {
+	color: red;
+}

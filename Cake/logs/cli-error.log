@@ -1,0 +1,288 @@
+2015-05-28 14:06:32 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:08:32 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:10:56 Error: [Cake\Database\Exception] Cannot describe teste. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('teste', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('teste')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(204): Bake\Shell\Task\ModelTask->findHasMany(Object(Cake\ORM\Table), Array)
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Login')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Login')
+#7 [internal function]: Bake\Shell\BakeShell->all('login')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:12:32 Error: [Cake\Database\Exception] Cannot describe teste. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('teste', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('teste')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(204): Bake\Shell\Task\ModelTask->findHasMany(Object(Cake\ORM\Table), Array)
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Login')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Login')
+#7 [internal function]: Bake\Shell\BakeShell->all('login')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:22:06 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:22:56 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:26:15 Error: [Cake\Database\Exception] Cannot describe controleliberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controleliberac...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controleliberac...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(243): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(195): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\ControleliberacaoTable), Array)
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\ControleliberacaoTable))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Controleliberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Controleliberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleliberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:26:18 Error: [Cake\Database\Exception] Cannot describe controleliberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controleliberac...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controleliberac...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(243): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(195): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\ControleliberacaoTable), Array)
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\ControleliberacaoTable))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:26:41 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:26:58 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:27:01 Error: [Cake\Database\Exception] Cannot describe controleliberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controleliberac...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controleliberac...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Controleliberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Controleliberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleliberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:27:05 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:28:34 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:28:41 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:28:46 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:29:10 Error: [Cake\Database\Exception] Cannot describe controleliberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controleliberac...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controleliberac...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Controleliberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Controleliberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleliberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+

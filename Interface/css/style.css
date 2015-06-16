@@ -1,0 +1,32 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+    background: url("http://127.0.0.1/ProjetoESII/Interface/res/img/backpattern.png");
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #f5f5f5;
+}
+
+body > .container {
+	padding: 60px 15px 0;
+}
+
+#panel {
+	margin: 70px 0 0 0;
+}
+
+#alertlogin, #alertsenha {
+	margin: 5px 0px 0px 0px;
+	padding: 10px
+}
