@@ -26,6 +26,24 @@ class LoginMoscamedController extends AppController
 {
 
     /**
+     * Logout method
+     *
+     * @return void
+     */
+    public function delete($id = null)
+    {
+        $loginTable = TableRegistry::get('Login');
+        $this->request->allowMethod(['post', 'delete']);
+        $login = $loginTable->get($id);
+        if ($loginTable->delete($login)) {
+            $this->Flash->success('O usuário foi deletado.');
+        } else {
+            $this->Flash->error('O usuario não pôde ser deletado. Por favor, tente novamente.');
+        }
+        return $this->redirect(['action' => 'index']);
+    }
+
+    /**
      * Edit method
      *
      * @param string|null $id Login id.
@@ -35,53 +53,59 @@ class LoginMoscamedController extends AppController
     public function edit($id = null)
     {
 
-        $login = TableRegistry::get('Login');
-        $query = $login->find('all');
+        $loginTable = TableRegistry::get('Login');
+        //$query = $login->find('all');
         
-        /*
-        $login = $this->Login->get($id, [
+        $login = $loginTable->get($id, [
             'contain' => []
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
-            $login = $this->Login->patchEntity($login, $this->request->data);
-            if ($this->Login->save($login)) {
+            $login = $loginTable->patchEntity($login, $this->request->data);
+            if ($loginTable->save($login)) {
                 $this->Flash->success('The login has been saved.');
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error('The login could not be saved. Please, try again.');
+                $this->Flash->error('Não foi possível salvar o usuário. Por favor, tente novamente mais tarde.');
             }
         }
         $this->set(compact('login'));
-        $this->set('_serialize', ['login']); */
+        $this->set('_serialize', ['login']);
     }
     
     /**
-     * NAME method
+     * Logout method
      *
+     * @return void
      */
     public function logout()
     {
         return $this->redirect($this->Auth->logout());
     }
 
+    /**
+     * Add method
+     *
+     * @return void
+     */
     public function add()
     {
         if ($this->request->is('post')) {
             $reg = TableRegistry::get('Login');
             $login=$reg->newEntity( $this->request->data() );
-            //$login->usuario="novo";
-            //$login->email='novo@login.com';
-            //$login->set('senha','login');
             if ($reg->save($login)) {
-                //return $this->redirect(['action' => 'index']);
-                return $this->redirect($this->Auth->redirectUrl());
-            }
-            else {
-                    $this->Flash->error('The login could not be saved. Please, try again.');
+                return $this->redirect(['action' => 'index']);
+                //return $this->redirect($this->Auth->redirectUrl());
+            } else {
+                $this->Flash->error('Não foi possível salvar o usuário. Por favor, tente novamente mais tarde.');
             }
         }
     }
 
+    /**
+     * Login method
+     *
+     * @return void
+     */
     public function login()
     {
         $this->layout = 'loginMoscamed'; 
@@ -90,11 +114,25 @@ class LoginMoscamedController extends AppController
             
             if ($user) {
                 $this->Auth->setUser($user);
-                return $this->redirect($this->Auth->redirectUrl());
+                return $this->redirect('/login_moscamed'); // login redirect
             }
-            $this->Flash->error('Your username or password is incorrect.');
+            $this->Flash->error('Seu nome de usuário ou senha está incorreta.');
         }
     }   
+
+    /**
+     * View method
+     *
+     * @return void
+     */
+    public function view($id = null)
+    {
+        $login = $this->Login->get($id, [
+            'contain' => []
+        ]);
+        $this->set('login', $login);
+        $this->set('_serialize', ['login']);
+    }
 
     /**
      * Index method
@@ -104,6 +142,11 @@ class LoginMoscamedController extends AppController
     public function index()
     {
         // Stuff
-        $this->layout = 'loginMoscamed';    
+        $reg = TableRegistry::get('Login');
+        $this->set('login', $this->paginate($reg));
+        $this->set('_serialize', ['login']);
+
+        // Our layout
+        // $this->layout = 'loginMoscamed'; 
     }
 }

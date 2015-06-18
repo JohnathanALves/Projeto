@@ -73,6 +73,11 @@ Router::scope('/', function ($routes) {
     $routes->fallbacks('InflectedRoute');
 });
 
+Router::scope('/login_moscamed', function ($routes) {
+    $routes->connect('/view/*',['controller'=> 'LoginMoscamed','action'=>'index']);
+});
+
+
 /**
  * Load all plugin routes.  See the Plugin documentation on
  * how to customize the loading of plugin routes.
