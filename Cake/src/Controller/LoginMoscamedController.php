@@ -114,7 +114,7 @@ class LoginMoscamedController extends AppController
             
             if ($user) {
                 $this->Auth->setUser($user);
-                return $this->redirect('/login_moscamed'); // login redirect
+                return $this->redirect('/'); // login redirect
             }
             $this->Flash->error('Seu nome de usuário ou senha está incorreta.');
         }

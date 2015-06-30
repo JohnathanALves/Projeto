@@ -1,22 +1,22 @@
 <div class="actions columns large-2 medium-3">
-    <h3><?= __('Actions') ?></h3>
+    <h3><?= __('Menu') ?></h3>
     <ul class="side-nav">
-        <li><?= $this->Html->link(__('List Controletransporte'), ['action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('Listar Formulários'), ['action' => 'index']) ?></li>
     </ul>
 </div>
 <div class="controletransporte form large-10 medium-9 columns">
     <?= $this->Form->create($controletransporte); ?>
     <fieldset>
-        <legend><?= __('Add Controletransporte') ?></legend>
+        <legend><?= __('Formulário Controle Transporte') ?></legend>
         <?php
-            echo $this->Form->input('fk_lotetransporte');
-            echo $this->Form->input('hora_controle');
-            echo $this->Form->input('situação_dia1');
-            echo $this->Form->input('situação_dia2');
-            echo $this->Form->input('situação_dia3');
-            echo $this->Form->input('comentario');
+            echo $this->Form->input('fk_lotetransporte',['label' => 'Transporte ID']);
+            echo $this->Form->input('hora_controle',['label' => 'Horário']);
+            echo $this->Form->input('situação_dia1',['label' => 'Situação dia1']);
+            echo $this->Form->input('situação_dia2',['label' => 'Situação dia2']);
+            echo $this->Form->input('situação_dia3',['label' => 'Situação dia3']);
+            echo $this->Form->input('comentario',['label' => 'Comentário']);
         ?>
     </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
+    <?= $this->Form->button(__('Enviar')) ?>
     <?= $this->Form->end() ?>
 </div>
