@@ -286,3 +286,57 @@ Stack Trace:
 #13 {main}
 
 
+2015-06-30 14:36:12 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(201): Cake\Console\ShellDispatcher->findShell('all')
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\Projeto\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-06-30 14:36:56 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(201): Cake\Console\ShellDispatcher->findShell('all')
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\Projeto\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-06-30 14:38:09 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(201): Cake\Console\ShellDispatcher->findShell('all')
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\Projeto\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-06-30 14:40:37 Error: [Cake\Database\Exception] Cannot describe controletransporteorte. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controletranspo...', Array)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controletranspo...')
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Controletranspo...')
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Controletranspo...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controletranspo...')
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\Projeto\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
