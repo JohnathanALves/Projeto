@@ -1569,3 +1569,73 @@ Stack Trace:
 #3 {main}
 
 
+2015-07-03 13:05:34 Error: [Cake\Database\Exception] Cannot describe area. It has 0 columns.
+Request URL: /Projeto/Cake/area
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('area', Array)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('area')
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\AreaTable))
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1164): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\AreaTable))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(883): Cake\ORM\Table->query()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(164): Cake\ORM\Table->find('all', Array)
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\AreaTable), Array)
+#8 C:\xampp\htdocs\Projeto\Cake\src\Controller\AreaController.php(20): Cake\Controller\Controller->paginate(Object(App\Model\Table\AreaTable))
+#9 [internal function]: App\Controller\AreaController->index()
+#10 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AreaController))
+#13 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-07-03 13:05:43 Error: [Cake\Database\Exception] Cannot describe area. It has 0 columns.
+Request URL: /Projeto/Cake/Area
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('area', Array)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('area')
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\AreaTable))
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1164): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\AreaTable))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(883): Cake\ORM\Table->query()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(164): Cake\ORM\Table->find('all', Array)
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\AreaTable), Array)
+#8 C:\xampp\htdocs\Projeto\Cake\src\Controller\AreaController.php(20): Cake\Controller\Controller->paginate(Object(App\Model\Table\AreaTable))
+#9 [internal function]: App\Controller\AreaController->index()
+#10 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AreaController))
+#13 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-07-03 14:04:07 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-03 14:04:30 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
