@@ -1723,3 +1723,16 @@ Stack Trace:
 #1 {main}
 
 
+2015-07-03 15:00:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Liberacao could not be found.
+Exception Attributes: array (
+  'class' => 'Liberacao',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /Projeto/Cake/liberacao
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
