@@ -141,6 +141,7 @@ $cakeDescription = 'Moscamed Brasil';
                     <li><?= $this->Html->link(__('Listar'), ['controller' => 'amostrarepasse','action' => 'index']) ?> </li>
                 </ul>
             </div>
+            
             <div class="actions columns large-2 medium-3">
                 <h3><?= __('Analise Florescencia') ?></h3>
                 <ul class="side-nav">
@@ -148,6 +149,7 @@ $cakeDescription = 'Moscamed Brasil';
                     <li><?= $this->Html->link(__('Listar'), ['controller' => 'analiseflorescencia','action' => 'index']) ?> </li>
                 </ul>
             </div>
+
             <div class="actions columns large-2 medium-3">
                 <h3><?= __('Tamanho cefalotorax') ?></h3>
                 <ul class="side-nav">
@@ -156,6 +158,85 @@ $cakeDescription = 'Moscamed Brasil';
                 </ul>
             </div>
 
+            <div class="actions columns large-2 medium-3">
+                <h3><?= __('Gaiola') ?></h3>
+                <ul class="side-nav">
+                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'gaiola','action' => 'add']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'gaiola','action' => 'index']) ?> </li>
+                </ul>
+            </div>
+
+            <div class="actions columns large-2 medium-3">
+                <h3><?= __('Lote gaiolas') ?></h3>
+                <ul class="side-nav">
+                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'lotegaiolas','action' => 'add']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'lotagaiolas','action' => 'index']) ?> </li>
+                </ul>
+            </div>
+
+            <div class="actions columns large-2 medium-3">
+                <h3><?= __('Mortalidade pupas') ?></h3>
+                <ul class="side-nav">
+                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'mortalidadespupas','action' => 'add']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'mortalidadespupas','action' => 'index']) ?> </li>
+                </ul>
+            </div>
+
+            <div class="actions columns large-2 medium-3">
+                <h3><?= __('Produção de ovos') ?></h3>
+                <ul class="side-nav">
+                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'producaoovos','action' => 'add']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'producaoovos','action' => 'index']) ?> </li>
+                </ul>
+            </div>
+
+            <div class="actions columns large-2 medium-3">
+                <h3><?= __('Lote bandejas') ?></h3>
+                <ul class="side-nav">
+                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'lotebandejas','action' => 'add']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'lotebandejas','action' => 'index']) ?> </li>
+                </ul>
+            </div>
+
+            <div class="actions columns large-2 medium-3">
+                <h3><?= __('Alimentação') ?></h3>
+                <ul class="side-nav">
+                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'alimentacao','action' => 'add']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'alimentacao','action' => 'index']) ?> </li>
+                </ul>
+            </div>
+
+            <div class="actions columns large-2 medium-3">
+                <h3><?= __('Montagem') ?></h3>
+                <ul class="side-nav">
+                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'montagem','action' => 'add']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'montagem','action' => 'index']) ?> </li>
+                </ul>
+            </div>
+
+            <div class="actions columns large-2 medium-3">
+                <h3><?= __('Aliquota') ?></h3>
+                <ul class="side-nav">
+                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'aliquota','action' => 'add']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'aliquota','action' => 'index']) ?> </li>
+                </ul>
+            </div>
+
+            <div class="actions columns large-2 medium-3">
+                <h3><?= __('Bequer') ?></h3>
+                <ul class="side-nav">
+                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'bequer','action' => 'add']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'bequer','action' => 'index']) ?> </li>
+                </ul>
+            </div>
+
+            <div class="actions columns large-2 medium-3">
+                <h3><?= __('Ovos') ?></h3>
+                <ul class="side-nav">
+                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'ovos','action' => 'add']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'ovos','action' => 'index']) ?> </li>
+                </ul>
+            </div>
         </div>
 
         <footer>
