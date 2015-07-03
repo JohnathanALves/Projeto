@@ -1,0 +1,104 @@
+<?php
+namespace App\Controller;
+
+use App\Controller\AppController;
+
+/**
+ * Lotegaiolas Controller
+ *
+ * @property \App\Model\Table\LotegaiolasTable $Lotegaiolas */
+class LotegaiolasController extends AppController
+{
+
+    /**
+     * Index method
+     *
+     * @return void
+     */
+    public function index()
+    {
+        $this->set('lotegaiolas', $this->paginate($this->Lotegaiolas));
+        $this->set('_serialize', ['lotegaiolas']);
+    }
+
+    /**
+     * View method
+     *
+     * @param string|null $id Lotegaiola id.
+     * @return void
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function view($id = null)
+    {
+        $lotegaiola = $this->Lotegaiolas->get($id, [
+            'contain' => []
+        ]);
+        $this->set('lotegaiola', $lotegaiola);
+        $this->set('_serialize', ['lotegaiola']);
+    }
+
+    /**
+     * Add method
+     *
+     * @return void Redirects on successful add, renders view otherwise.
+     */
+    public function add()
+    {
+        $lotegaiola = $this->Lotegaiolas->newEntity();
+        if ($this->request->is('post')) {
+            $lotegaiola = $this->Lotegaiolas->patchEntity($lotegaiola, $this->request->data);
+            if ($this->Lotegaiolas->save($lotegaiola)) {
+                $this->Flash->success('The lotegaiola has been saved.');
+                return $this->redirect(['action' => 'index']);
+            } else {
+                $this->Flash->error('The lotegaiola could not be saved. Please, try again.');
+            }
+        }
+        $this->set(compact('lotegaiola'));
+        $this->set('_serialize', ['lotegaiola']);
+    }
+
+    /**
+     * Edit method
+     *
+     * @param string|null $id Lotegaiola id.
+     * @return void Redirects on successful edit, renders view otherwise.
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function edit($id = null)
+    {
+        $lotegaiola = $this->Lotegaiolas->get($id, [
+            'contain' => []
+        ]);
+        if ($this->request->is(['patch', 'post', 'put'])) {
+            $lotegaiola = $this->Lotegaiolas->patchEntity($lotegaiola, $this->request->data);
+            if ($this->Lotegaiolas->save($lotegaiola)) {
+                $this->Flash->success('The lotegaiola has been saved.');
+                return $this->redirect(['action' => 'index']);
+            } else {
+                $this->Flash->error('The lotegaiola could not be saved. Please, try again.');
+            }
+        }
+        $this->set(compact('lotegaiola'));
+        $this->set('_serialize', ['lotegaiola']);
+    }
+
+    /**
+     * Delete method
+     *
+     * @param string|null $id Lotegaiola id.
+     * @return void Redirects to index.
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function delete($id = null)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+        $lotegaiola = $this->Lotegaiolas->get($id);
+        if ($this->Lotegaiolas->delete($lotegaiola)) {
+            $this->Flash->success('The lotegaiola has been deleted.');
+        } else {
+            $this->Flash->error('The lotegaiola could not be deleted. Please, try again.');
+        }
+        return $this->redirect(['action' => 'index']);
+    }
+}
