@@ -1,19 +1,19 @@
 <div class="actions columns large-2 medium-3">
-    <h3><?= __('Actions') ?></h3>
+    <h3><?= __('Menu') ?></h3>
     <ul class="side-nav">
-        <li><?= $this->Html->link(__('New Separacaoliberacao'), ['action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('Novo'), ['action' => 'add']) ?></li>
     </ul>
 </div>
 <div class="separacaoliberacao index large-10 medium-9 columns">
     <table cellpadding="0" cellspacing="0">
     <thead>
         <tr>
-            <th><?= $this->Paginator->sort('separacaoliberacaoid') ?></th>
-            <th><?= $this->Paginator->sort('fk_liberacao') ?></th>
-            <th><?= $this->Paginator->sort('n_separacao') ?></th>
-            <th><?= $this->Paginator->sort('data_drenagem_pre') ?></th>
-            <th><?= $this->Paginator->sort('data_controle_liberacao_pos') ?></th>
-            <th class="actions"><?= __('Actions') ?></th>
+            <th><?= $this->Paginator->sort('Separa/libera ID') ?></th>
+            <th><?= $this->Paginator->sort('Liberação') ?></th>
+            <th><?= $this->Paginator->sort('nº separação') ?></th>
+            <th><?= $this->Paginator->sort('Data drenagem_pré') ?></th>
+            <th><?= $this->Paginator->sort('Data controle liberação_pós') ?></th>
+            <th class="actions"><?= __('Opções') ?></th>
         </tr>
     </thead>
     <tbody>
@@ -25,9 +25,9 @@
             <td><?= h($separacaoliberacao->data_drenagem_pre) ?></td>
             <td><?= h($separacaoliberacao->data_controle_liberacao_pos) ?></td>
             <td class="actions">
-                <?= $this->Html->link(__('View'), ['action' => 'view', $separacaoliberacao->separacaoliberacaoid]) ?>
-                <?= $this->Html->link(__('Edit'), ['action' => 'edit', $separacaoliberacao->separacaoliberacaoid]) ?>
-                <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $separacaoliberacao->separacaoliberacaoid], ['confirm' => __('Are you sure you want to delete # {0}?', $separacaoliberacao->separacaoliberacaoid)]) ?>
+                <?= $this->Html->link(__('Visualizar'), ['action' => 'view', $separacaoliberacao->separacaoliberacaoid]) ?>
+                <?= $this->Html->link(__('Editar'), ['action' => 'edit', $separacaoliberacao->separacaoliberacaoid]) ?>
+                <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $separacaoliberacao->separacaoliberacaoid], ['confirm' => __('Tem certeza de que deseja deletar: # {0}?', $separacaoliberacao->separacaoliberacaoid)]) ?>
             </td>
         </tr>
 
@@ -36,9 +36,9 @@
     </table>
     <div class="paginator">
         <ul class="pagination">
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->prev('< ' . __('anterior')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
+            <?= $this->Paginator->next(__('próximo') . ' >') ?>
         </ul>
         <p><?= $this->Paginator->counter() ?></p>
     </div>
