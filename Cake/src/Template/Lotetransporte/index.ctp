@@ -1,21 +1,21 @@
 <div class="actions columns large-2 medium-3">
-    <h3><?= __('Actions') ?></h3>
+    <h3><?= __('Menu') ?></h3>
     <ul class="side-nav">
-        <li><?= $this->Html->link(__('New Lotetransporte'), ['action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('Novo'), ['action' => 'add']) ?></li>
     </ul>
 </div>
 <div class="lotetransporte index large-10 medium-9 columns">
     <table cellpadding="0" cellspacing="0">
     <thead>
         <tr>
-            <th><?= $this->Paginator->sort('lotetransporteid') ?></th>
-            <th><?= $this->Paginator->sort('fk_separacao') ?></th>
-            <th><?= $this->Paginator->sort('n_transporte') ?></th>
-            <th><?= $this->Paginator->sort('qtd_colheres_celula') ?></th>
-            <th><?= $this->Paginator->sort('cor_lote') ?></th>
-            <th><?= $this->Paginator->sort('qtd_c25_completas_envio') ?></th>
-            <th><?= $this->Paginator->sort('qtd_c25_incompletas_envio') ?></th>
-            <th class="actions"><?= __('Actions') ?></th>
+            <th><?= $this->Paginator->sort('Lote Transporte ID') ?></th>
+            <th><?= $this->Paginator->sort('Separação') ?></th>
+            <th><?= $this->Paginator->sort('nº transporte') ?></th>
+            <th><?= $this->Paginator->sort('qtd colheres célula') ?></th>
+            <th><?= $this->Paginator->sort('Cor lote') ?></th>
+            <th><?= $this->Paginator->sort('qtd c25 completas envio') ?></th>
+            <th><?= $this->Paginator->sort('qtd c25 incompletas envio') ?></th>
+            <th class="actions"><?= __('Opções') ?></th>
         </tr>
     </thead>
     <tbody>
@@ -29,9 +29,9 @@
             <td><?= $this->Number->format($lotetransporte->qtd_c25_completas_envio) ?></td>
             <td><?= $this->Number->format($lotetransporte->qtd_c25_incompletas_envio) ?></td>
             <td class="actions">
-                <?= $this->Html->link(__('View'), ['action' => 'view', $lotetransporte->lotetransporteid]) ?>
-                <?= $this->Html->link(__('Edit'), ['action' => 'edit', $lotetransporte->lotetransporteid]) ?>
-                <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $lotetransporte->lotetransporteid], ['confirm' => __('Are you sure you want to delete # {0}?', $lotetransporte->lotetransporteid)]) ?>
+                <?= $this->Html->link(__('Visualizar'), ['action' => 'view', $lotetransporte->lotetransporteid]) ?>
+                <?= $this->Html->link(__('Editar'), ['action' => 'edit', $lotetransporte->lotetransporteid]) ?>
+                <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $lotetransporte->lotetransporteid], ['confirm' => __('Tem certeza de que deseja deletar: # {0}?', $lotetransporte->lotetransporteid)]) ?>
             </td>
         </tr>
 
@@ -40,9 +40,9 @@
     </table>
     <div class="paginator">
         <ul class="pagination">
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->prev('< ' . __('anterior')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
+            <?= $this->Paginator->next(__('próximo') . ' >') ?>
         </ul>
         <p><?= $this->Paginator->counter() ?></p>
     </div>
