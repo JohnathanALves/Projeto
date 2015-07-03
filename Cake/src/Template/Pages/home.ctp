@@ -39,13 +39,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->css('cake.css') ?>
 </head>
 <body class="home">
-    <div>
-    <h3><?= __('Menu') ?></h3>
-    <ul class="side-nav">
-        <li><?= $this->Html->link(__('Configurações'), ['controller' => 'loginmoscamed','action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('Sair'), ['controller' => 'loginmoscamed','action' => 'logout']) ?> </li>
-    </ul>
-</div>
     <div id="content">
         <?php
         if (Configure::read('debug')):
@@ -60,31 +53,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
         <div class="row">
             <div class="columns large-5 platform checks">
-                <?php if (version_compare(PHP_VERSION, '5.4.16', '>=')): ?>
-                    <p class="success">Your version of PHP is 5.4.16 or higher.</p>
-                <?php else: ?>
-                    <p class="problem">Your version of PHP is too low. You need PHP 5.4.16 or higher to use CakePHP.</p>
-                <?php endif; ?>
-
-                <?php if (extension_loaded('mbstring')): ?>
-                    <p class="success">Your version of PHP has the mbstring extension loaded.</p>
-                <?php else: ?>
-                    <p class="problem">Your version of PHP does NOT have the mbstring extension loaded.</p>;
-                <?php endif; ?>
-
-                <?php if (extension_loaded('openssl')): ?>
-                    <p class="success">Your version of PHP has the openssl extension loaded.</p>
-                <?php elseif (extension_loaded('mcrypt')): ?>
-                    <p class="success">Your version of PHP has the mcrypt extension loaded.</p>
-                <?php else: ?>
-                    <p class="problem">Your version of PHP does NOT have the openssl or mcrypt extension loaded.</p>
-                <?php endif; ?>
-
-                <?php if (extension_loaded('intl')): ?>
-                    <p class="success">Your version of PHP has the intl extension loaded.</p>
-                <?php else: ?>
-                    <p class="problem">Your version of PHP does NOT have the intl extension loaded.</p>
-                <?php endif; ?>
+                <h3><?= __('Menu') ?></h3>
+                <li><?= $this->Html->link(__('Configurações'), ['controller' => 'loginmoscamed','action' => 'index']) ?> </li>
+                <li><?= $this->Html->link(__('Sair'), ['controller' => 'loginmoscamed','action' => 'logout']) ?> </li>
             </div>
             <div class="columns large-6 filesystem checks">
                 <?php if (is_writable(TMP)): ?>

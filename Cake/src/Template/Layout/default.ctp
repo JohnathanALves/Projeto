@@ -37,6 +37,9 @@ $cakeDescription = 'Moscamed Brasil';
         <div class="header-title">
             <span><?= $this->fetch('title') ?></span>
         </div>
+        <div class="header-help">
+            <span><?= $this->Html->link(__('Home'), ['controller' => 'pages','action' => 'index']) ?></span>
+        </div>
         <!--
         <div class="header-help">
             <span><a target="_blank" href="http://book.cakephp.org/3.0/">Documentation</a></span>
