@@ -35,10 +35,12 @@ $cakeDescription = 'Moscamed Brasil';
 <body>
     <header>
         <div class="header-title">
-            <span><?= $this->fetch('title') ?></span>
+            <span> Moscamed Brasil </span>
         </div>
         <div class="header-help">
             <span><?= $this->Html->link(__('Home'), ['controller' => 'pages','action' => 'index']) ?></span>
+             <span><?= $this->Html->link(__('Sair'), ['controller' => 'loginmoscamed','action' => 'logout']) ?></span>
+             <span><?= $this->Html->image("config.png", [ 'url' => ['controller' => 'loginmoscamed', 'action' => 'index']]); ?></span>
         </div>
         <!--
         <div class="header-help">

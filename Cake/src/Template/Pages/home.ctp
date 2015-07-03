@@ -78,7 +78,7 @@ $cakeDescription = 'Moscamed Brasil';
                 </ul>
             </div>
 
-             <div class="actions columns large-2 medium-3">
+            <div class="actions columns large-2 medium-3">
                 <h3><?= __('Temperatura Transporte') ?></h3>
                 <ul class="side-nav">
                     <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'temperaturatransporte','action' => 'add']) ?> </li>
@@ -86,12 +86,11 @@ $cakeDescription = 'Moscamed Brasil';
                 </ul>
             </div>
 
-
-            <div class="actions columns large-2 medium-3">
-                <h3><?= __('Login') ?></h3>
+             <div class="actions columns large-2 medium-3">
+                <h3><?= __('Lote Transporte') ?></h3>
                 <ul class="side-nav">
-                    <li><?= $this->Html->link(__('Configurações'), ['controller' => 'loginmoscamed','action' => 'index']) ?> </li>
-                    <li><?= $this->Html->link(__('Sair'), ['controller' => 'loginmoscamed','action' => 'logout']) ?> </li>
+                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'lotetransporte','action' => 'add']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'lotetransporte','action' => 'index']) ?> </li>
                 </ul>
             </div>
 
