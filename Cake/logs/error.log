@@ -1569,6 +1569,7 @@ Stack Trace:
 #3 {main}
 
 
+<<<<<<< HEAD
 2015-07-03 13:05:34 Error: [Cake\Database\Exception] Cannot describe area. It has 0 columns.
 Request URL: /Projeto/Cake/area
 Stack Trace:
@@ -1610,6 +1611,9 @@ Stack Trace:
 
 
 2015-07-03 14:04:07 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+=======
+2015-07-03 12:54:55 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+>>>>>>> 1d109aaac87d0116bc879d4ded10b44868a25f10
 Exception Attributes: array (
   'controller' => 'LoginMoscamedController',
   'action' => 'js',
@@ -1624,7 +1628,11 @@ Stack Trace:
 #3 {main}
 
 
+<<<<<<< HEAD
 2015-07-03 14:04:30 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+=======
+2015-07-03 12:55:02 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+>>>>>>> 1d109aaac87d0116bc879d4ded10b44868a25f10
 Exception Attributes: array (
   'controller' => 'LoginMoscamedController',
   'action' => 'js',
