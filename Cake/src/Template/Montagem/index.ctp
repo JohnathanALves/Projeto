@@ -11,6 +11,10 @@
             <th><?= $this->Paginator->sort('montagemid') ?></th>
             <th><?= $this->Paginator->sort('fk_lotebandejas') ?></th>
             <th><?= $this->Paginator->sort('fk_bequer') ?></th>
+            <th><?= $this->Paginator->sort('data_montagem') ?></th>
+            <th><?= $this->Paginator->sort('nome_responsavel') ?></th>
+            <th><?= $this->Paginator->sort('qtd_bandejas_montadas') ?></th>
+            <th><?= $this->Paginator->sort('tipo_bandeja') ?></th>
             <th class="actions"><?= __('Actions') ?></th>
         </tr>
     </thead>
@@ -20,6 +24,10 @@
             <td><?= h($montagem->montagemid) ?></td>
             <td><?= h($montagem->fk_lotebandejas) ?></td>
             <td><?= h($montagem->fk_bequer) ?></td>
+            <td><?= h($montagem->data_montagem) ?></td>
+            <td><?= h($montagem->nome_responsavel) ?></td>
+            <td><?= $this->Number->format($montagem->qtd_bandejas_montadas) ?></td>
+            <td><?= h($montagem->tipo_bandeja) ?></td>
             <td class="actions">
                 <?= $this->Html->link(__('View'), ['action' => 'view', $montagem->montagemid]) ?>
                 <?= $this->Html->link(__('Edit'), ['action' => 'edit', $montagem->montagemid]) ?>

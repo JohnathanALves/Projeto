@@ -15,6 +15,28 @@ class LotebandejasController extends AppController
      *
      * @return void
      */
+    public function viewAllInfo($id = null)
+    {
+        $this->loadModel('Alimentacao');
+
+        $alimeRecente = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $id]);
+
+        $lotebandeja = $this->Lotebandejas->get($id, [
+            'contain' => []
+        ]);
+        
+        //$this->paginate = [ 'maxLimit' => 3, 'order' => ['Ovos.data_origem_dos_ovos' => 'desc', 'Aliquota.n_aliquota' => 'desc'] ];   
+        $this->set('alimentacao', $this->paginate($alimeRecente));
+        
+        $this->set('lotebandeja', $lotebandeja);
+        $this->set('_serialize', ['lotebandeja']);
+    }
+
+    /**
+     * Index method
+     *
+     * @return void
+     */
     public function index()
     {
         $this->set('lotebandejas', $this->paginate($this->Lotebandejas));
@@ -92,12 +114,15 @@ class LotebandejasController extends AppController
      */
     public function delete($id = null)
     {
+        $this->loadModel('Alimentacao');
+        
         $this->request->allowMethod(['post', 'delete']);
+        $alimentacao = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $id])->count();;
         $lotebandeja = $this->Lotebandejas->get($id);
-        if ($this->Lotebandejas->delete($lotebandeja)) {
-            $this->Flash->success('The lotebandeja has been deleted.');
+        if ($alimentacao == 0 && $this->Lotebandejas->delete($lotebandeja)) {
+            $this->Flash->success('O lote de bandejas foi removido com sucesso.');
         } else {
-            $this->Flash->error('The lotebandeja could not be deleted. Please, try again.');
+            $this->Flash->error('Não é possível apagar esse lote. Remova todas os cadastros de alimentação e tente novamente.');
         }
         return $this->redirect(['action' => 'index']);
     }

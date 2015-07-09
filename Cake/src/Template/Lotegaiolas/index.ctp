@@ -9,6 +9,7 @@
     <thead>
         <tr>
             <th><?= $this->Paginator->sort('lotegaiolasid') ?></th>
+            <th><?= $this->Paginator->sort('codigo_lote') ?></th>
             <th class="actions"><?= __('Actions') ?></th>
         </tr>
     </thead>
@@ -16,7 +17,9 @@
     <?php foreach ($lotegaiolas as $lotegaiola): ?>
         <tr>
             <td><?= h($lotegaiola->lotegaiolasid) ?></td>
+            <td><?= h($lotegaiola->codigo_lote) ?></td>
             <td class="actions">
+                <?= $this->Html->link(__('Nova Produção'), ['controller' => 'producaoovos','action' => 'list_add', $lotegaiola->lotegaiolasid]) ?> <br>
                 <?= $this->Html->link(__('View'), ['action' => 'view', $lotegaiola->lotegaiolasid]) ?>
                 <?= $this->Html->link(__('Edit'), ['action' => 'edit', $lotegaiola->lotegaiolasid]) ?>
                 <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $lotegaiola->lotegaiolasid], ['confirm' => __('Are you sure you want to delete # {0}?', $lotegaiola->lotegaiolasid)]) ?>
