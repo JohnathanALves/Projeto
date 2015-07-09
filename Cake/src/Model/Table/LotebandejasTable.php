@@ -39,12 +39,11 @@ class LotebandejasTable extends Table
             ->allowEmpty('lotebandejasid', 'create');
             
         $validator
-            ->add('n_lote', 'valid', ['rule' => 'numeric'])
-            ->allowEmpty('n_lote');
-            
-        $validator
             ->add('qtd_bdj_desc_antes_separacao', 'valid', ['rule' => 'numeric'])
             ->allowEmpty('qtd_bdj_desc_antes_separacao');
+            
+        $validator
+            ->allowEmpty('codigo');
 
         return $validator;
     }

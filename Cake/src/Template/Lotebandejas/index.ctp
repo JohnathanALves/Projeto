@@ -9,8 +9,8 @@
     <thead>
         <tr>
             <!--<th><?= $this->Paginator->sort('lotebandejasid') ?></th>-->
-            <th><?= $this->Paginator->sort('n_lote') ?></th>
-            <th><?= $this->Paginator->sort('qtd_bdj_desc_antes_separacao') ?></th>
+            <th><?= $this->Paginator->sort('codigo', 'Numero Lote') ?></th>
+            <th><?= $this->Paginator->sort('qtd_bdj_desc_antes_separacao', 'Quantidade de bandejas descartadas antes da separação') ?></th>
             <th class="actions"><?= __('Opções') ?></th>
         </tr>
     </thead>
@@ -18,10 +18,10 @@
     <?php foreach ($lotebandejas as $lotebandeja): ?>
         <tr>
             <!--<td><?= h($lotebandeja->lotebandejasid) ?></td>-->
-            <td><?= $this->Number->format($lotebandeja->n_lote) ?></td>
+            <td><?= $this->Number->format($lotebandeja->codigo) ?></td>
             <td><?= $this->Number->format($lotebandeja->qtd_bdj_desc_antes_separacao) ?></td>
             <td class="actions">
-            	<?= $this->Html->link(__('Alimentação'), ['controller' => 'alimentacao', 'action' => 'list_add', $lotebandeja->lotebandejasid,$lotebandeja->n_lote ]) ?> <br>
+                <?= $this->Html->link(__('Alimentação'), ['controller' => 'alimentacao', 'action' => 'list_add', $lotebandeja->lotebandejasid,$lotebandeja->codigo ]) ?> <br>
                 <?= $this->Html->link(__('Visualizar'), ['action' => 'viewAllInfo', $lotebandeja->lotebandejasid]) ?> <br>
                 <?= $this->Html->link(__('Editar'), ['action' => 'edit', $lotebandeja->lotebandejasid]) ?>
                 <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $lotebandeja->lotebandejasid], ['confirm' => __('Are you sure you want to delete # {0}?', $lotebandeja->lotebandejasid)]) ?>

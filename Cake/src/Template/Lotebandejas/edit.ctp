@@ -15,8 +15,8 @@
     <fieldset>
         <legend><?= __('Edit Lotebandeja') ?></legend>
         <?php
-            echo $this->Form->input('n_lote');
             echo $this->Form->input('qtd_bdj_desc_antes_separacao');
+            echo $this->Form->input('codigo');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

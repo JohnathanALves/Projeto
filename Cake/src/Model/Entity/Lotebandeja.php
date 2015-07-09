@@ -15,7 +15,7 @@ class Lotebandeja extends Entity
      * @var array
      */
     protected $_accessible = [
-        'n_lote' => true,
         'qtd_bdj_desc_antes_separacao' => true,
+        'codigo' => true,
     ];
 }
