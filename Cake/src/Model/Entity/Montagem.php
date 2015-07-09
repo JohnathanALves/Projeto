@@ -17,5 +17,9 @@ class Montagem extends Entity
     protected $_accessible = [
         'fk_lotebandejas' => true,
         'fk_bequer' => true,
+        'data_montagem' => true,
+        'nome_responsavel' => true,
+        'qtd_bandejas_montadas' => true,
+        'tipo_bandeja' => true,
     ];
 }

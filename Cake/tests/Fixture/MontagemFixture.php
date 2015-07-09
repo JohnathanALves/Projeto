@@ -27,6 +27,10 @@ class MontagemFixture extends TestFixture
         'montagemid' => ['type' => 'uuid', 'length' => null, 'default' => 'uuid_generate_v4()', 'null' => false, 'comment' => null, 'precision' => null],
         'fk_lotebandejas' => ['type' => 'uuid', 'length' => null, 'default' => null, 'null' => false, 'comment' => null, 'precision' => null],
         'fk_bequer' => ['type' => 'uuid', 'length' => null, 'default' => null, 'null' => false, 'comment' => null, 'precision' => null],
+        'data_montagem' => ['type' => 'date', 'length' => null, 'default' => null, 'null' => true, 'comment' => null, 'precision' => null],
+        'nome_responsavel' => ['type' => 'string', 'length' => 80, 'default' => null, 'null' => true, 'comment' => null, 'precision' => null, 'fixed' => null],
+        'qtd_bandejas_montadas' => ['type' => 'integer', 'length' => 10, 'default' => null, 'null' => true, 'comment' => null, 'precision' => null, 'unsigned' => null, 'autoIncrement' => null],
+        'tipo_bandeja' => ['type' => 'string', 'length' => 80, 'default' => null, 'null' => true, 'comment' => null, 'precision' => null, 'fixed' => null],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['montagemid'], 'length' => []],
             'fk_montagem_lotebandejas' => ['type' => 'foreign', 'columns' => ['fk_lotebandejas'], 'references' => ['lotebandejas', 'lotebandejasid'], 'update' => 'cascade', 'delete' => 'restrict', 'length' => []],
@@ -44,7 +48,11 @@ class MontagemFixture extends TestFixture
         [
             'montagemid' => '',
             'fk_lotebandejas' => '',
-            'fk_bequer' => ''
+            'fk_bequer' => '',
+            'data_montagem' => '2015-07-09',
+            'nome_responsavel' => 'Lorem ipsum dolor sit amet',
+            'qtd_bandejas_montadas' => 1,
+            'tipo_bandeja' => 'Lorem ipsum dolor sit amet'
         ],
     ];
 }

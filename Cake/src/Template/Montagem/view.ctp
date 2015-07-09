@@ -17,6 +17,18 @@
             <p><?= h($montagem->fk_lotebandejas) ?></p>
             <h6 class="subheader"><?= __('Fk Bequer') ?></h6>
             <p><?= h($montagem->fk_bequer) ?></p>
+            <h6 class="subheader"><?= __('Nome Responsavel') ?></h6>
+            <p><?= h($montagem->nome_responsavel) ?></p>
+            <h6 class="subheader"><?= __('Tipo Bandeja') ?></h6>
+            <p><?= h($montagem->tipo_bandeja) ?></p>
+        </div>
+        <div class="large-2 columns numbers end">
+            <h6 class="subheader"><?= __('Qtd Bandejas Montadas') ?></h6>
+            <p><?= $this->Number->format($montagem->qtd_bandejas_montadas) ?></p>
+        </div>
+        <div class="large-2 columns dates end">
+            <h6 class="subheader"><?= __('Data Montagem') ?></h6>
+            <p><?= h($montagem->data_montagem) ?></p>
         </div>
     </div>
 </div>
