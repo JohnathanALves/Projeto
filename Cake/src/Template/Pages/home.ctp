@@ -191,56 +191,28 @@ $cakeDescription = 'Moscamed Brasil';
             </div>
 
             <div class="actions columns large-2 medium-3">
-                <h3><?= __('Lote bandejas') ?></h3>
-                <ul class="side-nav">
-                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'lotebandejas','action' => 'add']) ?> </li>
-                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'lotebandejas','action' => 'index']) ?> </li>
-                </ul>
-            </div>
-
-            <div class="actions columns large-2 medium-3">
-                <h3><?= __('Alimentação') ?></h3>
-                <ul class="side-nav">
-                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'alimentacao','action' => 'add']) ?> </li>
-                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'alimentacao','action' => 'index']) ?> </li>
-                </ul>
-            </div>
-
-            <div class="actions columns large-2 medium-3">
                 <h3><?= __('Montagem') ?></h3>
                 <ul class="side-nav">
                     <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'montagem','action' => 'add']) ?> </li>
                     <li><?= $this->Html->link(__('Listar'), ['controller' => 'montagem','action' => 'index']) ?> </li>
                 </ul>
-            </div>
-
-            <div class="actions columns large-2 medium-3">
-                <h3><?= __('Aliquota') ?></h3>
+                <h5><?= __('Lote bandejas') ?></h5>
                 <ul class="side-nav">
-                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'aliquota','action' => 'add']) ?> </li>
-                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'aliquota','action' => 'index']) ?> </li>
+                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'lotebandejas','action' => 'add']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'lotebandejas','action' => 'index']) ?> </li>
                 </ul>
-            </div>
-
-            <div class="actions columns large-2 medium-3">
-                <h3><?= __('Bequer') ?></h3>
+                <h5><?= __('Bequer') ?></h5>
                 <ul class="side-nav">
                     <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'bequer','action' => 'add']) ?> </li>
-                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'bequer','action' => 'index']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar formulários'), ['controller' => 'bequer','action' => 'index']) ?> </li>
                 </ul>
             </div>
-
-            <div class="actions columns large-2 medium-3">
-                <h3><?= __('Ovos') ?></h3>
-                <ul class="side-nav">
-                    <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'ovos','action' => 'add']) ?> </li>
-                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'ovos','action' => 'index']) ?> </li>
-                </ul>
-            </div>
-        </div>
 
         <footer>
         </footer>
     </div>
 </body>
 </html>
+<html>
+
+
