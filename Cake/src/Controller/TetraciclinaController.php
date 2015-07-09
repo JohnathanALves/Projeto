@@ -10,6 +10,53 @@ use App\Controller\AppController;
 class TetraciclinaController extends AppController
 {
 
+     /**
+     * List_add method
+     *
+     * @author Leonardo Cavalcante do Prado
+    */
+    public function list_add($controle_id = null) 
+    {
+        $query = $this->Tetraciclina->find('all')->where( ['fk_controle' => $controle_id] );
+        $this->paginate = [ 'maxLimit' => 5 ];
+        $this->set('tetraciclinas', $this->paginate($query));
+
+        $tetraciclina = $this->Tetraciclina->newEntity();
+        if ($this->request->is('post')) {
+            $tetraciclina = $this->Tetraciclina->patchEntity($tetraciclina, $this->request->data);
+            $tetraciclina->set( ['fk_controle' => $controle_id] );
+
+            if ($this->Tetraciclina->save($tetraciclina)) {
+                $this->Flash->success('O controle da tetraciclina foi salvo.');
+                return $this->redirect(['action' => 'list_add', $controle_id]);
+            } else {
+                $this->Flash->error('O controle da tetraciclina não pôde ser salvo, por favor, tente novamente.');
+            }
+        }
+        $this->set(compact('tetraciclina'));
+        $this->set('_serialize', ['tetraciclina']);
+    }
+
+    /**
+     * DeleteNoReturn method
+     *
+     * @author Leonardo Cavalcante do Prado, Angelo Gustavo
+     * @param string|null $id Tetraciclina id.
+     * @return void Redirects to list_add.
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function deleteNoReturn($id = null, $controle_id = null)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+        $tetraciclina = $this->Tetraciclina->get($id);
+        if ($this->Tetraciclina->delete($tetraciclina)) {
+            $this->Flash->success('O controle da tetraciclina foi deletado.');
+        } else {
+            $this->Flash->error('O controle da tetraciclina não pôde ser deletada, por favor, tente novamente.');
+        }
+        return $this->redirect(['action' => 'list_add', $controle_id]);
+    }
+
     /**
      * Index method
      *
@@ -90,7 +137,7 @@ class TetraciclinaController extends AppController
      * @return void Redirects to index.
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function delete($id = null)
+    public function delete($id = null, $controle_id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
         $tetraciclina = $this->Tetraciclina->get($id);

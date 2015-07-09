@@ -1,4 +1,4 @@
-<div class="actions columns large-2 medium-3">
+<div class="actions large-10 medium-9 columns">
     <h3><?= __('Actions') ?></h3>
     <ul class="side-nav">
         <li><?= $this->Html->link(__('New Costagem'), ['action' => 'add']) ?></li>
