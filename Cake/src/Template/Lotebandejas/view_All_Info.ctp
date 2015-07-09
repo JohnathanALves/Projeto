@@ -18,14 +18,14 @@
             <thead>
             <tr>
                 <!--<th><?= $this->Paginator->sort('lotebandejasid') ?></th>-->
-                <th><?= $this->Paginator->sort('n_lote') ?></th>
-                <th><?= $this->Paginator->sort('qtd_bdj_desc_antes_separacao') ?></th>
+                <th><?= $this->Paginator->sort('codigo', 'Numero Lote') ?></th>
+                <th><?= $this->Paginator->sort('qtd_bdj_desc_antes_separacao', 'Quantidade de bandejas descartadas antes da separação') ?></th>
             </tr>
             </thead>
             <tbody>
                 <tr>
                     <!--<td><?= h($lotebandeja->lotebandejasid) ?></td>-->
-                    <td><?= $this->Number->format($lotebandeja->n_lote) ?></td>
+                    <td><?= $this->Number->format($lotebandeja->codigo) ?></td>
                     <td><?= $this->Number->format($lotebandeja->qtd_bdj_desc_antes_separacao) ?></td>
                 </tr>
             </tbody>

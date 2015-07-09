@@ -18,10 +18,11 @@ class LotebandejasFixture extends TestFixture
     // @codingStandardsIgnoreStart
     public $fields = [
         'lotebandejasid' => ['type' => 'uuid', 'length' => null, 'default' => 'uuid_generate_v4()', 'null' => false, 'comment' => null, 'precision' => null],
-        'n_lote' => ['type' => 'integer', 'length' => 10, 'default' => null, 'null' => true, 'comment' => null, 'precision' => null, 'unsigned' => null, 'autoIncrement' => null],
         'qtd_bdj_desc_antes_separacao' => ['type' => 'integer', 'length' => 10, 'default' => null, 'null' => true, 'comment' => null, 'precision' => null, 'unsigned' => null, 'autoIncrement' => null],
+        'codigo' => ['type' => 'string', 'length' => 40, 'default' => null, 'null' => true, 'comment' => null, 'precision' => null, 'fixed' => null],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['lotebandejasid'], 'length' => []],
+            'lotebandejas_codigo_key' => ['type' => 'unique', 'columns' => ['codigo'], 'length' => []],
         ],
     ];
     // @codingStandardsIgnoreEnd
@@ -34,8 +35,8 @@ class LotebandejasFixture extends TestFixture
     public $records = [
         [
             'lotebandejasid' => '',
-            'n_lote' => 1,
-            'qtd_bdj_desc_antes_separacao' => 1
+            'qtd_bdj_desc_antes_separacao' => 1,
+            'codigo' => 'Lorem ipsum dolor sit amet'
         ],
     ];
 }

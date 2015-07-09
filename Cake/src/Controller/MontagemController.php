@@ -9,6 +9,32 @@ use App\Controller\AppController;
  * @property \App\Model\Table\MontagemTable $Montagem */
 class MontagemController extends AppController
 {
+    /**
+     * viewAllInfo method
+     * 
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
+     * @param string|null $id Bequer id.
+     * @return void
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function viewAllInfo($id = null)
+    {
+        $this->loadModel('bequer');
+        $this->loadModel('lotebandejas');
+
+        $montagem = $this->Montagem->get($id, [
+            'contain' => []
+        ]);
+        
+        $loteRecentes = $this->lotebandejas->find('all')->where(['lotebandejasid' => $montagem->fk_lotebandejas]);
+        $bequerRecentes = $this->bequer->find('all')->where(['bequerid' => $montagem->fk_bequer]);
+
+        $this->paginate = [ 'maxLimit' => 3 ];   
+        $this->set('bequer', $this->paginate($bequerRecentes));
+        $this->set('lotebandejas', $this->paginate($loteRecentes));
+        $this->set('montagem', $this->paginate($this->Montagem));
+        $this->set('_serialize', ['montagem']);
+    }
 
     /**
      * Index method
@@ -44,6 +70,17 @@ class MontagemController extends AppController
      */
     public function add()
     {
+        $this->loadModel('Lotebandejas');
+        $this->loadModel('Bequer');
+
+        //$lotesRecentes = $this->Lotebandejas->find('all', ['fields' => 'codigo']);
+        
+        $lotesRecentes = $this->Lotebandejas->find('list', [ 'value' => 'lotebandejasid','valueField' => 'codigo' ]);
+        $this->set('optionLotes', $lotesRecentes);
+
+        $bequerRecentes = $this->Bequer->find('list', [ 'value' => 'bequerid','valueField' => 'n_bequer' ]);
+        $this->set('optionBequer', $bequerRecentes);
+
         $montagem = $this->Montagem->newEntity();
         if ($this->request->is('post')) {
             $montagem = $this->Montagem->patchEntity($montagem, $this->request->data);
