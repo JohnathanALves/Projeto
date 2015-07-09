@@ -3429,3 +3429,157 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2015-07-09 14:39:34 Notice: Notice (8): Undefined variable: n_bequer in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Producaoovos\list_add.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 14:39:34 Notice: Notice (8): Undefined variable: Listproducaoovos in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 18]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Producaoovos\list_add.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 14:39:34 Notice: Notice (8): Undefined variable: ovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 44]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Producaoovos\list_add.ctp, line 44
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 14:41:06 Notice: Notice (8): Undefined variable: n_bequer in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Producaoovos\list_add.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 14:41:06 Notice: Notice (8): Undefined variable: producaoovos in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 18]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Producaoovos\list_add.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 14:41:06 Notice: Notice (8): Undefined variable: ovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 44]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Producaoovos\list_add.ctp, line 44
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 14:41:38 Notice: Notice (8): Undefined variable: n_bequer in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Producaoovos\list_add.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 14:41:38 Notice: Notice (8): Undefined variable: ovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 44]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Producaoovos\list_add.ctp, line 44
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 14:41:54 Notice: Notice (8): Undefined variable: n_bequer in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Producaoovos\list_add.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 14:42:21 Notice: Notice (8): Undefined variable: n_bequer in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Producaoovos\list_add.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 14:44:36 Notice: Notice (8): Undefined variable: n_bequer in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Producaoovos\list_add.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
