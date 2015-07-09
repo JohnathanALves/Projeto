@@ -15,6 +15,7 @@
     <fieldset>
         <legend><?= __('Edit Lotegaiola') ?></legend>
         <?php
+            echo $this->Form->input('codigo_lote');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

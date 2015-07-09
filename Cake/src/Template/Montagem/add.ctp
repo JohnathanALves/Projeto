@@ -11,6 +11,10 @@
         <?php
             echo $this->Form->input('fk_lotebandejas');
             echo $this->Form->input('fk_bequer');
+            echo $this->Form->input('data_montagem', array('empty' => true, 'default' => ''));
+            echo $this->Form->input('nome_responsavel');
+            echo $this->Form->input('qtd_bandejas_montadas');
+            echo $this->Form->input('tipo_bandeja');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

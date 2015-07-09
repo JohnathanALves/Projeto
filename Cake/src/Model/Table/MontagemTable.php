@@ -47,6 +47,20 @@ class MontagemTable extends Table
             ->add('fk_bequer', 'valid', ['rule' => 'uuid'])
             ->requirePresence('fk_bequer', 'create')
             ->notEmpty('fk_bequer');
+            
+        $validator
+            ->add('data_montagem', 'valid', ['rule' => 'date'])
+            ->allowEmpty('data_montagem');
+            
+        $validator
+            ->allowEmpty('nome_responsavel');
+            
+        $validator
+            ->add('qtd_bandejas_montadas', 'valid', ['rule' => 'numeric'])
+            ->allowEmpty('qtd_bandejas_montadas');
+            
+        $validator
+            ->allowEmpty('tipo_bandeja');
 
         return $validator;
     }

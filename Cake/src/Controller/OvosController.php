@@ -9,6 +9,71 @@ use App\Controller\AppController;
  * @property \App\Model\Table\OvosTable $Ovos */
 class OvosController extends AppController
 {
+    /**
+     * viewAllInfo method
+     * 
+     * @author Gustavo Marques | Genivaldo | Caroline Machado
+     * @param string|null $id Bequer id.
+     * @return void
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function viewAllInfo($idBequer = null)
+    {
+
+        $this->set('fk_bequer', $idBequer);
+        $ovosRecentes = $this->Ovos->find('all')->where(['fk_bequer' => $idBequer]);
+                
+        $this->paginate = [ 'maxLimit' => 15, 'order' => ['Ovos.data_origem_dos_ovos' => 'desc'] ];   
+        $this->set('ovos', $this->paginate($ovosRecentes));
+        
+    }
+
+    /**
+     * deleteNoReturn method
+     * @author Gustavo Marques | Genivaldo | Caroline Machado
+     * @param string|null idAliquota Aliquota id, string|null $idBequer Bequer id, string|null $idBequer Numero do Bequer
+     * @return void Redireciona para mesma pagina.
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function deleteNoReturn($idOvo = null,$idBequer = null,$n_bequer = null)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+        $ovo = $this->Ovos->get($idOvo);
+        if ($this->Ovos->delete($ovo)) {
+            $this->Flash->success('Ovo apagado com sucesso.');
+        } else {
+            $this->Flash->error('Não foi possível apagar o ovo. Por favor, tente novamente.');
+        }
+        return $this->redirect(['action' => 'list_add', $idBequer, $n_bequer]);
+    }
+
+    /**
+     * list_add method
+     * @author Gustavo Marques | Genivaldo | Caroline Machado
+     * @param string|null $idBequer Bequer id, string|null $idBequer Numero do Bequer
+     * @return void Redireciona para mesma pagina.
+     */
+    public function list_add($idBequer = null,$n_bequer = null)
+    {  
+        $query = $this->Ovos->find('all')->where(['fk_bequer' => $idBequer]);
+        $this->paginate = [ 'maxLimit' => 3 ];
+        $this->set('ListOvos', $this->paginate($query));
+
+        $ovo = $this->Ovos->newEntity();
+        $this->set('n_bequer', $n_bequer);
+        if ($this->request->is('post')) {
+            $ovo = $this->Ovos->patchEntity($ovo, $this->request->data);
+            $ovo->set(['fk_bequer' => $idBequer]);
+            if ($this->Ovos->save($ovo)) {
+                $this->Flash->success('Ovo apagado com sucesso.');
+                return $this->redirect(['action' => 'list_add', $idBequer, $n_bequer]);
+            } else {
+                $this->Flash->error('Não foi possível apagar o ovo. Por favor, tente novamente.');
+            }
+        }
+        $this->set(compact('ovo'));
+        $this->set('_serialize', ['ovo']);
+    }
 
     /**
      * Index method

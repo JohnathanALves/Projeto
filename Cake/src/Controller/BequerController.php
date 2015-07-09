@@ -9,6 +9,30 @@ use App\Controller\AppController;
  * @property \App\Model\Table\BequerTable $Bequer */
 class BequerController extends AppController
 {
+    /**
+     * viewAllInfo method
+     * 
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
+     * @param string|null $id Bequer id.
+     * @return void
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function viewAllInfo($id = null)
+    {
+        $this->loadModel('Ovos');
+        $this->loadModel('Aliquota');
+        $ovosRecentes = $this->Ovos->find('all')->where(['fk_bequer' => $id]);
+        $aliquotaRecentes = $this->Aliquota->find('all')->where(['fk_bequer' => $id]);
+        $bequer = $this->Bequer->get($id, [
+            'contain' => []
+        ]);
+        
+        $this->paginate = [ 'maxLimit' => 3, 'order' => ['Ovos.data_origem_dos_ovos' => 'desc', 'Aliquota.n_aliquota' => 'desc'] ];   
+        $this->set('ovos', $this->paginate($ovosRecentes));
+        $this->set('aliquota', $this->paginate($aliquotaRecentes));
+        $this->set('bequer', $bequer);
+        $this->set('_serialize', ['bequer']);
+    }
 
     /**
      * Index method
@@ -92,12 +116,18 @@ class BequerController extends AppController
      */
     public function delete($id = null)
     {
+        $this->loadModel('Ovos');
+        $this->loadModel('Aliquota');
+
         $this->request->allowMethod(['post', 'delete']);
         $bequer = $this->Bequer->get($id);
-        if ($this->Bequer->delete($bequer)) {
-            $this->Flash->success('The bequer has been deleted.');
+        $ovos = $this->Ovos->find('all')->where(['fk_bequer' => $id])->count();
+        $aliquota = $this->Aliquota->find('all')->where(['fk_bequer' => $id])->count();
+        
+        if ($ovos == 0 && $aliquota == 0 && $this->Bequer->delete($bequer)) {
+            $this->Flash->success('O béquer foi removido com sucesso.');
         } else {
-            $this->Flash->error('The bequer could not be deleted. Please, try again.');
+            $this->Flash->error('Não é possível apagar esse béquer. Remova todas as alíquotas e ovos e tente novamente.');
         }
         return $this->redirect(['action' => 'index']);
     }

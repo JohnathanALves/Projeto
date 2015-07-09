@@ -37,6 +37,9 @@ class LotegaiolasTable extends Table
         $validator
             ->add('lotegaiolasid', 'valid', ['rule' => 'uuid'])
             ->allowEmpty('lotegaiolasid', 'create');
+            
+        $validator
+            ->allowEmpty('codigo_lote');
 
         return $validator;
     }

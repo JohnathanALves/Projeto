@@ -34,6 +34,7 @@ class BequerFixture extends TestFixture
         'contagem_amostra' => ['type' => 'integer', 'length' => 10, 'default' => null, 'null' => true, 'comment' => null, 'precision' => null, 'unsigned' => null, 'autoIncrement' => null],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['bequerid'], 'length' => []],
+            'unique_bequer_nbequer' => ['type' => 'unique', 'columns' => ['n_bequer'], 'length' => []],
         ],
     ];
     // @codingStandardsIgnoreEnd
@@ -48,9 +49,9 @@ class BequerFixture extends TestFixture
             'bequerid' => '',
             'n_bequer' => 1,
             'volume' => 1,
-            'data_fim_eclosao' => '2015-07-03',
+            'data_fim_eclosao' => '2015-07-09',
             'hora_fim_eclosao' => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida, phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam, vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit, feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
-            'data_inicio_eclosao' => '2015-07-03',
+            'data_inicio_eclosao' => '2015-07-09',
             'hora_inicio_eclosao' => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida, phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam, vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit, feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
             'contagem_amostra' => 1
         ],

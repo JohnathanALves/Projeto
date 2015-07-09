@@ -9,6 +9,72 @@ use App\Controller\AppController;
  * @property \App\Model\Table\AliquotaTable $Aliquota */
 class AliquotaController extends AppController
 {
+    /**
+     * viewAllInfo method
+     * 
+     * @author Gustavo Marques | Genivaldo | Caroline Machado
+     * @param string|null $id Bequer id.
+     * @return void
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function viewAllInfo($idBequer = null)
+    {
+
+        $this->set('fk_bequer', $idBequer);
+        $aliquotaRecentes = $this->Aliquota->find('all')->where(['fk_bequer' => $idBequer]);
+                
+        $this->paginate = [ 'maxLimit' => 15, 'order' => ['Aliquota.n_aliquota' => 'desc'] ];   
+        $this->set('aliquota', $this->paginate($aliquotaRecentes));
+    }
+
+    /**
+     * deleteNoReturn method
+     * @author Gustavo Marques | Genivaldo | Caroline Machado
+     * @param string|null idAliquota Aliquota id, string|null $idBequer Bequer id, string|null $idBequer Numero do Bequer
+     * @return void Redireciona para mesma pagina.
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function deleteNoReturn($idAliquota = null,$idBequer = null,$n_bequer = null)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+        $aliquotum = $this->Aliquota->get($idAliquota);
+        if ($this->Aliquota->delete($aliquotum)) {
+            $this->Flash->success('Aliquota apagada com sucesso.');
+        } else {
+            $this->Flash->error('Não foi possível apagar a aliquota. Por favor, tente novamente.');
+        }
+        return $this->redirect(['action' => 'list_add', $idBequer, $n_bequer]);
+    }
+
+    /**
+     * list_add method
+     * @author Gustavo Marques | Genivaldo | Caroline Machado
+     * @param string|null $idBequer Bequer id, string|null $idBequer Numero do Bequer
+     * @return void Redireciona para mesma pagina.
+     */
+    public function list_add($idBequer = null,$n_bequer = null)
+    {  
+        $query = $this->Aliquota->find('all')->where(['fk_bequer' => $idBequer]);
+        $this->paginate = [ 'maxLimit' => 3 ];
+        $this->set('ListAliquota', $this->paginate($query));
+
+        $aliquotum = $this->Aliquota->newEntity();
+        $this->set('n_bequer', $n_bequer);
+        if ($this->request->is('post')) {
+            $aliquotum = $this->Aliquota->patchEntity($aliquotum, $this->request->data);
+            $aliquotum->set([
+                'fk_bequer' => $idBequer
+            ]);
+            if ($this->Aliquota->save($aliquotum)) {
+                $this->Flash->success('Aliquota adicionado com sucesso.');
+                return $this->redirect(['action' => 'list_add', $idBequer, $n_bequer]);
+            } else {
+                $this->Flash->error('Não foi possível salvar a aliquota. Por favor, tente novamente.');
+            }
+        }
+        $this->set(compact('aliquotum'));
+        $this->set('_serialize', ['aliquotum']);
+    }
 
     /**
      * Index method
