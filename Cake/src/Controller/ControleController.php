@@ -11,6 +11,52 @@ class ControleController extends AppController
 {
 
     /**
+     * List_add method
+     *
+     * @author Leonardo Cavalcante do Prado
+    */
+    public function list_add($separacoes_id = null) 
+    {
+        $query = $this->Controle->find('all')->where( ['fk_separacoes' => $separacoes_id] );
+        $this->paginate = [ 'maxLimit' => 5 ];
+        $this->set('Controles', $this->paginate($query));
+
+        $controle = $this->Controle->newEntity();
+        if ($this->request->is('post')) {
+            $controle = $this->Controle->patchEntity($controle, $this->request->data);
+            $controle->set( ['fk_separacoes' => $separacoes_id] );
+
+            if ($this->Controle->save($controle)) {
+                $this->Flash->success('O controle foi salvo.');
+                return $this->redirect(['action' => 'list_add', $separacoes_id]);
+            } else {
+                $this->Flash->error('O controle não pôde ser salvo, por favor, tente novamente.');
+            }
+        }
+        $this->set(compact('controle'));
+        $this->set('_serialize', ['controle']);
+    }
+
+    /**
+    * DeletNoReturn method
+    * 
+    * @param  id, separacoes_id 
+    * @author Leonardo Cavalcante do Prado
+    * @return the redirect action
+    */
+    public function deleteNoReturn($id = null, $separacoes_id = null)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+        $controle = $this->Controle->get($id);
+        if ($this->Controle->delete($controle)) {
+            $this->Flash->success('O controle foi deletado.');
+        } else {
+            $this->Flash->error('O controle não pôde ser deletado, por favor, tente novamente');
+        }
+        return $this->redirect(['action' => 'list_add', $separacoes_id]);
+    }
+
+    /**
      * Index method
      *
      * @return void
@@ -95,9 +141,9 @@ class ControleController extends AppController
         $this->request->allowMethod(['post', 'delete']);
         $controle = $this->Controle->get($id);
         if ($this->Controle->delete($controle)) {
-            $this->Flash->success('The controle has been deleted.');
+            $this->Flash->success('The separaco has been deleted.');
         } else {
-            $this->Flash->error('The controle could not be deleted. Please, try again.');
+            $this->Flash->error('The separaco could not be deleted. Please, try again.');
         }
         return $this->redirect(['action' => 'index']);
     }

@@ -11,6 +11,57 @@ class CostagemController extends AppController
 {
 
     /**
+    * List add
+    * 
+    * @param separacoes_id 
+    * @author Leonardo Cavalcante do Prado
+    * @return void or, if a post method is called, the redirect action
+    */
+    public function list_add( $separacoes_id = null ) 
+    {
+        $query = $this->Costagem->find('all')->where( ['fk_separacoes' => $separacoes_id] );
+        $this->paginate = [ 'maxLimit' => 5 ];
+        $this->set('costagens', $this->paginate($query));
+
+        $costagem = $this->Costagem->newEntity();
+
+        if ($this->request->is('post')) {
+            $costagem = $this->Costagem->patchEntity($costagem, $this->request->data);
+            
+            $costagem->set(['fk_separacoes' => $separacoes_id]);
+            
+            if ($this->Costagem->save($costagem)) {
+                $this->Flash->success('A contagem foi salva.');
+                return $this->redirect(['action' => 'list_add', $separacoes_id]);
+            } else {
+                $this->Flash->error('A contagem não pôde ser salva, por favor, tente novamente.');
+            }
+        }
+        $this->set(compact('costagem'));
+        $this->set('_serialize', ['costagem']);
+    }
+
+    /**
+    * DeletNoReturn method
+    * 
+    * @param  id, separacoes_id 
+    * @author Leonardo Cavalcante do Prado
+    * @return the redirect action
+    */
+    public function deleteNoReturn($id = null, $separacoes_id = null)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+        $costagem = $this->Costagem->get($id);
+        if ($this->Costagem->delete($costagem)) {
+            $this->Flash->success('A contagem foi deletada.');
+        } else {
+            $this->Flash->error('A contagem não pôde ser deletada, por favor tente novamente.');
+        }
+        // return $this->redirect(['action' => 'index']);
+        return $this->redirect( ['action'=> 'list_add', $separacoes_id]);
+    }
+
+    /**
      * Index method
      *
      * @return void
@@ -102,3 +153,4 @@ class CostagemController extends AppController
         return $this->redirect(['action' => 'index']);
     }
 }
+
