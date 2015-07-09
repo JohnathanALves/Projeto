@@ -9,7 +9,6 @@ use App\Controller\AppController;
  * @property \App\Model\Table\LotebandejasTable $Lotebandejas */
 class LotebandejasController extends AppController
 {
-
     /**
      * Index method
      *
@@ -18,9 +17,7 @@ class LotebandejasController extends AppController
     public function viewAllInfo($id = null)
     {
         $this->loadModel('Alimentacao');
-
         $alimeRecente = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $id]);
-
         $lotebandeja = $this->Lotebandejas->get($id, [
             'contain' => []
         ]);
@@ -115,14 +112,18 @@ class LotebandejasController extends AppController
     public function delete($id = null)
     {
         $this->loadModel('Alimentacao');
-        
+        $this->loadModel('Separacoes');
+
         $this->request->allowMethod(['post', 'delete']);
-        $alimentacao = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $id])->count();;
         $lotebandeja = $this->Lotebandejas->get($id);
-        if ($alimentacao == 0 && $this->Lotebandejas->delete($lotebandeja)) {
-            $this->Flash->success('O lote de bandejas foi removido com sucesso.');
+        
+        $alimentacao = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $id])->count();
+        $separacao = $this->Separacoes->find('all')->where(['fk_lotebandejas' => $id])->count();
+        
+        if ($alimentacao == 0 && $separacao == 0 && $this->Lotebandejas->delete($lotebandeja)) {
+            $this->Flash->success('O lote de bandeja foi removido com sucesso.');
         } else {
-            $this->Flash->error('Não é possível apagar esse lote. Remova todas os cadastros de alimentação e tente novamente.');
+            $this->Flash->error('Não é possível apagar esse lote. Remova todas as alimentações e separações e tente novamente.');
         }
         return $this->redirect(['action' => 'index']);
     }

@@ -65,10 +65,10 @@ class OvosController extends AppController
             $ovo = $this->Ovos->patchEntity($ovo, $this->request->data);
             $ovo->set(['fk_bequer' => $idBequer]);
             if ($this->Ovos->save($ovo)) {
-                $this->Flash->success('Ovo apagado com sucesso.');
+                $this->Flash->success('Ovo salvo com sucesso.');
                 return $this->redirect(['action' => 'list_add', $idBequer, $n_bequer]);
             } else {
-                $this->Flash->error('Não foi possível apagar o ovo. Por favor, tente novamente.');
+                $this->Flash->error('Não foi possível salvar o ovo. Por favor, tente novamente.');
             }
         }
         $this->set(compact('ovo'));

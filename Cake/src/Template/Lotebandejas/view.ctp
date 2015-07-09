@@ -13,10 +13,10 @@
         <div class="large-5 columns strings">
             <h6 class="subheader"><?= __('Lotebandejasid') ?></h6>
             <p><?= h($lotebandeja->lotebandejasid) ?></p>
+            <h6 class="subheader"><?= __('Codigo') ?></h6>
+            <p><?= h($lotebandeja->codigo) ?></p>
         </div>
         <div class="large-2 columns numbers end">
-            <h6 class="subheader"><?= __('N Lote') ?></h6>
-            <p><?= $this->Number->format($lotebandeja->n_lote) ?></p>
             <h6 class="subheader"><?= __('Qtd Bdj Desc Antes Separacao') ?></h6>
             <p><?= $this->Number->format($lotebandeja->qtd_bdj_desc_antes_separacao) ?></p>
         </div>

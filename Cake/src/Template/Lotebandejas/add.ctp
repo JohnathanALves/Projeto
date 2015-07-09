@@ -9,8 +9,8 @@
     <fieldset>
         <legend><?= __('Add Lotebandeja') ?></legend>
         <?php
-            echo $this->Form->input('n_lote', ['label' => 'Numero lote']);
             echo $this->Form->input('qtd_bdj_desc_antes_separacao', ['label' => 'Quantidade de bandejas descartadas antes da separação']);
+            echo $this->Form->input('codigo', ['label' => 'Numero lote']);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Enviar')) ?>
