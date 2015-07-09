@@ -34,7 +34,7 @@ class MontagemController extends AppController
         'conditions' => 'c.fk_bequer = Bequer.bequerid',
         ]);
         
-        $this->paginate = [ 'maxLimit' => 3 ];   
+        $this->paginate = [ 'maxLimit' => 4 ];   
         $this->set('bequer', $this->paginate($bequerRecentes));
         $this->set('lotebandejas', $this->paginate($loteRecentes));
         $this->set('montagem', $this->paginate($this->Montagem));
