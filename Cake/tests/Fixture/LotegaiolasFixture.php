@@ -18,6 +18,7 @@ class LotegaiolasFixture extends TestFixture
     // @codingStandardsIgnoreStart
     public $fields = [
         'lotegaiolasid' => ['type' => 'uuid', 'length' => null, 'default' => 'uuid_generate_v4()', 'null' => false, 'comment' => null, 'precision' => null],
+        'codigo_lote' => ['type' => 'string', 'length' => 30, 'default' => null, 'null' => true, 'comment' => null, 'precision' => null, 'fixed' => null],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['lotegaiolasid'], 'length' => []],
         ],
@@ -31,7 +32,8 @@ class LotegaiolasFixture extends TestFixture
      */
     public $records = [
         [
-            'lotegaiolasid' => ''
+            'lotegaiolasid' => '',
+            'codigo_lote' => 'Lorem ipsum dolor sit amet'
         ],
     ];
 }

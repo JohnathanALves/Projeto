@@ -9,6 +9,7 @@
     <fieldset>
         <legend><?= __('Add Lotegaiola') ?></legend>
         <?php
+            echo $this->Form->input('codigo_lote');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
