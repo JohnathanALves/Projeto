@@ -15,11 +15,12 @@
             echo 'Lote da bandeja';
             echo $this->Form->select('fk_lotebandejas', $optionLotes, ['empty' => '(Escolha uma opção)']);
             echo 'Numero do béquer';
-            echo $this->Form->select('fk_bequer', $optionBequer, ['empty' => '(Escolha uma opção)']);
+            echo $this->Form->select('list_bequer', $optionBequer, ['multiple' => true]);
             echo $this->Form->input('data_montagem', array('empty' => true, 'default' => ''));
             echo $this->Form->input('nome_responsavel');
-            echo $this->Form->input('qtd_bandejas_montadas');
-            echo $this->Form->input('tipo_bandeja');
+            echo $this->Form->input('qtd_bandejas_montadas',['label'=>'Quantidade de bandejas montadas']);
+            echo $this->Form->select('tipo_bandeja',['S'=>'Separação', 'C'=>'Coleta'], ['empty' => '(Escolha uma opção)']);
+            //echo $this->Form->input('tipo_bandeja');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

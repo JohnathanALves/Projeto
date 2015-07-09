@@ -5438,3 +5438,415 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2015-07-09 16:42:33 Notice: Notice (8): Undefined variable: value in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Controller\MontagemController.php, line 87]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MontagemController::add() - APP/Controller\MontagemController.php, line 87
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 17:00:35 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Type\UuidType.php, line 55]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+strval - [internal], line ??
+Cake\Database\Type\UuidType::toDatabase() - CORE\src\Database\Type\UuidType.php, line 55
+Cake\Database\Statement\StatementDecorator::cast() - CORE\src\Database\TypeConverterTrait.php, line 37
+Cake\Database\Statement\PDOStatement::bindValue() - CORE\src\Database\Statement\PDOStatement.php, line 70
+Cake\Database\Statement\StatementDecorator::bindValue() - CORE\src\Database\Statement\StatementDecorator.php, line 103
+Cake\Database\Log\LoggingStatement::bindValue() - CORE\src\Database\Log\LoggingStatement.php, line 96
+Cake\Database\Statement\StatementDecorator::bind() - CORE\src\Database\Statement\StatementDecorator.php, line 288
+Cake\Database\ValueBinder::attachTo() - CORE\src\Database\ValueBinder.php, line 125
+Cake\Database\Connection::run() - CORE\src\Database\Connection.php, line 273
+Cake\Database\Query::execute() - CORE\src\Database\Query.php, line 175
+Cake\ORM\Table::_insert() - CORE\src\ORM\Table.php, line 1462
+Cake\ORM\Table::_processSave() - CORE\src\ORM\Table.php, line 1382
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE\src\ORM\Table.php, line 1313
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 561
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1314
+App\Controller\MontagemController::add() - APP/Controller\MontagemController.php, line 90
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 17:00:35 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Type\UuidType.php, line 55]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+strval - [internal], line ??
+Cake\Database\Type\UuidType::toDatabase() - CORE\src\Database\Type\UuidType.php, line 55
+Cake\Database\Statement\StatementDecorator::cast() - CORE\src\Database\TypeConverterTrait.php, line 37
+Cake\Database\Log\LoggingStatement::bindValue() - CORE\src\Database\Log\LoggingStatement.php, line 101
+Cake\Database\Statement\StatementDecorator::bind() - CORE\src\Database\Statement\StatementDecorator.php, line 288
+Cake\Database\ValueBinder::attachTo() - CORE\src\Database\ValueBinder.php, line 125
+Cake\Database\Connection::run() - CORE\src\Database\Connection.php, line 273
+Cake\Database\Query::execute() - CORE\src\Database\Query.php, line 175
+Cake\ORM\Table::_insert() - CORE\src\ORM\Table.php, line 1462
+Cake\ORM\Table::_processSave() - CORE\src\ORM\Table.php, line 1382
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE\src\ORM\Table.php, line 1313
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 561
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1314
+App\Controller\MontagemController::add() - APP/Controller\MontagemController.php, line 90
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 18:41:01 Notice: Notice (8): Undefined variable: montagem in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\add.ctp, line 8
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 18:41:17 Notice: Notice (8): Undefined variable: montagem in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\add.ctp, line 8
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 18:41:45 Notice: Notice (8): Undefined variable: montagem in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\add.ctp, line 8
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 19:07:49 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$fk_lotebandejas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_por_lote.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_por_lote.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 19:34:34 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$fk_lotebandejas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_por_lote.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_por_lote.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:05:04 Notice: Notice (8): Undefined variable: montagemRecentes in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Controller\MontagemController.php, line 69]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MontagemController::viewPorLote() - APP/Controller\MontagemController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:08:01 Notice: Notice (8): Undefined variable: montagemRecentes in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Controller\MontagemController.php, line 69]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MontagemController::viewPorLote() - APP/Controller\MontagemController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:14:33 Notice: Notice (8): Undefined variable: Montagem in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Controller\MontagemController.php, line 48]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MontagemController::viewPorLote() - APP/Controller\MontagemController.php, line 48
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:16:30 Notice: Notice (8): Undefined variable: Montagem in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Controller\MontagemController.php, line 48]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MontagemController::viewPorLote() - APP/Controller\MontagemController.php, line 48
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:16:31 Notice: Notice (8): Undefined variable: Montagem in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Controller\MontagemController.php, line 48]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MontagemController::viewPorLote() - APP/Controller\MontagemController.php, line 48
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:32:16 Notice: Notice (8): Undefined variable: lotebandejas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_por_lote.ctp, line 18]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_por_lote.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:34:09 Notice: Notice (8): Undefined variable: montagem in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info2.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info2.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:34:09 Notice: Notice (8): Undefined variable: bequer in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info2.ctp, line 56]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info2.ctp, line 56
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:34:09 Notice: Notice (8): Undefined variable: lotebandejas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info2.ctp, line 88]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info2.ctp, line 88
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:35:21 Notice: Notice (8): Undefined variable: bequer in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info2.ctp, line 56]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info2.ctp, line 56
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:35:21 Notice: Notice (8): Undefined variable: lotebandejas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info2.ctp, line 88]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info2.ctp, line 88
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:35:59 Notice: Notice (8): Undefined variable: bequer in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info2.ctp, line 56]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info2.ctp, line 56
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:35:59 Notice: Notice (8): Undefined variable: lotebandejas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info2.ctp, line 88]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info2.ctp, line 88
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:46:05 Notice: Notice (8): Undefined variable: lotebandejas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info2.ctp, line 88]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info2.ctp, line 88
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:47:10 Notice: Notice (8): Undefined variable: lotebandejas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info_Lote.ctp, line 88]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info_Lote.ctp, line 88
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:48:37 Notice: Notice (8): Undefined variable: lotebandejas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info_Lote.ctp, line 88]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info_Lote.ctp, line 88
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:51:43 Notice: Notice (8): Undefined variable: lotebandejas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 88]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 88
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:51:46 Notice: Notice (8): Undefined variable: lotebandejas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 88]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 88
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:52:10 Notice: Notice (8): Undefined variable: loteRecentes in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Controller\MontagemController.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MontagemController::viewAllInfo() - APP/Controller\MontagemController.php, line 38
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 20:52:34 Notice: Notice (8): Undefined property: Cake\ORM\Query::$fk_lotebandejas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Controller\MontagemController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MontagemController::viewAllInfo() - APP/Controller\MontagemController.php, line 28
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 21:01:02 Notice: Notice (8): Undefined variable: distinct in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Controller\MontagemController.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MontagemController::index() - APP/Controller\MontagemController.php, line 52
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-09 21:03:32 Notice: Notice (8): Undefined variable: distinct in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Controller\MontagemController.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MontagemController::index() - APP/Controller\MontagemController.php, line 52
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+

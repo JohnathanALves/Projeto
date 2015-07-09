@@ -1,7 +1,9 @@
 <div class="actions columns large-2 medium-3">
     <h3><?= __('Actions') ?></h3>
     <ul class="side-nav">
-        <li><?= $this->Html->link(__('New Montagem'), ['action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('Nova Montagem'), ['action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('Exibir por lote'), ['action' => 'index', false]) ?></li>
+        <li><?= $this->Html->link(__('Exibir tudo'), ['action' => 'index', true]) ?></li>
     </ul>
 </div>
 <div class="montagem index large-10 medium-9 columns">
@@ -29,7 +31,7 @@
             <td><?= $this->Number->format($montagem->qtd_bandejas_montadas) ?></td>
             <td><?= h($montagem->tipo_bandeja) ?></td>
             <td class="actions">
-                <?= $this->Html->link(__('Visualizar'), ['action' => 'viewAllInfo', $montagem->montagemid]) ?>
+                <?= $this->Html->link(__('Visualizar'), ['action' => 'viewAllInfo', $montagem->fk_lotebandejas]) ?>
                 <?= $this->Html->link(__('Edit'), ['action' => 'edit', $montagem->montagemid]) ?>
                 <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $montagem->montagemid], ['confirm' => __('Are you sure you want to delete # {0}?', $montagem->montagemid)]) ?>
             </td>
