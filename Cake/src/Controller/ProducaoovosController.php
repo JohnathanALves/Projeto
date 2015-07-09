@@ -37,6 +37,30 @@ class ProducaoovosController extends AppController
         $this->set('_serialize', ['producaoovo']);
     }
 
+
+    public function list_add($idLote = null)
+    {  
+        $query = $this->Producaoovos->find('all')->where(['fk_lotegaiolas' => $idLote]);
+        $this->paginate = [ 'maxLimit' => 3 ];
+        $this->set('producaoovos', $this->paginate($query));
+
+        $producaoovo = $this->Producaoovos->newEntity();
+        //$this->set('n_bequer', $n_bequer);
+        if ($this->request->is('post')) {
+            $producaoovo = $this->Producaoovos->patchEntity($producaoovo, $this->request->data);
+            $producaoovo->set(['fk_lotegaiolas' => $idLote]);
+            if ($this->Producaoovos->save($producaoovo)) {
+                $this->Flash->success('Producao adicionada com sucesso.');
+                return $this->redirect(['action' => 'list_add', $idLote]);
+            } else {
+                $this->Flash->error('Não foi possível adicionar a produção. Por favor, tente novamente.');
+            }
+        }
+        $this->set(compact('producaoovo'));
+        $this->set('_serialize', ['producaoovo']);
+    }
+
+
     /**
      * Add method
      *
