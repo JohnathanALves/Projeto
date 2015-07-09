@@ -11,6 +11,52 @@ class AnaliseflorescenciaController extends AppController
 {
 
     /**
+     * List_add method
+     *
+     * @author Leonardo Cavalcante do Prado, Angelo Gustavo, Gabriel Rafael
+    */
+    public function list_add($controle_id = null) 
+    {
+        $query = $this->Analiseflorescencia->find('all')->where( ['fk_controle' => $controle_id] );
+        $this->paginate = [ 'maxLimit' => 5 ];
+        $this->set('list_analiseflorescencia', $this->paginate($query));
+
+        $analiseflorescencia = $this->Analiseflorescencia->newEntity();
+        if ($this->request->is('post')) {
+            $analiseflorescencia = $this->Analiseflorescencia->patchEntity($analiseflorescencia, $this->request->data);
+            $analiseflorescencia->set( ['fk_controle' => $controle_id] );
+
+            if ($this->Analiseflorescencia->save($analiseflorescencia)) {
+                $this->Flash->success('O controle da análise de fluorescência foi salvo.');
+                return $this->redirect(['action' => 'list_add', $controle_id]);
+            } else {
+                $this->Flash->error('O controle da análise de fluorescência não pôde ser salvo, por favor, tente novamente.');
+            }
+        }
+        $this->set(compact('analiseflorescencia'));
+        $this->set('_serialize', ['analiseflorescencia']);
+    }
+
+    /**
+     * DeleteNoReturn method
+     *
+     * @author Leonardo Cavalcante do Prado, Angelo Gustavo
+     * @param string|null $id Analiseflorescencia id.
+     * @return void Redirects to list_add.
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function deleteNoReturn($id = null, $controle_id = null)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+        $analiseflorescencia = $this->Analiseflorescencia->get($id);
+        if ($this->Analiseflorescencia->delete($analiseflorescencia)) {
+            $this->Flash->success('O controle da análise de fluorescência foi deletado.');
+        } else {
+            $this->Flash->error('O controle da análise de fluorescência não pôde ser deletada, por favor, tente novamente.');
+        }
+        return $this->redirect(['action' => 'list_add', $controle_id]);
+    }
+    /**
      * Index method
      *
      * @return void

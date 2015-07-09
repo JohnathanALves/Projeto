@@ -5438,6 +5438,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+<<<<<<< HEAD
 2015-07-09 16:42:33 Notice: Notice (8): Undefined variable: value in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Controller\MontagemController.php, line 87]
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
@@ -5796,6 +5797,12 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
 include - APP/Template\Montagem\view_All_Info.ctp, line 88
+=======
+2015-07-09 17:56:29 Notice: Notice (8): Undefined variable: list in [C:\xampp\htdocs\Projeto\Cake\src\Template\Analiseflorescencia\list_add.ctp, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Analiseflorescencia\list_add.ctp, line 42
+>>>>>>> 4a51ec7b87d1e94422bf96a6dba50354037cbc36
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
 Cake\View\View::_render() - CORE\src\View\View.php, line 775
 Cake\View\View::render() - CORE\src\View\View.php, line 463
@@ -5806,6 +5813,7 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+<<<<<<< HEAD
 2015-07-09 20:52:10 Notice: Notice (8): Undefined variable: loteRecentes in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Controller\MontagemController.php, line 38]
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
@@ -5850,3 +5858,5 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+=======
+>>>>>>> 4a51ec7b87d1e94422bf96a6dba50354037cbc36
