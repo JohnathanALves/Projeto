@@ -13,6 +13,8 @@
         <div class="large-5 columns strings">
             <h6 class="subheader"><?= __('Lotegaiolasid') ?></h6>
             <p><?= h($lotegaiola->lotegaiolasid) ?></p>
+            <h6 class="subheader"><?= __('Codigo Lote') ?></h6>
+            <p><?= h($lotegaiola->codigo_lote) ?></p>
         </div>
     </div>
 </div>

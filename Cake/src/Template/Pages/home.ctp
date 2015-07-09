@@ -170,7 +170,7 @@ $cakeDescription = 'Moscamed Brasil';
                 <h3><?= __('Lote gaiolas') ?></h3>
                 <ul class="side-nav">
                     <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'lotegaiolas','action' => 'add']) ?> </li>
-                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'lotagaiolas','action' => 'index']) ?> </li>
+                    <li><?= $this->Html->link(__('Listar'), ['controller' => 'lotegaiolas','action' => 'index']) ?> </li>
                 </ul>
             </div>
 
