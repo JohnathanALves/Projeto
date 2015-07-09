@@ -25,7 +25,7 @@
             <td class="actions">
                 <?= $this->Html->link(__('View'), ['action' => 'view', $aliquotum->aliquotaid]) ?>
                 <?= $this->Html->link(__('Edit'), ['action' => 'edit', $aliquotum->aliquotaid]) ?>
-                <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $aliquotum->aliquotaid], ['confirm' => __('Are you sure you want to delete # {0}?', $aliquotum->aliquotaid)]) ?>
+                <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $aliquotum->aliquotaid], ['confirm' => __('Tem certeza que deseja apagar este registro?', $aliquotum->aliquotaid)]) ?>
             </td>
         </tr>
 

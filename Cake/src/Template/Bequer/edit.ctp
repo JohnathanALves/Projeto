@@ -18,9 +18,9 @@
             echo $this->Form->input('n_bequer');
             echo $this->Form->input('volume');
             echo $this->Form->input('data_fim_eclosao', array('empty' => true, 'default' => ''));
-            echo $this->Form->input('hora_fim_eclosao');
+            echo $this->Form->input('hora_fim_eclosao',array('type' => 'text'));
             echo $this->Form->input('data_inicio_eclosao', array('empty' => true, 'default' => ''));
-            echo $this->Form->input('hora_inicio_eclosao');
+            echo $this->Form->input('hora_inicio_eclosao',array('type' => 'text'));
             echo $this->Form->input('contagem_amostra');
         ?>
     </fieldset>

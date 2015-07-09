@@ -11,6 +11,74 @@ class AlimentacaoController extends AppController
 {
 
     /**
+     * viewAllInfo method
+     * 
+     * @author Gustavo Marques | Genivaldo | Caroline Machado
+     * @param string|null $id Bequer id.
+     * @return void
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function viewAllInfo($fk_lotebandejas = null)
+    {
+
+        $this->set('fk_lotebandejas', $fk_lotebandejas);
+        $alimentacaoRecente = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $fk_lotebandejas]);
+                
+        $this->paginate = [ 'maxLimit' => 15, 'order' => ['Ovos.data_origem_dos_ovos' => 'desc'] ];   
+        $this->set('alimentacao', $this->paginate($alimentacaoRecente));
+        
+    }
+
+    /**
+     * deleteNoReturn method
+     * @author Gustavo Marques | Genivaldo | Caroline Machado
+     * @param string|null idAlimentacao Alimentacao id, string|null $fk_lotebandejas Bandeja id, string|null $n_bandeja Numero da bandeja
+     * @return void Redireciona para mesma pagina.
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function deleteNoReturn($idAlimentacao = null,$fk_lotebandejas = null,$n_bandeja = null)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+        $alimentacao = $this->Alimentacao->get($idAlimentacao);
+        if ($this->Alimentacao->delete($alimentacao)) {
+            $this->Flash->success('Cadastro de Alimentação apagado com sucesso.');
+        } else {
+            $this->Flash->error('Não foi possível apagar o cadastro de alimentação. Por favor, tente novamente.');
+        }
+        return $this->redirect(['action' => 'list_add', $fk_lotebandejas, $n_bandeja]);
+    }
+
+    /**
+     * list_add method
+     * @author Gustavo Marques | Genivaldo | Caroline Machado
+     * @param string|null $fk_lotebandejas Bandeja id, string|null $n_bandeja Numero da bandeja
+     * @return void Redireciona para mesma pagina.
+     */
+    public function list_add($fk_lotebandejas = null,$n_bandeja = null)
+    {  
+        $query = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $fk_lotebandejas]);
+        $this->paginate = [ 'maxLimit' => 3 ];
+        $this->set('ListAlimentacao', $this->paginate($query));
+
+        $alimentacao = $this->Alimentacao->newEntity();
+        $this->set('n_bandeja', $n_bandeja);
+        if ($this->request->is('post')) {
+            $alimentacao = $this->Alimentacao->patchEntity($alimentacao, $this->request->data);
+            $alimentacao->set([
+                'fk_lotebandejas' => $fk_lotebandejas
+            ]);
+            if ($this->Alimentacao->save($alimentacao)) {
+                $this->Flash->success('Cadastro de Alimentação adicionado com sucesso.');
+                return $this->redirect(['action' => 'list_add', $fk_lotebandejas, $n_bandeja]);
+            } else {
+                $this->Flash->error('Não foi possível adicionar o cadastro de alimentação. Por favor, tente novamente.');
+            }
+        }
+        $this->set(compact('alimentacao'));
+        $this->set('_serialize', ['alimentacao']);
+    }
+
+    /**
      * Index method
      *
      * @return void
@@ -48,10 +116,10 @@ class AlimentacaoController extends AppController
         if ($this->request->is('post')) {
             $alimentacao = $this->Alimentacao->patchEntity($alimentacao, $this->request->data);
             if ($this->Alimentacao->save($alimentacao)) {
-                $this->Flash->success('The alimentacao has been saved.');
+                $this->Flash->success('Cadastro de Alimentação adicionado com sucesso.');
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error('The alimentacao could not be saved. Please, try again.');
+                $this->Flash->error('Não foi possível adicionar o cadastro de alimentação. Por favor, tente novamente.');
             }
         }
         $this->set(compact('alimentacao'));
@@ -73,10 +141,10 @@ class AlimentacaoController extends AppController
         if ($this->request->is(['patch', 'post', 'put'])) {
             $alimentacao = $this->Alimentacao->patchEntity($alimentacao, $this->request->data);
             if ($this->Alimentacao->save($alimentacao)) {
-                $this->Flash->success('The alimentacao has been saved.');
+                $this->Flash->success('Cadastro de Alimentação editado com sucesso.');
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error('The alimentacao could not be saved. Please, try again.');
+                $this->Flash->error('Não foi possível editar esse cadastro de alimentação. Por favor, tente novamente.');
             }
         }
         $this->set(compact('alimentacao'));
