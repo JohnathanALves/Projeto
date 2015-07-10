@@ -55,7 +55,7 @@
             <td><?= $this->Number->format($lotebandeja->qtd_bdj_desc_antes_separacao) ?></td>
             <td class="actions">
                 <!--<?= $this->Html->link(__('Alimentação'), ['controller' => 'alimentacao', 'action' => 'list_add', $lotebandeja->lotebandejasid,$lotebandeja->codigo ]) ?> <br>-->
-                <?= $this->Html->link(__('Ver Alimentação'), ['controller' => 'lotebandejas','action' => 'viewAllInfo', $lotebandeja->lotebandejasid]) ?> <br>
+                <?= $this->Html->link(__('Ver Alimentação'), ['controller' => 'alimentacao','action' => 'viewAllInfo', $lotebandeja->lotebandejasid]) ?> <br>
                 <!--<?= $this->Html->link(__('Editar'), ['controller' => 'lotebandejas','action' => 'edit', $lotebandeja->lotebandejasid]) ?>
                 <?= $this->Form->postLink(__('Deletar'), ['controller' => 'lotebandejas','action' => 'delete', $lotebandeja->lotebandejasid], ['confirm' => __('Are you sure you want to delete # {0}?', $lotebandeja->lotebandejasid)]) ?>-->
             </td>

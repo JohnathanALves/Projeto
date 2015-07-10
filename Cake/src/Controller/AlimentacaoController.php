@@ -13,28 +13,26 @@ class AlimentacaoController extends AppController
     /**
      * viewAllInfo method
      * 
-     * @author Gustavo Marques | Genivaldo | Caroline Machado
-     * @param string|null $id Bequer id.
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
+     * @param UUID|null $fk_lotebandejas Foreign key lotebandejas.
      * @return void
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
     public function viewAllInfo($fk_lotebandejas = null)
     {
 
         $this->set('fk_lotebandejas', $fk_lotebandejas);
-        $alimentacaoRecente = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $fk_lotebandejas]);
+        $alimentacaoQuery = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $fk_lotebandejas]);
                 
         $this->paginate = [ 'maxLimit' => 15, 'order' => ['Ovos.data_origem_dos_ovos' => 'desc'] ];   
-        $this->set('alimentacao', $this->paginate($alimentacaoRecente));
+        $this->set('alimentacao', $this->paginate($alimentacaoQuery));
         
     }
 
     /**
      * deleteNoReturn method
-     * @author Gustavo Marques | Genivaldo | Caroline Machado
-     * @param string|null idAlimentacao Alimentacao id, string|null $fk_lotebandejas Bandeja id, string|null $n_bandeja Numero da bandeja
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
+     * @param UUID|null idAlimentacao Alimentacao id, UUID|null $fk_lotebandejas Foreign key lotebandejas, int|null $n_bandeja Numero da bandeja
      * @return void Redireciona para mesma pagina.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
     public function deleteNoReturn($idAlimentacao = null,$fk_lotebandejas = null,$n_bandeja = null)
     {
@@ -50,15 +48,15 @@ class AlimentacaoController extends AppController
 
     /**
      * list_add method
-     * @author Gustavo Marques | Genivaldo | Caroline Machado
-     * @param string|null $fk_lotebandejas Bandeja id, string|null $n_bandeja Numero da bandeja
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
+     * @param UUID|null idAlimentacao Alimentacao id, UUID|null $fk_lotebandejas Foreign key lotebandejas, int|null $n_bandeja Numero da bandeja
      * @return void Redireciona para mesma pagina.
      */
     public function list_add($fk_lotebandejas = null,$n_bandeja = null)
     {  
-        $query = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $fk_lotebandejas]);
+        $alimentacaoQuery = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $fk_lotebandejas]);
         $this->paginate = [ 'maxLimit' => 3 ];
-        $this->set('ListAlimentacao', $this->paginate($query));
+        $this->set('ListAlimentacao', $this->paginate($alimentacaoQuery));
 
         $alimentacao = $this->Alimentacao->newEntity();
         $this->set('n_bandeja', $n_bandeja);

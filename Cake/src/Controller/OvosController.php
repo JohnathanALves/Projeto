@@ -12,28 +12,25 @@ class OvosController extends AppController
     /**
      * viewAllInfo method
      * 
-     * @author Gustavo Marques | Genivaldo | Caroline Machado
-     * @param string|null $id Bequer id.
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
+     * @param UUID|null $id Bequer id.
      * @return void
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
     public function viewAllInfo($idBequer = null)
     {
 
         $this->set('fk_bequer', $idBequer);
-        $ovosRecentes = $this->Ovos->find('all')->where(['fk_bequer' => $idBequer]);
+        $ovosQuery = $this->Ovos->find('all')->where(['fk_bequer' => $idBequer]);
                 
         $this->paginate = [ 'maxLimit' => 15, 'order' => ['Ovos.data_origem_dos_ovos' => 'desc'] ];   
-        $this->set('ovos', $this->paginate($ovosRecentes));
-        
+        $this->set('ovos', $this->paginate($ovosQuery));
     }
 
     /**
      * deleteNoReturn method
-     * @author Gustavo Marques | Genivaldo | Caroline Machado
-     * @param string|null idAliquota Aliquota id, string|null $idBequer Bequer id, string|null $idBequer Numero do Bequer
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
+     * @param UUID|null idAliquota Aliquota id, UUID|null $idBequer Bequer id, int|null $idBequer Numero do Bequer
      * @return void Redireciona para mesma pagina.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
     public function deleteNoReturn($idOvo = null,$idBequer = null,$n_bequer = null)
     {
@@ -49,15 +46,15 @@ class OvosController extends AppController
 
     /**
      * list_add method
-     * @author Gustavo Marques | Genivaldo | Caroline Machado
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
      * @param string|null $idBequer Bequer id, string|null $idBequer Numero do Bequer
      * @return void Redireciona para mesma pagina.
      */
     public function list_add($idBequer = null,$n_bequer = null)
     {  
-        $query = $this->Ovos->find('all')->where(['fk_bequer' => $idBequer]);
+        $ovosQuery = $this->Ovos->find('all')->where(['fk_bequer' => $idBequer]);
         $this->paginate = [ 'maxLimit' => 3 ];
-        $this->set('ListOvos', $this->paginate($query));
+        $this->set('ListOvos', $this->paginate($ovosQuery));
 
         $ovo = $this->Ovos->newEntity();
         $this->set('n_bequer', $n_bequer);

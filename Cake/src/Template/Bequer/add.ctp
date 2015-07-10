@@ -10,12 +10,12 @@
         <legend><?= __('Adicionar Béquer') ?></legend>
         <?php
             echo $this->Form->input('n_bequer',['label'=>'Número do béquer']);
-            echo $this->Form->input('volume');
+            echo $this->Form->input('volume',['label'=>'Volume']);
             echo $this->Form->input('data_fim_eclosao', array('empty' => true, 'default' => ''));
             echo $this->Form->input('hora_fim_eclosao', array('type' => 'text') );
             echo $this->Form->input('data_inicio_eclosao', array('empty' => true, 'default' => ''));
             echo $this->Form->input('hora_inicio_eclosao', array('type' => 'text'));
-            echo $this->Form->input('contagem_amostra');
+            echo $this->Form->input('contagem_amostra',['label'=>'Contagem da amostra']);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Enviar')) ?>

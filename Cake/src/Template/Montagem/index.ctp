@@ -2,8 +2,8 @@
     <h3><?= __('Menu') ?></h3>
     <ul class="side-nav">
         <li><?= $this->Html->link(__('Nova Montagem'), ['action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('Exibir por lote'), ['action' => 'index', false]) ?></li>
-        <li><?= $this->Html->link(__('Exibir tudo'), ['action' => 'index', true]) ?></li>
+        <li><?= $this->Html->link(__('Exibir por lote'), ['action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('Exibir tudo'), ['action' => 'indexTodos']) ?></li>
     </ul>
 </div>
 <div class="montagem index large-10 medium-9 columns">
