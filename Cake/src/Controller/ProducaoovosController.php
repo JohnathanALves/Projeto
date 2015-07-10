@@ -38,20 +38,26 @@ class ProducaoovosController extends AppController
     }
 
 
-    public function list_add($idLote = null)
+    public function list_add($idLote = null,$codigo_lote)
     {  
+
+        $this->loadModel('Lotegaiolas');
+
         $query = $this->Producaoovos->find('all')->where(['fk_lotegaiolas' => $idLote]);
         $this->paginate = [ 'maxLimit' => 3 ];
         $this->set('producaoovos', $this->paginate($query));
 
+        //$codigo_lote = $this->Lotegaiolas->find('list', [ 'value' => 'lotegaiolasid','valueField' => 'codigo_lote' ]);
+        //$this->set('options_lote', $codigo_lote);
+        $this->set('codigo_lote', $codigo_lote);
         $producaoovo = $this->Producaoovos->newEntity();
-        //$this->set('n_bequer', $n_bequer);
+
         if ($this->request->is('post')) {
             $producaoovo = $this->Producaoovos->patchEntity($producaoovo, $this->request->data);
             $producaoovo->set(['fk_lotegaiolas' => $idLote]);
             if ($this->Producaoovos->save($producaoovo)) {
                 $this->Flash->success('Producao adicionada com sucesso.');
-                return $this->redirect(['action' => 'list_add', $idLote]);
+                return $this->redirect(['action' => 'list_add', $idLote,$codigo_lote]);
             } else {
                 $this->Flash->error('Não foi possível adicionar a produção. Por favor, tente novamente.');
             }
