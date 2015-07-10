@@ -7,9 +7,9 @@
 <div class="mortalidadespupas form large-10 medium-9 columns">
     <?= $this->Form->create($mortalidadespupa); ?>
     <fieldset>
-        <legend><?= __('Add Mortalidadespupa') ?></legend>
+        <legend><?= __('Adicionar Mortalidade de Pupas') ?></legend>
         <?php
-            echo $this->Form->input('fk_lotegaiolas');
+            //echo $this->Form->input('fk_lotegaiolas');
             echo $this->Form->input('data_observacao', array('empty' => true, 'default' => ''));
             echo $this->Form->input('pupas_g1');
             echo $this->Form->input('pupas_g2');
