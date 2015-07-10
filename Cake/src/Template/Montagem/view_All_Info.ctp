@@ -1,7 +1,8 @@
 <div class="actions columns large-2 medium-3">
-    <h3><?= __('Actions') ?></h3>
+    <h3><?= __('Menu') ?></h3>
     <ul class="side-nav">
-        <li><?= $this->Html->link(__('New Montagem'), ['action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('Nova Montagem'), ['action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('Listar Montagem'), ['action' => 'index']) ?></li>
     </ul>
 </div>
 <div class="montagem index large-10 medium-9 columns">
@@ -37,6 +38,32 @@
     <?php endforeach; ?>
     </tbody>
     </table>
+    <table cellpadding="0" cellspacing="0">
+    <thead>
+        <tr>
+            <!--<th><?= $this->Paginator->sort('lotebandejasid') ?></th>-->
+            <th><?= $this->Paginator->sort('codigo', 'Numero Lote') ?></th>
+            <th><?= $this->Paginator->sort('qtd_bdj_desc_antes_separacao', 'Quantidade de bandejas descartadas antes da separação') ?></th>
+            <th class="actions"><?= __('Opções') ?></th>
+        </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($lotebandejas as $lotebandeja): ?>
+        <tr>
+            <!--<td><?= h($lotebandeja->lotebandejasid) ?></td>-->
+            <td><?= $this->Number->format($lotebandeja->codigo) ?></td>
+            <td><?= $this->Number->format($lotebandeja->qtd_bdj_desc_antes_separacao) ?></td>
+            <td class="actions">
+                <!--<?= $this->Html->link(__('Alimentação'), ['controller' => 'alimentacao', 'action' => 'list_add', $lotebandeja->lotebandejasid,$lotebandeja->codigo ]) ?> <br>-->
+                <?= $this->Html->link(__('Ver Alimentação'), ['controller' => 'lotebandejas','action' => 'viewAllInfo', $lotebandeja->lotebandejasid]) ?> <br>
+                <!--<?= $this->Html->link(__('Editar'), ['controller' => 'lotebandejas','action' => 'edit', $lotebandeja->lotebandejasid]) ?>
+                <?= $this->Form->postLink(__('Deletar'), ['controller' => 'lotebandejas','action' => 'delete', $lotebandeja->lotebandejasid], ['confirm' => __('Are you sure you want to delete # {0}?', $lotebandeja->lotebandejasid)]) ?>-->
+            </td>
+        </tr>
+
+    <?php endforeach; ?>
+    </tbody>
+    </table>
     <h2><?= $this->Html->link(__('Bequer'), ['controller'=> 'bequer','action' => 'index']) ?></h2>
     <table cellpadding="0" cellspacing="0">
     <CAPTION ALIGN="bottom">
@@ -67,44 +94,14 @@
                 <td><?= h($bequer->hora_inicio_eclosao) ?></td>
                 <td><?= h($bequer->hora_fim_eclosao) ?></td>
                 <td class="actions">
-                    <?= $this->Html->link(__('Nova Aliquota'), ['controller' => 'aliquota','action' => 'list_add', $bequer->bequerid,$bequer->n_bequer]) ?> <br>
-                    <?= $this->Html->link(__('Novos Ovos'), ['controller' => 'ovos','action' => 'list_add', $bequer->bequerid,$bequer->n_bequer]) ?> <br>
-                    <?= $this->Html->link(__('Visualizar'), ['controller' => 'bequer','action' => 'viewAllInfo', $bequer->bequerid]) ?> <br>
-                    <?= $this->Html->link(__('Editar'), ['controller' => 'bequer','action' => 'edit', $bequer->bequerid]) ?>
-                    <?= $this->Form->postLink(__('Deletar'), ['controller' => 'bequer','action' => 'delete', $bequer->bequerid], ['confirm' => __('Tem certeza que deseja apagar o béquer # {0}?', $bequer->n_bequer)]) ?>
+                	<?= $this->Html->link(__('Ver Bequer'), ['controller' => 'bequer','action' => 'viewAllInfo', $bequer->bequerid]) ?> <br>
+                    <?= $this->Html->link(__('Ver Aliquota'), ['controller' => 'aliquota','action' => 'viewAllInfo', $bequer->bequerid]) ?> <br>
+                    <?= $this->Html->link(__('Ver Ovos'), ['controller' => 'ovos','action' => 'viewAllInfo', $bequer->bequerid]) ?> <br>
+                    <!--<?= $this->Html->link(__('Editar Bequer'), ['controller' => 'bequer','action' => 'edit', $bequer->bequerid]) ?>-->
+                    <!--<?= $this->Form->postLink(__('Deletar'), ['action' => 'deleteIdBequer', $montagem->montagemid,$bequer->bequerid], ['confirm' => __('Tem certeza que deseja apagar o béquer # {0}?', $bequer->n_bequer)]) ?>-->
                 </td>
             </tr>
         <?php endforeach; ?>
         </tbody>
-    </table>
-    <h2><?= $this->Html->link(__('Lotes de bandejas'), ['controller'=> 'lotebandejas','action' => 'index']) ?></h2>
-    <table cellpadding="0" cellspacing="0">
-    <CAPTION ALIGN="bottom">
-    Esta tabela exibe no máximo 3 registros.
-    </CAPTION>
-    <thead>
-        <tr>
-            <!--<th><?= $this->Paginator->sort('lotebandejasid') ?></th>-->
-            <th><?= $this->Paginator->sort('codigo', 'Numero Lote') ?></th>
-            <th><?= $this->Paginator->sort('qtd_bdj_desc_antes_separacao', 'Quantidade de bandejas descartadas antes da separação') ?></th>
-            <th class="actions"><?= __('Opções') ?></th>
-        </tr>
-    </thead>
-    <tbody>
-    <?php foreach ($lotebandejas as $lotebandeja): ?>
-        <tr>
-            <!--<td><?= h($lotebandeja->lotebandejasid) ?></td>-->
-            <td><?= $this->Number->format($lotebandeja->codigo) ?></td>
-            <td><?= $this->Number->format($lotebandeja->qtd_bdj_desc_antes_separacao) ?></td>
-            <td class="actions">
-                <?= $this->Html->link(__('Alimentação'), ['controller' => 'alimentacao', 'action' => 'list_add', $lotebandeja->lotebandejasid,$lotebandeja->codigo ]) ?> <br>
-                <?= $this->Html->link(__('Visualizar'), ['controller' => 'lotebandejas','action' => 'viewAllInfo', $lotebandeja->lotebandejasid]) ?> <br>
-                <?= $this->Html->link(__('Editar'), ['controller' => 'lotebandejas','action' => 'edit', $lotebandeja->lotebandejasid]) ?>
-                <?= $this->Form->postLink(__('Deletar'), ['controller' => 'lotebandejas','action' => 'delete', $lotebandeja->lotebandejasid], ['confirm' => __('Are you sure you want to delete # {0}?', $lotebandeja->lotebandejasid)]) ?>
-            </td>
-        </tr>
-
-    <?php endforeach; ?>
-    </tbody>
     </table>
 </div>

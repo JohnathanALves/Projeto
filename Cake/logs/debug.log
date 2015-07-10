@@ -5869,3 +5869,351 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 >>>>>>> 4a51ec7b87d1e94422bf96a6dba50354037cbc36
 =======
 >>>>>>> 4a51ec7b87d1e94422bf96a6dba50354037cbc36
+2015-07-10 14:42:28 Notice: Notice (8): Undefined index: conditions in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php, line 512]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Query::join() - CORE\src\Database\Query.php, line 512
+Cake\Database\Query::leftJoin() - CORE\src\Database\Query.php, line 572
+App\Controller\MontagemController::add() - APP/Controller\MontagemController.php, line 96
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Undefined index: conditions in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php, line 512]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Query::join() - CORE\src\Database\Query.php, line 512
+Cake\Database\Query::leftJoin() - CORE\src\Database\Query.php, line 572
+App\Controller\MontagemController::add() - APP/Controller\MontagemController.php, line 96
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Undefined index: conditions in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php, line 516]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Query::join() - CORE\src\Database\Query.php, line 516
+Cake\Database\Query::leftJoin() - CORE\src\Database\Query.php, line 572
+App\Controller\MontagemController::add() - APP/Controller\MontagemController.php, line 96
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Undefined index: conditions in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php, line 517]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Query::join() - CORE\src\Database\Query.php, line 517
+Cake\Database\Query::leftJoin() - CORE\src\Database\Query.php, line 572
+App\Controller\MontagemController::add() - APP/Controller\MontagemController.php, line 96
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Driver\Postgres::prepare() - CORE\src\Database\Driver\PDODriverTrait.php, line 89
+Cake\Database\Connection::prepare() - CORE\src\Database\Connection.php, line 220
+Cake\Database\Connection::run() - CORE\src\Database\Connection.php, line 272
+Cake\Database\Query::execute() - CORE\src\Database\Query.php, line 175
+Cake\ORM\Query::_execute() - CORE\src\ORM\Query.php, line 657
+Cake\ORM\Query::_all() - CORE\src\Datasource\QueryTrait.php, line 218
+Cake\ORM\Query::all() - CORE\src\ORM\Query.php, line 608
+Cake\ORM\Query::getIterator() - CORE\src\Datasource\QueryTrait.php, line 132
+iterator_to_array - [internal], line ??
+Cake\View\Widget\SelectBoxWidget::_renderContent() - CORE\src\View\Widget\SelectBoxWidget.php, line 146
+Cake\View\Widget\SelectBoxWidget::render() - CORE\src\View\Widget\SelectBoxWidget.php, line 115
+Cake\View\Helper\FormHelper::widget() - CORE\src\View\Helper\FormHelper.php, line 2535
+Cake\View\Helper\FormHelper::select() - CORE\src\View\Helper\FormHelper.php, line 1875
+include - APP/Template\Montagem\add.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::_array() - CORE\src\Error\Debugger.php, line 484
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 438
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::_array() - CORE\src\Error\Debugger.php, line 484
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 438
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::_array() - CORE\src\Error\Debugger.php, line 484
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 438
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::_array() - CORE\src\Error\Debugger.php, line 484
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 438
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+

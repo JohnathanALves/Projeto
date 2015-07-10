@@ -2,15 +2,14 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
-// In a controller or table method.
-use Cake\ORM\TableRegistry;
+
 /**
  * Montagem Controller
  *
  * @property \App\Model\Table\MontagemTable $Montagem */
 class MontagemController extends AppController
 {
-    /**
+	/**
      * viewAllInfo method
      * 
      * @author Gustavo Marques | Genival Rocha | Caroline Machado
@@ -23,21 +22,23 @@ class MontagemController extends AppController
         $this->loadModel('bequer');
         $this->loadModel('lotebandejas');
 
-        $montagem = $this->Montagem->find('all')->where(['fk_lotebandejas' => $fk_lotebandejas]);;
-        
-        $loteRecentes = $this->lotebandejas->find('all')->where(['lotebandejasid' => $fk_lotebandejas]);
+        $montagem = $this->Montagem->find('all')->where(['fk_lotebandejas' => $fk_lotebandejas]);
 
+        $loteRecentes = $this->lotebandejas->find('all')->where(['lotebandejasid' => $fk_lotebandejas]);
         $bequerRecentes = $this->bequer->find('all')->join([
         'table' => 'montagem',
         'alias' => 'c',
         'type' => 'INNER',
-        'conditions' => 'c.fk_bequer = Bequer.bequerid',
+        'conditions' => [
+        		'c.fk_lotebandejas' => $fk_lotebandejas,
+                'c.fk_bequer = Bequer.bequerid',
+            ]
         ]);
-        
+
         $this->paginate = [ 'maxLimit' => 3 ];   
         $this->set('bequer', $this->paginate($bequerRecentes));
         $this->set('lotebandejas', $this->paginate($loteRecentes));
-        $this->set('montagem', $this->paginate($this->Montagem));
+        $this->set('montagem', $this->paginate($montagem));
         $this->set('_serialize', ['montagem']);
     }
         
@@ -87,8 +88,16 @@ class MontagemController extends AppController
         $this->loadModel('Bequer');
 
         //$lotesRecentes = $this->Lotebandejas->find('all', ['fields' => 'codigo']);
-        
-        $lotesRecentes = $this->Lotebandejas->find('list', [ 'value' => 'lotebandejasid','valueField' => 'codigo' ]);
+        $lotesDisponiveis = $this->Lotebandejas->find('all')->join([
+        'table' => 'montagem',
+        'type' => 'LEFT',
+        'alias' => 'c',
+        'conditions' => [
+                'c.fk_lotebandejas = lotebandejas.lotebandejasid',
+            ]
+        ])->where(['c.fk_bequer IS NULL']);
+
+        $lotesRecentes = $lotesDisponiveis->find('list', [ 'value' => 'lotebandejasid','valueField' => 'codigo' ]);
         $this->set('optionLotes', $lotesRecentes);
 
         $bequerRecentes = $this->Bequer->find('list', [ 'value' => 'bequerid','valueField' => 'n_bequer' ]);
