@@ -8007,3 +8007,18 @@ Stack Trace:
 #3 {main}
 
 
+2015-07-09 22:13:04 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /ProjetoESII/Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\ProjetoESII\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
