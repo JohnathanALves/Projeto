@@ -9,6 +9,54 @@ use App\Controller\AppController;
  * @property \App\Model\Table\TamanhocefalotoraxTable $Tamanhocefalotorax */
 class TamanhocefalotoraxController extends AppController
 {
+     /**
+     * List_add method
+     *
+     * @author Leonardo Cavalcante do Prado, Angelo Gustavo, Gabriel Rafael
+    */
+    public function list_add($controle_id = null, $separacao_id = null) 
+    {
+        $query = $this->Tamanhocefalotorax->find('all')->where( ['fk_controle' => $controle_id] );
+        $this->paginate = [ 'maxLimit' => 5 ];
+        $this->set('list_tamanhocefalotorax', $this->paginate($query));
+        $this->set('controle_id', $controle_id);
+        $this->set('separacao_id', $separacao_id);
+
+        $tamanhocefalotorax = $this->Tamanhocefalotorax->newEntity();
+        if ($this->request->is('post')) {
+            $tamanhocefalotorax = $this->Tamanhocefalotorax->patchEntity($tamanhocefalotorax, $this->request->data);
+            $tamanhocefalotorax->set( ['fk_controle' => $controle_id] );
+
+            if ($this->Tamanhocefalotorax->save($tamanhocefalotorax)) {
+                $this->Flash->success('O registro de tamanho do cefalotórax foi salvo.');
+                return $this->redirect(['action' => 'list_add', $controle_id]);
+            } else {
+                $this->Flash->error('O registro de tamanho do cefalotórax não pôde ser salvo, por favor, tente novamente.');
+            }
+        }
+        $this->set(compact('tamanhocefalotorax'));
+        $this->set('_serialize', ['tamanhocefalotorax']);
+    }
+
+    /**
+     * DeleteNoReturn method
+     *
+     * @author Leonardo Cavalcante do Prado, Angelo Gustavo, Gabriel Rafael
+     * @param string|null $id Tamanhocefalotorax id.
+     * @return void Redirects to list_add.
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function deleteNoReturn($id = null, $controle_id = null)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+        $tamanhocefalotorax = $this->Tamanhocefalotorax->get($id);
+        if ($this->Tamanhocefalotorax->delete($tamanhocefalotorax)) {
+            $this->Flash->success('O registro de tamanho do cefalotórax foi deletado.');
+        } else {
+            $this->Flash->error('O registro de tamanho do cefalotórax não pôde ser deletada, por favor, tente novamente.');
+        }
+        return $this->redirect(['action' => 'list_add', $controle_id]);
+    }
 
     /**
      * Index method

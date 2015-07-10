@@ -1,9 +1,15 @@
-<div class="controle index large-20 medium-18 columns">
+<div class="actions columns large-2 medium-3">
+    <h3><?= __('Voltar para') ?></h3>
+    <ul class="side-nav">
+        <li><?= $this->Html->link(__('Separação'), ['controller' => 'separacoes', 'action' => 'view', $separacoes_id]) ?></li>
+    </ul>
+</div>
+<div class="controle index large-10 medium-9 columns">
     <table cellpadding="0" cellspacing="0">
     <thead>
         <tr>
-            <th><?= $this->Paginator->sort('controleid', 'Controle ID') ?></th>
-            <th><?= $this->Paginator->sort('fk_separacoes', 'Separação ID') ?></th>
+            <!-- <th><?= $this->Paginator->sort('controleid', 'Controle ID') ?></th>
+            <th><?= $this->Paginator->sort('fk_separacoes', 'Separação ID') ?></th> -->
             <th><?= $this->Paginator->sort('qtd_pupa_colher', 'Quantidade de pupas por colher') ?></th>
             <th><?= $this->Paginator->sort('qtd_total_bandejas_separ', 'Quantidade total de bandejas separadas') ?></th>
             <th><?= $this->Paginator->sort('qtd_bandejas_controle', 'Quantidade de bandejas de controle') ?></th>
@@ -19,8 +25,8 @@
     <tbody>
     <?php foreach ($Controles as $list): ?>
         <tr>
-            <td><?= h($list->controleid) ?></td>
-            <td><?= h($list->fk_separacoes) ?></td>
+<!--             <td><?= h($list->controleid) ?></td>
+            <td><?= h($list->fk_separacoes) ?></td> -->
             <td><?= $this->Number->format($list->qtd_pupa_colher) ?></td>
             <td><?= $this->Number->format($list->qtd_total_bandejas_separ) ?></td>
             <td><?= $this->Number->format($list->qtd_bandejas_list) ?></td>
@@ -31,15 +37,8 @@
             <td><?= h($list->nome_responsavel) ?></td>
             <td><?= h($list->foto_cefalotorax) ?></td>
             <td class="actions">
-                <?= $this->Html->link(__('- Controle tetraciclina'), ['controller' => 'tetraciclina', 'action' => 'list_add', $list->controleid]) ?>
-                <br>
-                <?= $this->Html->link(__('- Repasse da amostra'), ['controller' => 'amostrarepasse', 'action' => 'list_add', $list->controleid]) ?>
-                <br>
-                <?= $this->Html->link(__('- Análise da fluorescência'), ['controller' => 'analiseflorescencia', 'action' => 'list_add', $list->controleid]) ?>
-                <br>
-                <?= $this->Html->link(__('- Tamanho do cefalotorax'), ['controller' => 'tamanhocefalotorax', 'action' => 'list_add', $list->controleid]) ?>
-                <br>
-                <?= $this->Form->postLink(__('- Deletar'), ['action' => 'deleteNoReturn', $list->controleid, $list->fk_separacoes], ['confirm' => __('Tem certeza de que deseja deletar # {0}?', $list->controleid)]) ?>
+                <?= $this->Html->link(__('Visualizar'), ['action' => 'view', $list->controleid, $separacoes_id]) ?>
+                <?= $this->Form->postLink(__('Deletar'), ['action' => 'deleteNoReturn', $list->controleid, $list->fk_separacoes], ['confirm' => __('Tem certeza de que deseja deletar # {0}?', $list->controleid)]) ?>
             </td>
         </tr>
 

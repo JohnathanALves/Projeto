@@ -17,12 +17,13 @@ class AmostrarepasseController extends AppController
     * @author Leonardo Cavalcante do Prado, Angelo Gustavo, Gabriel Rafal
     * @return void or, if a post method is called, the redirect action
     */
-    public function list_add( $controle_id = null ) 
+    public function list_add( $controle_id = null , $separacao_id = null) 
     {
         $query = $this->Amostrarepasse->find('all')->where( ['fk_controle' => $controle_id] );
         $this->paginate = [ 'maxLimit' => 5 ];
         $this->set('amostras', $this->paginate($query));
-
+        $this->set('controle_id', $controle_id);
+        $this->set('separacao_id', $separacao_id);
         $amostrarepasse = $this->Amostrarepasse->newEntity();
 
         if ($this->request->is('post')) {

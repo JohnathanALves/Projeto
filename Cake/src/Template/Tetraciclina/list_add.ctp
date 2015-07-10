@@ -1,9 +1,15 @@
+<div class="actions columns large-2 medium-3">
+    <h3><?= __('Voltar para') ?></h3>
+    <ul class="side-nav">
+        <li><?= $this->Html->link(__('Controle'), ['controller' => 'controle', 'action' => 'view', $controle_id, $separacao_id]) ?></li>
+    </ul>
+</div>
 <div class="tetraciclina index large-10 medium-9 columns">
     <table cellpadding="0" cellspacing="0">
     <thead>
         <tr>
-            <th><?= $this->Paginator->sort('tetraciclinaid', 'Tetraciclina ID') ?></th>
-            <th><?= $this->Paginator->sort('fk_controle', 'Controle ID') ?></th>
+ <!--            <th><?= $this->Paginator->sort('tetraciclinaid', 'Tetraciclina ID') ?></th>
+            <th><?= $this->Paginator->sort('fk_controle', 'Controle ID') ?></th> -->
             <th><?= $this->Paginator->sort('qtd_larvas', 'Quantidade de larvas') ?></th>
             <th><?= $this->Paginator->sort('qtd_pupas', 'Quantidade de pupas') ?></th>
             <th><?= $this->Paginator->sort('qtd_adultos', 'Quantidade de adultos') ?></th>
@@ -16,8 +22,8 @@
     <tbody>
     <?php foreach ($tetraciclinas as $list): ?>
         <tr>
-            <td><?= h($list->tetraciclinaid) ?></td>
-            <td><?= h($list->fk_controle) ?></td>
+          <!--   <td><?= h($list->tetraciclinaid) ?></td>
+            <td><?= h($list->fk_controle) ?></td> -->
             <td><?= $this->Number->format($list->qtd_larvas) ?></td>
             <td><?= $this->Number->format($list->qtd_pupas) ?></td>
             <td><?= $this->Number->format($list->qtd_adultos) ?></td>

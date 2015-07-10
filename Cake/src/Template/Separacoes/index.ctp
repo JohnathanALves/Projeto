@@ -33,10 +33,10 @@
                 <br>
                 <?= $this->Html->link(__('Editar'), ['action' => 'edit', $separaco->separacoesid]) ?>
                 <br>
-                <?= $this->Html->link(__('Contagem'), ['controller' => 'costagem', 'action' => 'list_add', $separaco->separacoesid])?>
+<!--                 <?= $this->Html->link(__('Contagem'), ['controller' => 'costagem', 'action' => 'list_add', $separaco->separacoesid])?>
                 <br>
                 <?= $this->Html->link(__('Controle'), ['controller' => 'controle', 'action' => 'list_add', $separaco->separacoesid])?>
-                <br>
+                <br> -->
                 <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $separaco->separacoesid], ['confirm' => __('Tem certeza de que deseja deletar: # {0}?', $separaco->separacoesid)]) ?>
             </td>
         </tr>

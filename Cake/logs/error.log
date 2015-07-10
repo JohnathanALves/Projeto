@@ -14857,13 +14857,22 @@ Stack Trace:
 #3 {main}
 
 
+<<<<<<< HEAD
 2015-07-10 17:16:44 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 11bd594b4b4c95486d9b7f3f403186178b702e38
+>>>>>>> 0aff09e70ec90e466e8ed9011443f5206a7402a8
+2015-07-09 18:02:13 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+>>>>>>> 21aebfe438d19bbe74278655abb67d11c9a3a7a2
 Exception Attributes: array (
   'controller' => 'LoginMoscamedController',
   'action' => 'js',
   'prefix' => '',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /ProjetoESII/Projeto/Cake/login_moscamed/js/script.js
 Stack Trace:
 #0 C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
@@ -14872,3 +14881,374 @@ Stack Trace:
 #3 {main}
 
 
+=======
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-10 16:14:27 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-10 16:28:33 Error: [Cake\Controller\Exception\MissingActionException] Action TamanhocefalotoraxController::list_add() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'TamanhocefalotoraxController',
+  'action' => 'list_add',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/tamanhocefalotorax/list_add/d58aa56c-9419-4680-ad91-c430d52b3ee9
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TamanhocefalotoraxController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-10 16:35:50 Error: [Cake\View\Exception\MissingTemplateException] Template file "Tamanhocefalotorax\list_add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tamanhocefalotorax\\list_add.ctp',
+)
+Request URL: /Projeto/Cake/tamanhocefalotorax/list_add/d58aa56c-9419-4680-ad91-c430d52b3ee9
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TamanhocefalotoraxController))
+#4 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-07-10 16:36:20 Error: [Cake\View\Exception\MissingTemplateException] Template file "Tamanhocefalotorax\list_add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tamanhocefalotorax\\list_add.ctp',
+)
+Request URL: /Projeto/Cake/tamanhocefalotorax/list_add/d58aa56c-9419-4680-ad91-c430d52b3ee9
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TamanhocefalotoraxController))
+#4 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-07-10 16:56:44 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "controle" with primary key [NULL]
+Request URL: /Projeto/Cake/controle/view
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\src\Controller\ControleController.php(83): Cake\ORM\Table->get(NULL, Array)
+#1 [internal function]: App\Controller\ControleController->view()
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ControleController))
+#5 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-07-10 16:57:01 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "controle" with primary key [NULL]
+Request URL: /Projeto/Cake/controle/view
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\src\Controller\ControleController.php(83): Cake\ORM\Table->get(NULL, Array)
+#1 [internal function]: App\Controller\ControleController->view()
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ControleController))
+#5 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-07-10 16:57:08 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  update or delete on table "controle" violates foreign key constraint "fk_tetraciclina_controle" on table "tetraciclina"
+DETAIL:  Key (controleid)=(d58aa56c-9419-4680-ad91-c430d52b3ee9) is still referenced from table "tetraciclina".
+Request URL: /Projeto/Cake/controle/deleteNoReturn/d58aa56c-9419-4680-ad91-c430d52b3ee9/58c7ec36-44e9-4357-b291-074c130e3a9f
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1577): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\Controle), Object(ArrayObject))
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1582): Cake\Database\Connection->transactional(Object(Closure))
+#9 C:\xampp\htdocs\Projeto\Cake\src\Controller\ControleController.php(53): Cake\ORM\Table->delete(Object(App\Model\Entity\Controle))
+#10 [internal function]: App\Controller\ControleController->deleteNoReturn('d58aa56c-9419-4...', '58c7ec36-44e9-4...')
+#11 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ControleController))
+#14 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+
+2015-07-10 16:57:29 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "controle" with primary key [NULL]
+Request URL: /Projeto/Cake/controle/view
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\src\Controller\ControleController.php(83): Cake\ORM\Table->get(NULL, Array)
+#1 [internal function]: App\Controller\ControleController->view()
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ControleController))
+#5 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-07-10 17:10:33 Error: Fatal Error (4): syntax error, unexpected '$tetraciclina' (T_VARIABLE) in [C:\xampp\htdocs\Projeto\Cake\src\Controller\TetraciclinaController.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-10 17:10:33 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$tetraciclina' (T_VARIABLE)
+Request URL: /Projeto/Cake/tetraciclina/list_add/d58aa56c-9419-4680-ad91-c430d52b3ee9
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-10 17:11:06 Error: Fatal Error (4): syntax error, unexpected '$tetraciclina' (T_VARIABLE) in [C:\xampp\htdocs\Projeto\Cake\src\Controller\TetraciclinaController.php, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-10 17:11:07 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$tetraciclina' (T_VARIABLE)
+Request URL: /Projeto/Cake/tetraciclina/list_add/d58aa56c-9419-4680-ad91-c430d52b3ee9
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-10 17:12:22 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "separacoes"
+Request URL: /Projeto/Cake/separacoes/view/d58aa56c-9419-4680-ad91-c430d52b3ee9
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1127): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(35): Cake\ORM\Table->get('d58aa56c-9419-4...', Array)
+#2 [internal function]: App\Controller\SeparacoesController->view('d58aa56c-9419-4...')
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#6 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-07-10 17:12:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class ControleId could not be found.
+Exception Attributes: array (
+  'class' => 'ControleId',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /Projeto/Cake/controle_id/view/d58aa56c-9419-4680-ad91-c430d52b3ee9
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-10 17:13:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class ControleId could not be found.
+Exception Attributes: array (
+  'class' => 'ControleId',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /Projeto/Cake/controle_id/view/d58aa56c-9419-4680-ad91-c430d52b3ee9
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-10 17:18:08 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  update or delete on table "controle" violates foreign key constraint "fk_tetraciclina_controle" on table "tetraciclina"
+DETAIL:  Key (controleid)=(d58aa56c-9419-4680-ad91-c430d52b3ee9) is still referenced from table "tetraciclina".
+Request URL: /Projeto/Cake/controle/delete/d58aa56c-9419-4680-ad91-c430d52b3ee9
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1577): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\Controle), Object(ArrayObject))
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1582): Cake\Database\Connection->transactional(Object(Closure))
+#9 C:\xampp\htdocs\Projeto\Cake\src\Controller\ControleController.php(145): Cake\ORM\Table->delete(Object(App\Model\Entity\Controle))
+#10 [internal function]: App\Controller\ControleController->delete('d58aa56c-9419-4...')
+#11 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ControleController))
+#14 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+
+2015-07-10 17:30:04 Error: Fatal Error (1): Call to a member function find() on boolean in [C:\xampp\htdocs\Projeto\Cake\src\Controller\ControleController.php, line 58]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-10 17:30:04 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /Projeto/Cake/controle/deleteNoReturn/d58aa56c-9419-4680-ad91-c430d52b3ee9
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-10 17:30:36 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  update or delete on table "controle" violates foreign key constraint "fk_tetraciclina_controle" on table "tetraciclina"
+DETAIL:  Key (controleid)=(d58aa56c-9419-4680-ad91-c430d52b3ee9) is still referenced from table "tetraciclina".
+Request URL: /Projeto/Cake/controle/deleteNoReturn/d58aa56c-9419-4680-ad91-c430d52b3ee9
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1577): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\Controle), Object(ArrayObject))
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1582): Cake\Database\Connection->transactional(Object(Closure))
+#9 C:\xampp\htdocs\Projeto\Cake\src\Controller\ControleController.php(63): Cake\ORM\Table->delete(Object(App\Model\Entity\Controle))
+#10 [internal function]: App\Controller\ControleController->deleteNoReturn('d58aa56c-9419-4...')
+#11 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ControleController))
+#14 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+
+2015-07-10 17:34:09 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "separacoes" with primary key [NULL]
+Request URL: /Projeto/Cake/separacoes/view
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(35): Cake\ORM\Table->get(NULL, Array)
+#1 [internal function]: App\Controller\SeparacoesController->view()
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#5 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-07-10 17:37:27 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\Projeto\Cake\src\Controller\ControleController.php, line 95]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-10 17:37:28 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /Projeto/Cake/controle/view/d58aa56c-9419-4680-ad91-c430d52b3ee9
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-10 17:37:46 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "separacoes" with primary key [NULL]
+Request URL: /Projeto/Cake/separacoes/view
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(35): Cake\ORM\Table->get(NULL, Array)
+#1 [internal function]: App\Controller\SeparacoesController->view()
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#5 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-07-10 17:37:51 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "separacoes" with primary key [NULL]
+Request URL: /Projeto/Cake/separacoes/view
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(35): Cake\ORM\Table->get(NULL, Array)
+#1 [internal function]: App\Controller\SeparacoesController->view()
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#5 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2015-07-10 18:19:33 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-10 18:20:03 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-10 18:21:12 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-10 18:23:55 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+=======
+>>>>>>> d6b8e313bc5f56e42f234eabb74b305456cd23ab
+>>>>>>> 21aebfe438d19bbe74278655abb67d11c9a3a7a2
