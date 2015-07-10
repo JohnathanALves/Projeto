@@ -13,17 +13,15 @@ class MontagemController extends AppController
      * viewAllInfo method
      * 
      * @author Gustavo Marques | Genival Rocha | Caroline Machado
-     * @param string|null $id Bequer id.
+     * @param UUID $fk_lotebandejas Foreign key loteBandejas id.
      * @return void
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
     public function viewAllInfo($fk_lotebandejas = null)
     {
         $this->loadModel('bequer');
         $this->loadModel('lotebandejas');
 
-        $montagem = $this->Montagem->find('all')->where(['fk_lotebandejas' => $fk_lotebandejas]);
-
+        $montagem = $this->Montagem->find('all', ['limit' => 1])->where(['fk_lotebandejas' => $fk_lotebandejas]);
         $loteRecentes = $this->lotebandejas->find('all')->where(['lotebandejasid' => $fk_lotebandejas]);
         $bequerRecentes = $this->bequer->find('all')->join([
         'table' => 'montagem',
@@ -35,10 +33,11 @@ class MontagemController extends AppController
             ]
         ]);
 
-        $this->paginate = [ 'maxLimit' => 3 ];   
+        $this->paginate = [ 'maxLimit' => 4 ];   
         $this->set('bequer', $this->paginate($bequerRecentes));
-        $this->set('lotebandejas', $this->paginate($loteRecentes));
-        $this->set('montagem', $this->paginate($montagem));
+        
+        $this->set('lotebandejas', $loteRecentes);
+        $this->set('montagem', $montagem );
         $this->set('_serialize', ['montagem']);
     }
         
