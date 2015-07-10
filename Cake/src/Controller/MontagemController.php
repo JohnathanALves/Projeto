@@ -9,41 +9,54 @@ use App\Controller\AppController;
  * @property \App\Model\Table\MontagemTable $Montagem */
 class MontagemController extends AppController
 {
-    /**
+	/**
      * viewAllInfo method
      * 
      * @author Gustavo Marques | Genival Rocha | Caroline Machado
-     * @param string|null $id Bequer id.
+     * @param UUID $fk_lotebandejas Foreign key loteBandejas id.
      * @return void
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function viewAllInfo($id = null)
+    public function viewAllInfo($fk_lotebandejas = null)
     {
         $this->loadModel('bequer');
         $this->loadModel('lotebandejas');
 
-        $montagem = $this->Montagem->get($id, [
-            'contain' => []
+        $montagem = $this->Montagem->find('all', ['limit' => 1])->where(['fk_lotebandejas' => $fk_lotebandejas]);
+        $loteRecentes = $this->lotebandejas->find('all')->where(['lotebandejasid' => $fk_lotebandejas]);
+        $bequerRecentes = $this->bequer->find('all')->join([
+        'table' => 'montagem',
+        'alias' => 'c',
+        'type' => 'INNER',
+        'conditions' => [
+        		'c.fk_lotebandejas' => $fk_lotebandejas,
+                'c.fk_bequer = Bequer.bequerid',
+            ]
         ]);
-        
-        $loteRecentes = $this->lotebandejas->find('all')->where(['lotebandejasid' => $montagem->fk_lotebandejas]);
-        $bequerRecentes = $this->bequer->find('all')->where(['bequerid' => $montagem->fk_bequer]);
 
-        $this->paginate = [ 'maxLimit' => 3 ];   
+        $this->paginate = [ 'maxLimit' => 4 ];   
         $this->set('bequer', $this->paginate($bequerRecentes));
-        $this->set('lotebandejas', $this->paginate($loteRecentes));
-        $this->set('montagem', $this->paginate($this->Montagem));
+        
+        $this->set('lotebandejas', $loteRecentes);
+        $this->set('montagem', $montagem );
         $this->set('_serialize', ['montagem']);
     }
-
+        
     /**
      * Index method
      *
      * @return void
      */
-    public function index()
+    public function index($ativ=null)
     {
-        $this->set('montagem', $this->paginate($this->Montagem));
+        if($ativ)
+        {
+            $this->set('montagem', $this->paginate($this->Montagem->find('all')));
+        }
+        else
+        {
+            $this->set('montagem', $this->paginate($this->Montagem->find('all')->distinct(['fk_lotebandejas'])));
+        }
+
         $this->set('_serialize', ['montagem']);
     }
 
@@ -74,8 +87,16 @@ class MontagemController extends AppController
         $this->loadModel('Bequer');
 
         //$lotesRecentes = $this->Lotebandejas->find('all', ['fields' => 'codigo']);
-        
-        $lotesRecentes = $this->Lotebandejas->find('list', [ 'value' => 'lotebandejasid','valueField' => 'codigo' ]);
+        $lotesDisponiveis = $this->Lotebandejas->find('all')->join([
+        'table' => 'montagem',
+        'type' => 'LEFT',
+        'alias' => 'c',
+        'conditions' => [
+                'c.fk_lotebandejas = lotebandejas.lotebandejasid',
+            ]
+        ])->where(['c.fk_bequer IS NULL']);
+
+        $lotesRecentes = $lotesDisponiveis->find('list', [ 'value' => 'lotebandejasid','valueField' => 'codigo' ]);
         $this->set('optionLotes', $lotesRecentes);
 
         $bequerRecentes = $this->Bequer->find('list', [ 'value' => 'bequerid','valueField' => 'n_bequer' ]);
@@ -83,13 +104,20 @@ class MontagemController extends AppController
 
         $montagem = $this->Montagem->newEntity();
         if ($this->request->is('post')) {
-            $montagem = $this->Montagem->patchEntity($montagem, $this->request->data);
-            if ($this->Montagem->save($montagem)) {
-                $this->Flash->success('The montagem has been saved.');
-                return $this->redirect(['action' => 'index']);
-            } else {
-                $this->Flash->error('The montagem could not be saved. Please, try again.');
+            $arrayBequer = $this->request->data('list_bequer');
+            
+            foreach ($arrayBequer as $value) {
+                $montagem = $this->Montagem->newEntity();
+                $montagem = $this->Montagem->patchEntity($montagem, $this->request->data);
+                $montagem->set(['fk_bequer' => $value ]);
+                if ($this->Montagem->save($montagem)) {
+                    $this->Flash->success('The montagem has been saved.');
+                } else {
+                    $this->Flash->error('The montagem could not be saved. Please, try again.');
+                }
             }
+            return $this->redirect(['action' => 'index']);
+            
         }
         $this->set(compact('montagem'));
         $this->set('_serialize', ['montagem']);
