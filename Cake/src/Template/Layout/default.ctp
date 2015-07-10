@@ -42,10 +42,13 @@ $cakeDescription = 'Moscamed Brasil';
              <span><?= $this->Html->link(__('Sair'), ['controller' => 'loginmoscamed','action' => 'logout']) ?></span>
              <span><?= $this->Html->image("config.png", [ 'url' => ['controller' => 'loginmoscamed', 'action' => 'index']]); ?></span>
         </div>
+<<<<<<< HEAD
         <div class="header-title">
             <span><?= $this->Html->link(__('Home'), ['controller' => 'pages','action' => 'index']) ?></span>
         </div>
         
+=======
+>>>>>>> 4a51ec7b87d1e94422bf96a6dba50354037cbc36
         <!--
         <div class="header-help">
             <span><a target="_blank" href="http://book.cakephp.org/3.0/">Documentation</a></span>

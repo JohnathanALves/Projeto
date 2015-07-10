@@ -3,8 +3,8 @@
     <ul class="side-nav">
         <li><?= $this->Html->link(__('Edit Montagem'), ['action' => 'edit', $montagem->montagemid]) ?> </li>
         <li><?= $this->Form->postLink(__('Delete Montagem'), ['action' => 'delete', $montagem->montagemid], ['confirm' => __('Are you sure you want to delete # {0}?', $montagem->montagemid)]) ?> </li>
-        <li><?= $this->Html->link(__('Listar Montagem'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('Nova Montagem'), ['action' => 'add']) ?> </li>
+        <li><?= $this->Html->link(__('List Montagem'), ['action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('New Montagem'), ['action' => 'add']) ?> </li>
     </ul>
 </div>
 <div class="montagem view large-10 medium-9 columns">
