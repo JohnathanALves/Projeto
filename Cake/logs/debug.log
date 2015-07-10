@@ -6266,3 +6266,2502 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2015-07-10 14:16:23 Notice: Notice (8): Undefined variable: producaoovos in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:18:52 Notice: Notice (8): Undefined variable: codigo_lote in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 8
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:22:06 Notice: Notice (8): Undefined variable: codigo_lote in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:22:34 Notice: Notice (8): Undefined variable: codigo_lote in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:25:52 Notice: Notice (8): Undefined variable: codigo_lote in [C:\xampp\htdocs\Projeto\Cake\src\Controller\MortalidadespupasController.php, line 49]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MortalidadespupasController::list_add() - APP/Controller\MortalidadespupasController.php, line 49
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:29:38 Notice: Notice (8): Undefined variable: codigo_lote in [C:\xampp\htdocs\Projeto\Cake\src\Controller\MortalidadespupasController.php, line 49]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MortalidadespupasController::list_add() - APP/Controller\MortalidadespupasController.php, line 49
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:31:35 Notice: Notice (8): Undefined variable: codigo_lote in [C:\xampp\htdocs\Projeto\Cake\src\Controller\MortalidadespupasController.php, line 49]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MortalidadespupasController::list_add() - APP/Controller\MortalidadespupasController.php, line 49
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:36:07 Notice: Notice (8): Undefined variable: codigo_lote in [C:\xampp\htdocs\Projeto\Cake\src\Controller\MortalidadespupasController.php, line 49]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MortalidadespupasController::list_add() - APP/Controller\MortalidadespupasController.php, line 49
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:36:48 Notice: Notice (8): Undefined variable: codigo_lote in [C:\xampp\htdocs\Projeto\Cake\src\Controller\MortalidadespupasController.php, line 49]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MortalidadespupasController::list_add() - APP/Controller\MortalidadespupasController.php, line 49
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:36:51 Notice: Notice (8): Undefined variable: codigo_lote in [C:\xampp\htdocs\Projeto\Cake\src\Controller\MortalidadespupasController.php, line 49]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MortalidadespupasController::list_add() - APP/Controller\MortalidadespupasController.php, line 49
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:37:26 Notice: Notice (8): Undefined variable: codigo_lote in [C:\xampp\htdocs\Projeto\Cake\src\Controller\MortalidadespupasController.php, line 49]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\MortalidadespupasController::list_add() - APP/Controller\MortalidadespupasController.php, line 49
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:53:02 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:53:02 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:53:02 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:53:02 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:53:02 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:53:02 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:53:02 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:53:02 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:16 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:16 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:16 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:16 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:16 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:16 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:16 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:16 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:59 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:59 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:59 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:59 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:59 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:59 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:59 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:57:59 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:03 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:03 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:03 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:03 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:06 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:06 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:06 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:06 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:06 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:06 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:06 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:06 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:12 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:12 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:12 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:12 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:12 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:12 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:12 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:12 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:13 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:13 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:13 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:13 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:13 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:13 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:13 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 14:58:13 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:11 Notice: Notice (8): Undefined variable: list_mortalidadespupas in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 19]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:28 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:28 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:28 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:28 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:28 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:28 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:28 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:28 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:31 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:31 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:31 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:31 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:31 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:31 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:31 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:31 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:32 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:32 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:32 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:32 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:32 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:32 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:32 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:32 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:36 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:36 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:36 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:36 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:36 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:36 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:36 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:36 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:46 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:46 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:46 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:46 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:46 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:46 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:46 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:00:46 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:01:05 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:01:05 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:01:05 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:01:05 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:01:05 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:01:05 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:01:05 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:01:05 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:31 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:31 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:31 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:31 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:31 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:31 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:31 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:31 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:33 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:33 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:33 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:33 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:33 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:33 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:33 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:33 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:35 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:35 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:35 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:35 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:03:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:04:56 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:04:56 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:04:56 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:04:56 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:04:56 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:04:56 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:04:56 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:04:56 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:28 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:28 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:28 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:28 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:28 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:28 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:28 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:28 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:36 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:36 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:36 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:36 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:36 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:36 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:36 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:36 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:46 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:46 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:46 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:46 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:46 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:46 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:46 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:05:46 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:06:38 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:06:38 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:06:38 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:06:38 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 22
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:06:38 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:06:38 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:06:38 Notice: Notice (8): Undefined variable: producaoovo in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 15:06:38 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Mortalidadespupas\list_add.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Mortalidadespupas\list_add.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
