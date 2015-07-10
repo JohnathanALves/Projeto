@@ -8,8 +8,8 @@
     <table cellpadding="0" cellspacing="0">
     <thead>
         <tr>
-            <th><?= $this->Paginator->sort('costagemid', 'Contagem ID') ?></th>
-            <th><?= $this->Paginator->sort('fk_separacoes', 'Separação ID') ?></th>
+          <!--   <th><?= $this->Paginator->sort('costagemid', 'Contagem ID') ?></th>
+            <th><?= $this->Paginator->sort('fk_separacoes', 'Separação ID') ?></th> -->
             <th><?= $this->Paginator->sort('n_amostra', 'Nº da amostra') ?></th>
             <th><?= $this->Paginator->sort('qtd_macho', 'Quantidade de machos') ?></th>
             <th><?= $this->Paginator->sort('qtd_femea', 'Quantidade de fêmeas') ?></th>
@@ -22,8 +22,8 @@
 
     <?php foreach ($costagens as $list): ?>
         <tr>
-            <td><?= h($list->costagemid) ?></td>
-            <td><?= h($list->fk_separacoes) ?></td>
+           <!--  <td><?= h($list->costagemid) ?></td>
+            <td><?= h($list->fk_separacoes) ?></td> -->
             <td><?= $this->Number->format($costagem->n_amostra) ?></td>
             <td><?= $this->Number->format($costagem->qtd_macho) ?></td>
             <td><?= $this->Number->format($costagem->qtd_femea) ?></td>
