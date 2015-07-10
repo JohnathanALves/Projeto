@@ -22,7 +22,8 @@ class CostagemController extends AppController
         $query = $this->Costagem->find('all')->where( ['fk_separacoes' => $separacoes_id] );
         $this->paginate = [ 'maxLimit' => 5 ];
         $this->set('costagens', $this->paginate($query));
-
+        $this->set('separacoes_id', $separacoes_id);
+        
         $costagem = $this->Costagem->newEntity();
 
         if ($this->request->is('post')) {

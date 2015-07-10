@@ -15,11 +15,13 @@ class AnaliseflorescenciaController extends AppController
      *
      * @author Leonardo Cavalcante do Prado, Angelo Gustavo, Gabriel Rafael
     */
-    public function list_add($controle_id = null) 
+    public function list_add($controle_id = null, $separacao_id = null) 
     {
         $query = $this->Analiseflorescencia->find('all')->where( ['fk_controle' => $controle_id] );
         $this->paginate = [ 'maxLimit' => 5 ];
         $this->set('list_analiseflorescencia', $this->paginate($query));
+        $this->set('controle_id', $controle_id);
+        $this->set('separacao_id', $separacao_id);
 
         $analiseflorescencia = $this->Analiseflorescencia->newEntity();
         if ($this->request->is('post')) {
