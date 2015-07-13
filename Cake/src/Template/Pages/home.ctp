@@ -107,7 +107,7 @@ $cakeDescription = 'Moscamed Brasil';
                 </ul>
             </div>
             <div class="actions columns large-2 medium-3">
-                <h3><?= __('Costagem') ?></h3>
+                <h3><?= __('Contagem') ?></h3>
                 <ul class="side-nav">
                     <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'costagem','action' => 'add']) ?> </li>
                     <li><?= $this->Html->link(__('Listar'), ['controller' => 'costagem','action' => 'index']) ?> </li>
@@ -174,7 +174,7 @@ $cakeDescription = 'Moscamed Brasil';
                 </ul>
             </div>
 
-            <div class="actions columns large-2 medium-3">
+           <!-- <div class="actions columns large-2 medium-3">
                 <h3><?= __('Mortalidade pupas') ?></h3>
                 <ul class="side-nav">
                     <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'mortalidadespupas','action' => 'add']) ?> </li>
@@ -188,8 +188,8 @@ $cakeDescription = 'Moscamed Brasil';
                     <li><?= $this->Html->link(__('Novo formulário'), ['controller' => 'producaoovos','action' => 'add']) ?> </li>
                     <li><?= $this->Html->link(__('Listar'), ['controller' => 'producaoovos','action' => 'index']) ?> </li>
                 </ul>
-            </div>
-
+            </div>  -->
+                  
             <div class="actions columns large-2 medium-3">
                 <h3><?= __('Montagem') ?></h3>
                 <ul class="side-nav">

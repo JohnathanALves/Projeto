@@ -32,8 +32,8 @@
             <td><?= h($montagem->tipo_bandeja) ?></td>
             <td class="actions">
                 <?= $this->Html->link(__('Visualizar'), ['action' => 'viewAllInfo', $montagem->fk_lotebandejas]) ?>
-                <?= $this->Html->link(__('Edit'), ['action' => 'edit', $montagem->montagemid]) ?>
-                <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $montagem->montagemid], ['confirm' => __('Are you sure you want to delete # {0}?', $montagem->montagemid)]) ?>
+                <?= $this->Html->link(__('Editar'), ['action' => 'edit', $montagem->montagemid]) ?>
+                <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $montagem->montagemid], ['confirm' => __('Are you sure you want to delete # {0}?', $montagem->montagemid)]) ?>
             </td>
         </tr>
 
