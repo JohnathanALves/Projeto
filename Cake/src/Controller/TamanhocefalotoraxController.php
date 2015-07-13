@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Validation\Validator;
 
 /**
  * Tamanhocefalotorax Controller
@@ -22,12 +23,30 @@ class TamanhocefalotoraxController extends AppController
         $this->set('controle_id', $controle_id);
         $this->set('separacao_id', $separacao_id);
 
+        $validator = new Validator();
+
+        $validator->add(
+            'n_replicata', 'custom', [
+                'rule' => function($num_replicata) {
+                    $query = $this->Tamanhocefalotorax->find('All')->where( ['n_replicata' => $num_replicata] );
+                    if( $query->isEmpty() )
+                        return true;
+                    else 
+                        return false;
+                } 
+            ] 
+        );
+
         $tamanhocefalotorax = $this->Tamanhocefalotorax->newEntity();
+
         if ($this->request->is('post')) {
             $tamanhocefalotorax = $this->Tamanhocefalotorax->patchEntity($tamanhocefalotorax, $this->request->data);
             $tamanhocefalotorax->set( ['fk_controle' => $controle_id] );
 
-            if ($this->Tamanhocefalotorax->save($tamanhocefalotorax)) {
+            $error = $validator->errors($tamanhocefalotorax->toArray());
+
+            if (empty($error)) {
+                $this->Tamanhocefalotorax->save($tamanhocefalotorax);
                 $this->Flash->success('O registro de tamanho do cefalotórax foi salvo.');
                 return $this->redirect(['action' => 'list_add', $controle_id]);
             } else {

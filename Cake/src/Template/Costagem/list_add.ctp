@@ -24,9 +24,9 @@
         <tr>
            <!--  <td><?= h($list->costagemid) ?></td>
             <td><?= h($list->fk_separacoes) ?></td> -->
-            <td><?= $this->Number->format($costagem->n_amostra) ?></td>
-            <td><?= $this->Number->format($costagem->qtd_macho) ?></td>
-            <td><?= $this->Number->format($costagem->qtd_femea) ?></td>
+            <td><?= $this->Number->format($list->n_amostra) ?></td>
+            <td><?= $this->Number->format($list->qtd_macho) ?></td>
+            <td><?= $this->Number->format($list->qtd_femea) ?></td>
             <td><?= h($list->nome_responsavel) ?></td>
             <td><?= h($list->sexo) ?></td>
             <td class="actions">

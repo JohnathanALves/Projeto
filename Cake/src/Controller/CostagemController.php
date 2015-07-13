@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Validation\Validator;
 
 /**
  * Costagem Controller
@@ -25,13 +26,28 @@ class CostagemController extends AppController
         $this->set('separacoes_id', $separacoes_id);
         
         $costagem = $this->Costagem->newEntity();
+        $validator = new Validator();
+
+        $validator->add(
+            'n_amostra', 'custom', [
+                'rule' => function($num_amostra) {
+                    $query = $this->Costagem->find('All')->where( ['n_amostra' => $num_amostra] );
+                    if( $query->isEmpty() )
+                        return true;
+                    else 
+                        return false;
+                } 
+            ] 
+        );
 
         if ($this->request->is('post')) {
             $costagem = $this->Costagem->patchEntity($costagem, $this->request->data);
-            
             $costagem->set(['fk_separacoes' => $separacoes_id]);
-            
-            if ($this->Costagem->save($costagem)) {
+
+            $errors = $validator->errors($costagem->toArray());
+
+            if (empty($errors)) {
+                $this->Costagem->save($costagem);
                 $this->Flash->success('A contagem foi salva.');
                 return $this->redirect(['action' => 'list_add', $separacoes_id]);
             } else {

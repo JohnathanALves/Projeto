@@ -8,8 +8,8 @@
     <table cellpadding="0" cellspacing="0">
     <thead>
         <tr>
-            <th><?= $this->Paginator->sort('separacoesid', 'Separações ID') ?></th>
-            <th><?= $this->Paginator->sort('fk_lotebandejas', 'Lote bandejas') ?></th>
+           <!--  <th><?= $this->Paginator->sort('separacoesid', 'Separações ID') ?></th>
+            <th><?= $this->Paginator->sort('fk_lotebandejas', 'Lote bandejas') ?></th> -->
             <th><?= $this->Paginator->sort('data_separacao', 'Data') ?></th>
             <th><?= $this->Paginator->sort('n_separacao', 'Nº separação') ?></th>
             <th><?= $this->Paginator->sort('qtd_colheres_macho', 'Qtd colheres macho') ?></th>
@@ -21,8 +21,8 @@
     <tbody>
     <?php foreach ($separacoes as $separaco): ?>
         <tr>
-            <td><?= h($separaco->separacoesid) ?></td> <!-- linkando com costagem -->
-            <td><?= h($separaco->fk_lotebandejas) ?></td>
+          <!--   <td><?= h($separaco->separacoesid) ?></td> linkando com costagem
+            <td><?= h($separaco->fk_lotebandejas) ?></td> -->
             <td><?= h($separaco->data_separacao) ?></td>
             <td><?= $this->Number->format($separaco->n_separacao) ?></td>
             <td><?= $this->Number->format($separaco->qtd_colheres_macho) ?></td>
