@@ -16,16 +16,14 @@
         </tr>
     </thead>
     <tbody>
-    <?php foreach ($lotegaiolas as $lotegaiola): ?>
         <tr>
-            <td><?= h($lotegaiola->codigo_lote) ?></td>
+            <td><?= h($lotegaiolas) ?></td>
             <!--<td class="actions">
                 <?= $this->Html->link(__('Visualizar'), ['action' => 'index', $lotegaiolas->lotegaiolasid]) ?>
                 <?= $this->Html->link(__('Edit'), ['action' => 'edit', $lotegaiolas->lotegaiolasid]) ?>
                 <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $lotegaiolas->lotegaiolasid], ['confirm' => __('Are you sure you want to delete # {0}?', $lotegaiolas->lotegaiolasid)]) ?>
             </td>-->
         </tr>
-    <?php endforeach; ?>
     </tbody>
 
     </table>
