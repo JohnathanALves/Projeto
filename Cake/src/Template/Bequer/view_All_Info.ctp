@@ -13,13 +13,13 @@
         <thead>
             <tr>
                 <!--<th><?= $this->Paginator->sort('bequerid') ?></th>-->
-                <th><?= $this->Paginator->sort('n_bequer') ?></th>
-                <th><?= $this->Paginator->sort('volume') ?></th>
-                <th><?= $this->Paginator->sort('data_fim_eclosao') ?></th>
-                <th><?= $this->Paginator->sort('data_inicio_eclosao') ?></th>
-                <th><?= $this->Paginator->sort('contagem_amostra') ?></th>
-                <th><?= $this->Paginator->sort('Hora Inicio Eclosao') ?></th>
-                <th><?= $this->Paginator->sort('Hora Fim Eclosao') ?></th>
+                 <th><?= $this->Paginator->sort('n_bequer', 'Numero do Bequer') ?></th>
+                <th><?= $this->Paginator->sort('volume', 'Volume') ?></th>
+                <th><?= $this->Paginator->sort('data_fim_eclosao', 'Data do fim da eclosão') ?></th>
+                <th><?= $this->Paginator->sort('data_inicio_eclosao', 'Data do início da eclosão') ?></th>
+                <th><?= $this->Paginator->sort('contagem_amostra', 'Contagem da amostra') ?></th>
+                <th><?= $this->Paginator->sort('Hora Inicio Eclosao', 'Hora do início da eclosão') ?></th>
+                <th><?= $this->Paginator->sort('Hora Fim Eclosao', 'Hora do fim da eclosão') ?></th>
             </tr>
         </thead>
         <tbody>
@@ -36,9 +36,12 @@
         </tbody>
         </table>
     </div>
-    <h2><?= $this->Html->link(__('Ovos'), ['controller'=> 'ovos','action' => 'viewAllInfo',$bequer->bequerid]) ?></h2>
+    <h2>Ovos</h2>
     <div class="row large-10 medium-9 columns">
     <table cellpadding="0" cellspacing="0">
+    <CAPTION ALIGN="bottom">
+            Esta tabela exibe no máximo 3 registros. <?= $this->Html->link(__('Visualizar todos.'), ['controller'=> 'ovos','action' => 'viewAllInfo',$bequer->bequerid]) ?>
+    </CAPTION>
     <thead>
         <tr>
             <!--<th><?= $this->Paginator->sort('ovosid') ?></th>-->
@@ -67,9 +70,12 @@
     </tbody>
     </table>
     <br>
-    <h2><?= $this->Html->link(__('Aliquotas'), ['controller'=> 'aliquota','action' => 'viewAllInfo',$bequer->bequerid]) ?></h2>
+    <h2>Alíquotas</h2>
     <div class="row large-10 medium-9 columns">
         <table cellpadding="0" cellspacing="0">
+        <CAPTION ALIGN="bottom">
+            Esta tabela exibe no máximo 3 registros.<?= $this->Html->link(__('Visualizar todos.'), ['controller'=> 'aliquota','action' => 'viewAllInfo',$bequer->bequerid]) ?>
+        </CAPTION>
         <thead>
             <tr>
                 <!--<th><?= $this->Paginator->sort('aliquotaid') ?></th>-->
@@ -92,7 +98,6 @@
                     <!--<?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $aliquotum->aliquotaid], ['confirm' => __('Are you sure you want to delete # {0}?', $aliquotum->aliquotaid)]) ?>-->
                 </td>
             </tr>
-
         <?php endforeach; ?>
         </tbody>
         </table>

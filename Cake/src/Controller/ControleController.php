@@ -20,6 +20,7 @@ class ControleController extends AppController
         $query = $this->Controle->find('all')->where( ['fk_separacoes' => $separacoes_id] );
         $this->paginate = [ 'maxLimit' => 5 ];
         $this->set('Controles', $this->paginate($query));
+        $this->set('separacoes_id', $separacoes_id);
 
         $controle = $this->Controle->newEntity();
         if ($this->request->is('post')) {
@@ -46,9 +47,20 @@ class ControleController extends AppController
     */
     public function deleteNoReturn($id = null, $separacoes_id = null)
     {
+        $this->loadModel('Tetraciclina');
+        $this->loadModel('Amostrarepasse');
+        $this->loadModel('Analiseflorescencia');
+        $this->loadModel('Tamanhocefalotorax');
+
         $this->request->allowMethod(['post', 'delete']);
         $controle = $this->Controle->get($id);
-        if ($this->Controle->delete($controle)) {
+
+        $contTetraciclina = $this->Tetraciclina->find('all')->where(['fk_controle' => $id])->count();
+        $contAmostraRepasse = $this->Amostrarepasse->find('all')->where(['fk_controle' => $id])->count();
+        $contAnaliseFlorescencia = $this->Analiseflorescencia->find('all')->where(['fk_controle' => $id])->count();
+        $contTamanhoCefalotorax = $this->Tamanhocefalotorax->find('all')->where(['fk_controle' => $id])->count();
+
+        if ($contTetraciclina == 0 && $contAmostraRepasse == 0 && $contAnaliseFlorescencia == 0 && $contTamanhoCefalotorax == 0 && $this->Controle->delete($controle)) {
             $this->Flash->success('O controle foi deletado.');
         } else {
             $this->Flash->error('O controle não pôde ser deletado, por favor, tente novamente');
@@ -74,11 +86,12 @@ class ControleController extends AppController
      * @return void
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function view($id = null)
+    public function view($id = null, $separacoes_id = null)
     {
         $controle = $this->Controle->get($id, [
             'contain' => []
         ]);
+        $this->set('separacoes_id', $separacoes_id);
         $this->set('controle', $controle);
         $this->set('_serialize', ['controle']);
     }

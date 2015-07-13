@@ -5869,6 +5869,16 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 >>>>>>> 4a51ec7b87d1e94422bf96a6dba50354037cbc36
 =======
 >>>>>>> 4a51ec7b87d1e94422bf96a6dba50354037cbc36
+<<<<<<< HEAD
+2015-07-10 14:42:28 Notice: Notice (8): Undefined index: conditions in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php, line 512]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Query::join() - CORE\src\Database\Query.php, line 512
+Cake\Database\Query::leftJoin() - CORE\src\Database\Query.php, line 572
+App\Controller\MontagemController::add() - APP/Controller\MontagemController.php, line 96
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+=======
 2015-07-10 12:49:17 Notice: Notice (8): Undefined variable: n_bequer in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 3]
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
@@ -5878,11 +5888,22 @@ Cake\View\View::_render() - CORE\src\View\View.php, line 775
 Cake\View\View::render() - CORE\src\View\View.php, line 463
 Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
 Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+>>>>>>> 78b47fe4ecc22032e905b755961b81ac67ba6a90
 Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 [main] - ROOT\webroot\index.php, line 37
 
 
 
+<<<<<<< HEAD
+2015-07-10 14:42:28 Notice: Notice (8): Undefined index: conditions in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php, line 512]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Query::join() - CORE\src\Database\Query.php, line 512
+Cake\Database\Query::leftJoin() - CORE\src\Database\Query.php, line 572
+App\Controller\MontagemController::add() - APP/Controller\MontagemController.php, line 96
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+=======
 2015-07-10 12:51:06 Notice: Notice (8): Undefined variable: n_bequer in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 3]
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
@@ -5892,11 +5913,22 @@ Cake\View\View::_render() - CORE\src\View\View.php, line 775
 Cake\View\View::render() - CORE\src\View\View.php, line 463
 Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
 Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+>>>>>>> 78b47fe4ecc22032e905b755961b81ac67ba6a90
 Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 [main] - ROOT\webroot\index.php, line 37
 
 
 
+<<<<<<< HEAD
+2015-07-10 14:42:28 Notice: Notice (8): Undefined index: conditions in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php, line 516]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Query::join() - CORE\src\Database\Query.php, line 516
+Cake\Database\Query::leftJoin() - CORE\src\Database\Query.php, line 572
+App\Controller\MontagemController::add() - APP/Controller\MontagemController.php, line 96
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+=======
 2015-07-10 12:51:43 Notice: Notice (8): Undefined variable: n_bequer in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 3]
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
@@ -5906,11 +5938,22 @@ Cake\View\View::_render() - CORE\src\View\View.php, line 775
 Cake\View\View::render() - CORE\src\View\View.php, line 463
 Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
 Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+>>>>>>> 78b47fe4ecc22032e905b755961b81ac67ba6a90
 Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 [main] - ROOT\webroot\index.php, line 37
 
 
 
+<<<<<<< HEAD
+2015-07-10 14:42:28 Notice: Notice (8): Undefined index: conditions in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php, line 517]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Query::join() - CORE\src\Database\Query.php, line 517
+Cake\Database\Query::leftJoin() - CORE\src\Database\Query.php, line 572
+App\Controller\MontagemController::add() - APP/Controller\MontagemController.php, line 96
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+=======
 2015-07-10 12:51:49 Notice: Notice (8): Undefined variable: n_bequer in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 3]
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
@@ -5920,15 +5963,45 @@ Cake\View\View::_render() - CORE\src\View\View.php, line 775
 Cake\View\View::render() - CORE\src\View\View.php, line 463
 Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
 Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+>>>>>>> 78b47fe4ecc22032e905b755961b81ac67ba6a90
 Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 [main] - ROOT\webroot\index.php, line 37
 
 
 
+<<<<<<< HEAD
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Driver\Postgres::prepare() - CORE\src\Database\Driver\PDODriverTrait.php, line 89
+Cake\Database\Connection::prepare() - CORE\src\Database\Connection.php, line 220
+Cake\Database\Connection::run() - CORE\src\Database\Connection.php, line 272
+Cake\Database\Query::execute() - CORE\src\Database\Query.php, line 175
+Cake\ORM\Query::_execute() - CORE\src\ORM\Query.php, line 657
+Cake\ORM\Query::_all() - CORE\src\Datasource\QueryTrait.php, line 218
+Cake\ORM\Query::all() - CORE\src\ORM\Query.php, line 608
+Cake\ORM\Query::getIterator() - CORE\src\Datasource\QueryTrait.php, line 132
+iterator_to_array - [internal], line ??
+Cake\View\Widget\SelectBoxWidget::_renderContent() - CORE\src\View\Widget\SelectBoxWidget.php, line 146
+Cake\View\Widget\SelectBoxWidget::render() - CORE\src\View\Widget\SelectBoxWidget.php, line 115
+Cake\View\Helper\FormHelper::widget() - CORE\src\View\Helper\FormHelper.php, line 2535
+Cake\View\Helper\FormHelper::select() - CORE\src\View\Helper\FormHelper.php, line 1875
+include - APP/Template\Montagem\add.ctp, line 16
+=======
 2015-07-10 12:58:32 Notice: Notice (8): Undefined variable: n_bequer in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 3]
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
 include - APP/Template\Producaoovos\list_add.ctp, line 3
+>>>>>>> 78b47fe4ecc22032e905b755961b81ac67ba6a90
 Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
 Cake\View\View::_render() - CORE\src\View\View.php, line 775
 Cake\View\View::render() - CORE\src\View\View.php, line 463
@@ -5939,6 +6012,265 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+<<<<<<< HEAD
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::_array() - CORE\src\Error\Debugger.php, line 484
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 438
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::_array() - CORE\src\Error\Debugger.php, line 484
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 438
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::_array() - CORE\src\Error\Debugger.php, line 484
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 438
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-07-10 14:42:28 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Database\QueryCompiler.php, line 220]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+sprintf - [internal], line ??
+Cake\Database\QueryCompiler::_buildJoinPart() - CORE\src\Database\QueryCompiler.php, line 220
+Cake\Database\QueryCompiler::Cake\Database\{closure}() - CORE\src\Database\QueryCompiler.php, line 128
+Cake\Database\Query::traverse() - CORE\src\Database\Query.php, line 231
+Cake\Database\QueryCompiler::compile() - CORE\src\Database\QueryCompiler.php, line 102
+Cake\Database\Driver::compileQuery() - CORE\src\Database\Driver.php, line 315
+Cake\Database\Connection::compileQuery() - CORE\src\Database\Connection.php, line 260
+Cake\Database\Query::sql() - CORE\src\Database\Query.php, line 202
+Cake\ORM\Query::sql() - CORE\src\ORM\Query.php, line 639
+Cake\Database\Query::__debugInfo() - CORE\src\Database\Query.php, line 1700
+Cake\ORM\Query::__debugInfo() - CORE\src\ORM\Query.php, line 814
+Cake\Error\Debugger::_object() - CORE\src\Error\Debugger.php, line 518
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 446
+Cake\Error\Debugger::_array() - CORE\src\Error\Debugger.php, line 484
+Cake\Error\Debugger::_export() - CORE\src\Error\Debugger.php, line 438
+Cake\Error\Debugger::exportVar() - CORE\src\Error\Debugger.php, line 412
+include - CORE\src\Template\Element\exception_stack_trace.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1142
+Cake\View\View::element() - CORE\src\View\View.php, line 374
+include - CORE\src\Template\Layout\dev_error.ctp, line 220
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 509
+Cake\View\View::render() - CORE\src\View\View.php, line 471
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE\src\Error\ExceptionRenderer.php, line 296
+Cake\Error\ExceptionRenderer::render() - CORE\src\Error\ExceptionRenderer.php, line 172
+Cake\Error\ErrorHandler::_displayException() - CORE\src\Error\ErrorHandler.php, line 145
+Cake\Error\BaseErrorHandler::handleException() - CORE\src\Error\BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+=======
 2015-07-10 13:01:24 Notice: Notice (8): Undefined variable: n_bequer in [C:\xampp\htdocs\Projeto\Cake\src\Template\Producaoovos\list_add.ctp, line 3]
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
@@ -6259,6 +6591,1636 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 Trace:
 Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
 App\Controller\ProducaoovosController::list_add() - APP/Controller\ProducaoovosController.php, line 52
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+>>>>>>> 78b47fe4ecc22032e905b755961b81ac67ba6a90
+
+
+
+2015-07-10 16:23:33 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\View\StringTemplate.php, line 216]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+vsprintf - [internal], line ??
+Cake\View\StringTemplate::format() - CORE\src\View\StringTemplate.php, line 216
+Cake\View\Helper\PaginatorHelper::sort() - CORE\src\View\Helper\PaginatorHelper.php, line 405
+include - APP/Template\Montagem\index.ctp, line 16
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 25
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 26]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 26
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 27
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 30
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 33
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 50]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 50]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 52
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 52
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 54
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 54
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 54
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 54
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 55]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 55
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 55]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 55
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 56]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 56
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 56]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 56
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 57]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 57
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 57]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 57
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 57]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 57
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 57]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 57
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:57:35 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 93]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 93
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 25
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 26]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 26
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 27
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 30
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 33
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 50]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 50]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 50
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 52
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 52
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 54
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 54
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 54
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 54
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 55]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 55
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 55]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 55
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 56]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 56
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 56]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 56
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 57]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 57
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 57]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 57
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Undefined variable: lotebandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 57]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 57
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 57]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 57
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:58:03 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 93]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 93
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:59:51 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 25
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:59:51 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 26]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 26
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:59:51 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 27
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:59:51 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:59:51 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:59:51 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 30
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:59:51 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 31
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:59:51 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 33
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:59:51 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:59:51 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 35
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:59:51 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 35
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 16:59:51 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 101]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 101
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:00:00 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 25
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:00:00 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 26]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 26
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:00:00 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 27
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:00:00 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:00:00 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:00:00 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 30
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:00:00 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 31
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:00:00 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 33
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:00:00 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:00:00 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 35
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:00:00 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 35
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:00:00 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 100]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 100
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:02:15 Notice: Notice (8): Undefined property: Cake\ORM\Query::$montagemid in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 25
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:02:15 Notice: Notice (8): Undefined property: Cake\ORM\Query::$fk_lotebandejas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 26]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 26
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:02:15 Notice: Notice (8): Undefined property: Cake\ORM\Query::$fk_bequer in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 27
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:02:15 Notice: Notice (8): Undefined property: Cake\ORM\Query::$data_montagem in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:02:15 Notice: Notice (8): Undefined property: Cake\ORM\Query::$nome_responsavel in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:02:15 Notice: Notice (8): Undefined property: Cake\ORM\Query::$qtd_bandejas_montadas in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 30
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:02:15 Notice: Notice (8): Undefined property: Cake\ORM\Query::$tipo_bandeja in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 31
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:02:15 Notice: Notice (8): Undefined property: Cake\ORM\Query::$montagemid in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 33
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:02:15 Notice: Notice (8): Undefined property: Cake\ORM\Query::$montagemid in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:02:15 Notice: Notice (8): Undefined property: Cake\ORM\Query::$montagemid in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 35
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:02:15 Notice: Notice (8): Undefined property: Cake\ORM\Query::$montagemid in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 35
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:02:15 Notice: Notice (8): Undefined property: Cake\ORM\Query::$montagemid in [C:\xampp\htdocs\ProjetoESII\Projeto\Cake\src\Template\Montagem\view_All_Info.ctp, line 100]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Montagem\view_All_Info.ctp, line 100
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:04:57 Notice: Notice (8): Undefined variable: list in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controle\view.ctp, line 7]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Controle\view.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:04:57 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controle\view.ctp, line 7]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Controle\view.ctp, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:04:57 Notice: Notice (8): Undefined variable: list in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controle\view.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Controle\view.ctp, line 8
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:04:57 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controle\view.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Controle\view.ctp, line 8
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:04:57 Notice: Notice (8): Undefined variable: list in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controle\view.ctp, line 9]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Controle\view.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:04:57 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controle\view.ctp, line 9]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Controle\view.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:04:57 Notice: Notice (8): Undefined variable: list in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controle\view.ctp, line 10]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Controle\view.ctp, line 10
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:04:57 Notice: Notice (8): Trying to get property of non-object in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controle\view.ctp, line 10]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Controle\view.ctp, line 10
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:08:32 Notice: Notice (8): Undefined variable: separacoes_id in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controle\view.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Controle\view.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:11:34 Notice: Notice (8): Undefined variable: controle_id in [C:\xampp\htdocs\Projeto\Cake\src\Template\Tetraciclina\list_add.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Tetraciclina\list_add.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:35:03 Notice: Notice (8): Undefined variable: separacoes_id in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controle\view.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Controle\view.ctp, line 11
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:36:01 Notice: Notice (8): Undefined variable: separacoes_id in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controle\view.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Controle\view.ctp, line 11
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 17:53:19 Notice: Notice (8): Undefined variable: separacao_id in [C:\xampp\htdocs\Projeto\Cake\src\Template\Tetraciclina\list_add.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Tetraciclina\list_add.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 18:04:05 Notice: Notice (8): Undefined variable: separacoes_id in [C:\xampp\htdocs\Projeto\Cake\src\Template\Analiseflorescencia\list_add.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Analiseflorescencia\list_add.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 18:04:34 Notice: Notice (8): Undefined variable: separacoes_id in [C:\xampp\htdocs\Projeto\Cake\src\Template\Analiseflorescencia\list_add.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Analiseflorescencia\list_add.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 18:04:44 Notice: Notice (8): Undefined variable: separacao_id in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controle\list_add.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Controle\list_add.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 18:08:19 Notice: Notice (8): Undefined variable: separacao_id in [C:\xampp\htdocs\Projeto\Cake\src\Controller\TamanhocefalotoraxController.php, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\TamanhocefalotoraxController::list_add() - APP/Controller\TamanhocefalotoraxController.php, line 23
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-10 18:08:52 Notice: Notice (8): Undefined variable: separacao_id in [C:\xampp\htdocs\Projeto\Cake\src\Controller\TamanhocefalotoraxController.php, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\TamanhocefalotoraxController::list_add() - APP/Controller\TamanhocefalotoraxController.php, line 23
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-13 13:52:34 Notice: Notice (8): Undefined variable: validator in [C:\xampp\htdocs\Projeto\Cake\src\Controller\AmostrarepasseController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\AmostrarepasseController::list_add() - APP/Controller\AmostrarepasseController.php, line 29
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-13 13:52:39 Notice: Notice (8): Undefined variable: validator in [C:\xampp\htdocs\Projeto\Cake\src\Controller\AmostrarepasseController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\AmostrarepasseController::list_add() - APP/Controller\AmostrarepasseController.php, line 29
 Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 410
 Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
 Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87

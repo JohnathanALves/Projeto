@@ -1,9 +1,15 @@
+<div class="actions columns large-2 medium-3">
+    <h3><?= __('Voltar para') ?></h3>
+    <ul class="side-nav">
+        <li><?= $this->Html->link(__('Separação'), ['controller' => 'separacoes', 'action' => 'view', $separacoes_id]) ?></li>
+    </ul>
+</div>
 <div class="costagem index large-10 medium-9 columns">
     <table cellpadding="0" cellspacing="0">
     <thead>
         <tr>
-            <th><?= $this->Paginator->sort('costagemid', 'Contagem ID') ?></th>
-            <th><?= $this->Paginator->sort('fk_separacoes', 'Separação ID') ?></th>
+          <!--   <th><?= $this->Paginator->sort('costagemid', 'Contagem ID') ?></th>
+            <th><?= $this->Paginator->sort('fk_separacoes', 'Separação ID') ?></th> -->
             <th><?= $this->Paginator->sort('n_amostra', 'Nº da amostra') ?></th>
             <th><?= $this->Paginator->sort('qtd_macho', 'Quantidade de machos') ?></th>
             <th><?= $this->Paginator->sort('qtd_femea', 'Quantidade de fêmeas') ?></th>
@@ -16,11 +22,11 @@
 
     <?php foreach ($costagens as $list): ?>
         <tr>
-            <td><?= h($list->costagemid) ?></td>
-            <td><?= h($list->fk_separacoes) ?></td>
-            <td><?= $this->Number->format($costagem->n_amostra) ?></td>
-            <td><?= $this->Number->format($costagem->qtd_macho) ?></td>
-            <td><?= $this->Number->format($costagem->qtd_femea) ?></td>
+           <!--  <td><?= h($list->costagemid) ?></td>
+            <td><?= h($list->fk_separacoes) ?></td> -->
+            <td><?= $this->Number->format($list->n_amostra) ?></td>
+            <td><?= $this->Number->format($list->qtd_macho) ?></td>
+            <td><?= $this->Number->format($list->qtd_femea) ?></td>
             <td><?= h($list->nome_responsavel) ?></td>
             <td><?= h($list->sexo) ?></td>
             <td class="actions">

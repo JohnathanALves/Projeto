@@ -9,7 +9,7 @@
                 ['confirm' => __('Are you sure you want to delete # {0}?', $lotebandeja->lotebandejasid)]
             )
         ?></li>-->
-        <li><?= $this->Html->link(__('Voltar'), ['action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('Listar'), ['action' => 'index']) ?> </li>
     </ul>
 </div>
 <div class="bequer index large-10 medium-9 columns">

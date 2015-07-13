@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Validation\Validator;
 
 /**
  * Amostrarepasse Controller
@@ -17,20 +18,37 @@ class AmostrarepasseController extends AppController
     * @author Leonardo Cavalcante do Prado, Angelo Gustavo, Gabriel Rafal
     * @return void or, if a post method is called, the redirect action
     */
-    public function list_add( $controle_id = null ) 
+    public function list_add( $controle_id = null , $separacao_id = null) 
     {
         $query = $this->Amostrarepasse->find('all')->where( ['fk_controle' => $controle_id] );
         $this->paginate = [ 'maxLimit' => 5 ];
         $this->set('amostras', $this->paginate($query));
-
+        $this->set('controle_id', $controle_id);
+        $this->set('separacao_id', $separacao_id);
         $amostrarepasse = $this->Amostrarepasse->newEntity();
+
+        $validator = new Validator();
+
+        $validator->add(
+            'n_amostra', 'custom', [
+                'rule' => function($num_amostra) {
+                    $query = $this->Amostrarepasse->find('All')->where( ['n_amostra' => $num_amostra] );
+                    if( $query->isEmpty() )
+                        return true;
+                    else 
+                        return false;
+                } 
+            ] 
+        );
 
         if ($this->request->is('post')) {
             $amostrarepasse = $this->Amostrarepasse->patchEntity($amostrarepasse, $this->request->data);
-            
             $amostrarepasse->set(['fk_controle' => $controle_id]);
+
+            $error = $validator->errors($amostrarepasse->toArray());
             
-            if ($this->Amostrarepasse->save($amostrarepasse)) {
+            if (empty($error)) {
+                $this->Amostrarepasse->save($amostrarepasse);
                 $this->Flash->success('O repasse da amostra foi salvo.');
                 return $this->redirect(['action' => 'list_add', $controle_id]);
             } else {

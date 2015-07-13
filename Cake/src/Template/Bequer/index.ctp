@@ -9,13 +9,13 @@
     <thead>
         <tr>
             <!--<th><?= $this->Paginator->sort('bequerid') ?></th>-->
-            <th><?= $this->Paginator->sort('n_bequer') ?></th>
-            <th><?= $this->Paginator->sort('volume') ?></th>
-            <th><?= $this->Paginator->sort('data_fim_eclosao') ?></th>
-            <th><?= $this->Paginator->sort('data_inicio_eclosao') ?></th>
-            <th><?= $this->Paginator->sort('contagem_amostra') ?></th>
-            <th><?= $this->Paginator->sort('Hora Inicio Eclosao') ?></th>
-            <th><?= $this->Paginator->sort('Hora Fim Eclosao') ?></th>
+            <th><?= $this->Paginator->sort('n_bequer', 'Numero do Bequer') ?></th>
+            <th><?= $this->Paginator->sort('volume', 'Volume') ?></th>
+            <th><?= $this->Paginator->sort('data_fim_eclosao', 'Data do fim da eclosão') ?></th>
+            <th><?= $this->Paginator->sort('data_inicio_eclosao', 'Data do início da eclosão') ?></th>
+            <th><?= $this->Paginator->sort('contagem_amostra', 'Contagem da amostra') ?></th>
+            <th><?= $this->Paginator->sort('Hora Inicio Eclosao', 'Hora do início da eclosão') ?></th>
+            <th><?= $this->Paginator->sort('Hora Fim Eclosao', 'Hora do fim da eclosão') ?></th>
             <th class="actions"><?= __('Opções') ?></th>
         </tr>
     </thead>
@@ -44,9 +44,9 @@
     </table>
     <div class="paginator">
         <ul class="pagination">
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->prev('< ' . __('anterior')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
+            <?= $this->Paginator->next(__('próximo') . ' >') ?>
         </ul>
         <p><?= $this->Paginator->counter() ?></p>
     </div>

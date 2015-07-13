@@ -15,11 +15,13 @@ class TetraciclinaController extends AppController
      *
      * @author Leonardo Cavalcante do Prado
     */
-    public function list_add($controle_id = null) 
+    public function list_add($controle_id = null, $separacao_id = null) 
     {
         $query = $this->Tetraciclina->find('all')->where( ['fk_controle' => $controle_id] );
         $this->paginate = [ 'maxLimit' => 5 ];
         $this->set('tetraciclinas', $this->paginate($query));
+        $this->set('controle_id', $controle_id);
+        $this->set('separacao_id', $separacao_id);
 
         $tetraciclina = $this->Tetraciclina->newEntity();
         if ($this->request->is('post')) {

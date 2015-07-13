@@ -2,8 +2,8 @@
     <h3><?= __('Menu') ?></h3>
     <ul class="side-nav">
         <li><?= $this->Html->link(__('Nova Montagem'), ['action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('Exibir por lote'), ['action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('Exibir tudo'), ['action' => 'indexTodos']) ?></li>
+        <li><?= $this->Html->link(__('Exibir por lote'), ['action' => 'indexLote']) ?></li>
+        <li><?= $this->Html->link(__('Exibir tudo'), ['action' => 'index']) ?></li>
     </ul>
 </div>
 <div class="montagem index large-10 medium-9 columns">
@@ -31,15 +31,9 @@
             <td><?= $this->Number->format($montagem->qtd_bandejas_montadas) ?></td>
             <td><?= h($montagem->tipo_bandeja) ?></td>
             <td class="actions">
-<<<<<<< HEAD
-                <?= $this->Html->link(__('Visualizar'), ['action' => 'viewAllInfo', $montagem->fk_lotebandejas]) ?>
-                <?= $this->Html->link(__('Editar'), ['action' => 'edit', $montagem->montagemid]) ?>
-                <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $montagem->montagemid], ['confirm' => __('Are you sure you want to delete # {0}?', $montagem->montagemid)]) ?>
-=======
                 <?= $this->Html->link(__('Visualizar'), ['action' => 'viewAllInfo', $montagem->fk_lotebandejas]) ?> <br>
                 <?= $this->Html->link(__('Editar'), ['action' => 'edit', $montagem->montagemid]) ?>
-                <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $montagem->montagemid], ['confirm' => __('Tem certeza que deseja apagar essa montagem?')]) ?>
->>>>>>> 63b8c055af43ed416d199ee60eebbff41ef52c62
+                <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $montagem->montagemid], ['confirm' => __('Tem certeza que deseja apagar TODAS as montagens desse lote?')]) ?>
             </td>
         </tr>
 
