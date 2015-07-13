@@ -14858,16 +14858,30 @@ Stack Trace:
 
 
 <<<<<<< HEAD
+2015-07-10 17:16:44 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+=======
+<<<<<<< HEAD
 =======
 >>>>>>> 11bd594b4b4c95486d9b7f3f403186178b702e38
 >>>>>>> 0aff09e70ec90e466e8ed9011443f5206a7402a8
 2015-07-09 18:02:13 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+>>>>>>> 21aebfe438d19bbe74278655abb67d11c9a3a7a2
 Exception Attributes: array (
   'controller' => 'LoginMoscamedController',
   'action' => 'js',
   'prefix' => '',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
+Request URL: /ProjetoESII/Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\ProjetoESII\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\ProjetoESII\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+=======
 Request URL: /Projeto/Cake/login_moscamed/js/script.js
 Stack Trace:
 #0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
@@ -15237,6 +15251,7 @@ Stack Trace:
 
 =======
 >>>>>>> d6b8e313bc5f56e42f234eabb74b305456cd23ab
+<<<<<<< HEAD
 2015-07-13 12:16:01 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
 Exception Attributes: array (
   'controller' => 'LoginMoscamedController',
@@ -15690,3 +15705,6 @@ Stack Trace:
 #16 {main}
 
 
+=======
+>>>>>>> 21aebfe438d19bbe74278655abb67d11c9a3a7a2
+>>>>>>> 32b8bf8da47e7d830845d856578fa842c61c395a

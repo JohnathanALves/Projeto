@@ -2,8 +2,8 @@
     <h3><?= __('Menu') ?></h3>
     <ul class="side-nav">
         <li><?= $this->Html->link(__('Nova Montagem'), ['action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('Exibir por lote'), ['action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('Exibir tudo'), ['action' => 'indexTodos']) ?></li>
+        <li><?= $this->Html->link(__('Exibir por lote'), ['action' => 'indexLote']) ?></li>
+        <li><?= $this->Html->link(__('Exibir tudo'), ['action' => 'index']) ?></li>
     </ul>
 </div>
 <div class="montagem index large-10 medium-9 columns">
@@ -33,7 +33,7 @@
             <td class="actions">
                 <?= $this->Html->link(__('Visualizar'), ['action' => 'viewAllInfo', $montagem->fk_lotebandejas]) ?> <br>
                 <?= $this->Html->link(__('Editar'), ['action' => 'edit', $montagem->montagemid]) ?>
-                <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $montagem->montagemid], ['confirm' => __('Tem certeza que deseja apagar essa montagem?')]) ?>
+                <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $montagem->montagemid], ['confirm' => __('Tem certeza que deseja apagar TODAS as montagens desse lote?')]) ?>
             </td>
         </tr>
 

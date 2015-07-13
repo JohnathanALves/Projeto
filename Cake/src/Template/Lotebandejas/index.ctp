@@ -24,7 +24,7 @@
                 <?= $this->Html->link(__('Alimentação'), ['controller' => 'alimentacao', 'action' => 'list_add', $lotebandeja->lotebandejasid,$lotebandeja->codigo ]) ?> <br>
                 <?= $this->Html->link(__('Visualizar'), ['action' => 'viewAllInfo', $lotebandeja->lotebandejasid]) ?> <br>
                 <?= $this->Html->link(__('Editar'), ['action' => 'edit', $lotebandeja->lotebandejasid]) ?>
-                <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $lotebandeja->lotebandejasid], ['confirm' => __('Are you sure you want to delete # {0}?', $lotebandeja->lotebandejasid)]) ?>
+                <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $lotebandeja->lotebandejasid], ['confirm' => __('Tem certeza que deseja apagar esse lote # {0}?', $lotebandeja->codigo)]) ?>
             </td>
         </tr>
 

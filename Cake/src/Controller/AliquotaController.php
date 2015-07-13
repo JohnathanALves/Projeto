@@ -12,8 +12,8 @@ class AliquotaController extends AppController
     /**
      * viewAllInfo method
      * 
-     * @author Gustavo Marques | Genivaldo | Caroline Machado
-     * @param string|null $id Bequer id.
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
+     * @param UUID|null $id Bequer id.
      * @return void
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
@@ -21,16 +21,16 @@ class AliquotaController extends AppController
     {
 
         $this->set('fk_bequer', $idBequer);
-        $aliquotaRecentes = $this->Aliquota->find('all')->where(['fk_bequer' => $idBequer]);
+        $aliquotaQuery = $this->Aliquota->find('all')->where(['fk_bequer' => $idBequer]);
                 
         $this->paginate = [ 'maxLimit' => 15, 'order' => ['Aliquota.n_aliquota' => 'desc'] ];   
-        $this->set('aliquota', $this->paginate($aliquotaRecentes));
+        $this->set('aliquota', $this->paginate($aliquotaQuery));
     }
 
     /**
      * deleteNoReturn method
-     * @author Gustavo Marques | Genivaldo | Caroline Machado
-     * @param string|null idAliquota Aliquota id, string|null $idBequer Bequer id, string|null $idBequer Numero do Bequer
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
+     * @param UUID|null idAliquota Aliquota id, UUID|null $idBequer Bequer id, int|null $idBequer Numero do Bequer
      * @return void Redireciona para mesma pagina.
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
@@ -48,15 +48,15 @@ class AliquotaController extends AppController
 
     /**
      * list_add method
-     * @author Gustavo Marques | Genivaldo | Caroline Machado
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
      * @param string|null $idBequer Bequer id, string|null $idBequer Numero do Bequer
      * @return void Redireciona para mesma pagina.
      */
     public function list_add($idBequer = null,$n_bequer = null)
     {  
-        $query = $this->Aliquota->find('all')->where(['fk_bequer' => $idBequer]);
+        $aliquotaQuery = $this->Aliquota->find('all')->where(['fk_bequer' => $idBequer]);
         $this->paginate = [ 'maxLimit' => 3 ];
-        $this->set('ListAliquota', $this->paginate($query));
+        $this->set('ListAliquota', $this->paginate($aliquotaQuery));
 
         $aliquotum = $this->Aliquota->newEntity();
         $this->set('n_bequer', $n_bequer);

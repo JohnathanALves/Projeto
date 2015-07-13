@@ -10,21 +10,22 @@ use App\Controller\AppController;
 class LotebandejasController extends AppController
 {
     /**
-     * Index method
-     *
+     * viewAllInfo method
+     * 
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
+     * @param UUID $idlotebandejas Primary key loteBandejas.
      * @return void
      */
-    public function viewAllInfo($id = null)
+    public function viewAllInfo($idlotebandejas = null)
     {
         $this->loadModel('Alimentacao');
-        $alimeRecente = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $id]);
-        $lotebandeja = $this->Lotebandejas->get($id, [
+        $alimeQuery = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $idlotebandejas]);
+        $lotebandeja = $this->Lotebandejas->get($idlotebandejas, [
             'contain' => []
         ]);
         
         //$this->paginate = [ 'maxLimit' => 3, 'order' => ['Ovos.data_origem_dos_ovos' => 'desc', 'Aliquota.n_aliquota' => 'desc'] ];   
-        $this->set('alimentacao', $this->paginate($alimeRecente));
-        
+        $this->set('alimentacao', $this->paginate($alimeQuery));
         $this->set('lotebandeja', $lotebandeja);
         $this->set('_serialize', ['lotebandeja']);
     }
@@ -67,10 +68,10 @@ class LotebandejasController extends AppController
         if ($this->request->is('post')) {
             $lotebandeja = $this->Lotebandejas->patchEntity($lotebandeja, $this->request->data);
             if ($this->Lotebandejas->save($lotebandeja)) {
-                $this->Flash->success('The lotebandeja has been saved.');
+                $this->Flash->success('Cadastro de lote da bandeja adicionado com sucesso.');
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error('The lotebandeja could not be saved. Please, try again.');
+                $this->Flash->error('Não foi possível adicionar o cadastro de lote da bandeja. Por favor, tente novamente.');
             }
         }
         $this->set(compact('lotebandeja'));
@@ -92,10 +93,10 @@ class LotebandejasController extends AppController
         if ($this->request->is(['patch', 'post', 'put'])) {
             $lotebandeja = $this->Lotebandejas->patchEntity($lotebandeja, $this->request->data);
             if ($this->Lotebandejas->save($lotebandeja)) {
-                $this->Flash->success('The lotebandeja has been saved.');
+                $this->Flash->success('Cadastro de lote da bandeja editado com sucesso.');
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error('The lotebandeja could not be saved. Please, try again.');
+                $this->Flash->error('Não foi possível editar o cadastro de lote da bandeja. Por favor, tente novamente.');
             }
         }
         $this->set(compact('lotebandeja'));
@@ -116,14 +117,14 @@ class LotebandejasController extends AppController
 
         $this->request->allowMethod(['post', 'delete']);
         $lotebandeja = $this->Lotebandejas->get($id);
+
+        $alimentacaoCount = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $id])->count();
+        $separacaoCount = $this->Separacoes->find('all')->where(['fk_lotebandejas' => $id])->count();
         
-        $alimentacao = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $id])->count();
-        $separacao = $this->Separacoes->find('all')->where(['fk_lotebandejas' => $id])->count();
-        
-        if ($alimentacao == 0 && $separacao == 0 && $this->Lotebandejas->delete($lotebandeja)) {
-            $this->Flash->success('O lote de bandeja foi removido com sucesso.');
+        if ($alimentacaoCount == 0 && $separacaoCount == 0 && $this->Lotebandejas->delete($lotebandeja)) {
+            $this->Flash->success('Cadastro de lote da bandeja removido com sucesso.');
         } else {
-            $this->Flash->error('Não é possível apagar esse lote. Remova todas as alimentações e separações e tente novamente.');
+            $this->Flash->error('Não foi possível remover o cadastro de lote da bandeja.Remova todas os cadastros de alimentação e separação e tente novamente.');
         }
         return $this->redirect(['action' => 'index']);
     }
