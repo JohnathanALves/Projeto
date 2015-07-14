@@ -1,24 +1,17 @@
 <div class="actions columns large-2 medium-3">
     <h3><?= __('Menu') ?></h3>
     <ul class="side-nav">
-        <li><?= $this->Html->link(__('Editar'), ['action' => 'edit', $separaco->separacoesid]) ?> </li>
-       <!--  <li><?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $separaco->separacoesid], ['confirm' => __('Tem certeza de que deseja deletar: # {0}?', $separaco->separacoesid)]) ?> </li> -->
-        <li><?= $this->Html->link(__('Listar'), ['action' => 'index']) ?> </li>
-<!--         <li><?= $this->Html->link(__('Novo'), ['action' => 'add']) ?> </li>
- -->
         <li> <?= $this->Html->link(__('Contagem'), ['controller' => 'costagem', 'action' => 'list_add', $separaco->separacoesid])?> </li>
         <li> <?= $this->Html->link(__('Controle'), ['controller' => 'controle', 'action' => 'list_add', $separaco->separacoesid])?> </li>
+        <li><?= $this->Html->link(__('Voltar'), ['action' => 'index']) ?> </li>
+
     </ul>
 </div>
 <div class="separacoes view large-10 medium-9 columns">
-    <h2><?= h($separaco->separacoesid) ?></h2>
+    <h2><?= __('Código do lote: ') ?><?= h($lote_cod) ?><h2>
+   
     <div class="row">
-        <div class="large-5 columns strings">
-            <h6 class="subheader"><?= __('Separações ID') ?></h6>
-            <p><?= h($separaco->separacoesid) ?></p>
-            <h6 class="subheader"><?= __('Lote bandejas') ?></h6>
-            <p><?= h($separaco->fk_lotebandejas) ?></p>
-        </div>
+       
         <div class="large-2 columns numbers end">
             <h6 class="subheader"><?= __('Nº da Separação') ?></h6>
             <p><?= $this->Number->format($separaco->n_separacao) ?></p>
@@ -31,7 +24,7 @@
         </div>
         <div class="large-2 columns dates end">
             <h6 class="subheader"><?= __('Data') ?></h6>
-            <p><?= h($separaco->data_separacao) ?></p>
+            <p><?= h(strstr($separaco->data_separacao, ',', true)) ?></p>
         </div>
     </div>
     <div class="row texts">

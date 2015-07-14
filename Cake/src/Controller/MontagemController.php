@@ -100,7 +100,7 @@ class MontagemController extends AppController
             ]
         ])->where(['c.fk_bequer IS NULL']);
 
-        $lotesList = $lotesDisponiveis->find('list', [ 'value' => 'lotebandejasid','valueField' => 'codigo' ]);
+        $lotesList = $lotesDisponiveis->find('list', [ 'value' => 'lotebandejasid', 'valueField' => 'codigo' ]);
         $this->set('optionLotes', $lotesList);
 
         $bequerList = $this->Bequer->find('list', [ 'value' => 'bequerid','valueField' => 'n_bequer' ]);

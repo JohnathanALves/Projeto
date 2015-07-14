@@ -16473,3 +16473,779 @@ Stack Trace:
 >>>>>>> 2cfb5340fab701aa8b8ef56df6c9eec89b40f8c7
 
 
+2015-07-14 14:41:26 Error: Fatal Error (4): syntax error, unexpected '$separaco' (T_VARIABLE) in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 14:41:26 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$separaco' (T_VARIABLE)
+Request URL: /Projeto/Cake/separacoes
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 36)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 14:41:29 Error: Fatal Error (4): syntax error, unexpected '$separaco' (T_VARIABLE) in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 14:41:30 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$separaco' (T_VARIABLE)
+Request URL: /Projeto/Cake/separacoes
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 36)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 14:51:33 Error: Fatal Error (1): Class 'lotebandejasid' not found in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Collection\Iterator\ExtractIterator.php, line 69]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 14:51:33 Error: [Cake\Error\FatalErrorException] Class 'lotebandejasid' not found
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'loteband...', 'C:\\xampp\\htdocs...', 69)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 14:51:54 Error: Fatal Error (1): Call to a member function toArray() on null in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 50]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 14:51:54 Error: [Cake\Error\FatalErrorException] Call to a member function toArray() on null
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 50)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 14:52:11 Error: Fatal Error (1): Class 'lotebandejasid' not found in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Collection\Iterator\ExtractIterator.php, line 69]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 14:52:12 Error: [Cake\Error\FatalErrorException] Class 'lotebandejasid' not found
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'loteband...', 'C:\\xampp\\htdocs...', 69)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 14:53:31 Error: [BadMethodCallException] Unknown method "select"
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(49): Cake\ORM\Table->__call('select', Array)
+#1 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(49): App\Model\Table\LotebandejasTable->select(Array)
+#2 [internal function]: App\Controller\SeparacoesController->add()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#6 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-07-14 15:05:27 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\add.ctp, line 17]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 15:05:27 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '='
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 15:05:37 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\add.ctp, line 17]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 15:05:38 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 15:05:41 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\add.ctp, line 17]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 15:05:41 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 15:07:00 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\add.ctp, line 18]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 15:07:00 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 15:12:38 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type time: ""
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1462): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1382): Cake\ORM\Table->_insert(Object(App\Model\Entity\Separaco), Array)
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1313): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Separaco), Object(ArrayObject))
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1314): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(58): Cake\ORM\Table->save(Object(App\Model\Entity\Separaco))
+#11 [internal function]: App\Controller\SeparacoesController->add()
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#15 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-07-14 15:19:45 Error: Fatal Error (1): Call to a member function templates() on boolean in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 15:19:46 Error: [Cake\Error\FatalErrorException] Call to a member function templates() on boolean
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 53)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 15:20:02 Error: Fatal Error (1): Call to a member function templates() on boolean in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 15:20:02 Error: [Cake\Error\FatalErrorException] Call to a member function templates() on boolean
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 53)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 15:20:12 Error: Fatal Error (1): Call to a member function templates() on boolean in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 15:20:12 Error: [Cake\Error\FatalErrorException] Call to a member function templates() on boolean
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 54)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 15:21:42 Error: Fatal Error (1): Call to a member function templates() on boolean in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 15:21:42 Error: [Cake\Error\FatalErrorException] Call to a member function templates() on boolean
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 54)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 15:23:08 Error: Fatal Error (1): Call to undefined method App\Controller\SeparacoesController::loadHelper() in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 15:23:08 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\SeparacoesController::loadHelper()
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 54)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 15:23:18 Error: Fatal Error (1): Call to undefined method App\Controller\SeparacoesController::loadHelper() in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 15:23:19 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\SeparacoesController::loadHelper()
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 54)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 15:24:44 Error: Fatal Error (4): syntax error, unexpected '$helpers' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 15:24:44 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$helpers' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 12)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 15:25:07 Error: Fatal Error (1): Call to undefined method App\Controller\SeparacoesController::loadHelper() in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 15:25:08 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\SeparacoesController::loadHelper()
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 54)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 15:25:43 Error: Fatal Error (1): Call to a member function templates() on boolean in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 55]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 15:25:43 Error: [Cake\Error\FatalErrorException] Call to a member function templates() on boolean
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 55)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 15:41:56 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type time: ""
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1462): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1382): Cake\ORM\Table->_insert(Object(App\Model\Entity\Separaco), Array)
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1313): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Separaco), Object(ArrayObject))
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1314): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(58): Cake\ORM\Table->save(Object(App\Model\Entity\Separaco))
+#11 [internal function]: App\Controller\SeparacoesController->add()
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#15 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-07-14 15:42:37 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type time: ""
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1462): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1382): Cake\ORM\Table->_insert(Object(App\Model\Entity\Separaco), Array)
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1313): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Separaco), Object(ArrayObject))
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1314): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(58): Cake\ORM\Table->save(Object(App\Model\Entity\Separaco))
+#11 [internal function]: App\Controller\SeparacoesController->add()
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#15 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-07-14 15:43:04 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type time: ""
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1462): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1382): Cake\ORM\Table->_insert(Object(App\Model\Entity\Separaco), Array)
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1313): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Separaco), Object(ArrayObject))
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1314): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(58): Cake\ORM\Table->save(Object(App\Model\Entity\Separaco))
+#11 [internal function]: App\Controller\SeparacoesController->add()
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#15 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-07-14 15:53:05 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type time: ""
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1462): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1382): Cake\ORM\Table->_insert(Object(App\Model\Entity\Separaco), Array)
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1313): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Separaco), Object(ArrayObject))
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1314): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(59): Cake\ORM\Table->save(Object(App\Model\Entity\Separaco))
+#11 [internal function]: App\Controller\SeparacoesController->add()
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#15 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-07-14 15:54:13 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type time: ""
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1462): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1382): Cake\ORM\Table->_insert(Object(App\Model\Entity\Separaco), Array)
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1313): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Separaco), Object(ArrayObject))
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1314): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(59): Cake\ORM\Table->save(Object(App\Model\Entity\Separaco))
+#11 [internal function]: App\Controller\SeparacoesController->add()
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#15 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-07-14 16:03:31 Error: Fatal Error (4): syntax error, unexpected '=', expecting ']' in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\add.ctp, line 20]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 16:03:32 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=', expecting ']'
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 16:10:20 Error: [Cake\View\Exception\MissingHelperException] Helper class DateHelper could not be found.
+Exception Attributes: array (
+  'class' => 'DateHelper',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/separacoes
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(87): Cake\View\HelperRegistry->_throwMissingClassError('Date', NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('Date')
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(732): Cake\View\HelperRegistry->__isset('Date')
+#3 C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\index.ctp(27): Cake\View\View->__get('Date')
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#10 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-07-14 16:22:51 Error: Fatal Error (1): Call to undefined method App\Controller\SeparacoesController::request() in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 16:22:52 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\SeparacoesController::request()
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 16:24:45 Error: Fatal Error (1): Call to undefined method App\Controller\SeparacoesController::request() in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 16:24:45 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\SeparacoesController::request()
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 59)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 16:25:18 Error: Fatal Error (1): Call to a member function set() on null in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 16:25:18 Error: [Cake\Error\FatalErrorException] Call to a member function set() on null
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 61)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 16:25:33 Error: Fatal Error (1): Call to a member function set() on null in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 16:25:34 Error: [Cake\Error\FatalErrorException] Call to a member function set() on null
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 61)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 16:26:03 Error: Fatal Error (1): Call to a member function set() on null in [C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 16:26:03 Error: [Cake\Error\FatalErrorException] Call to a member function set() on null
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 61)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 16:30:22 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\add.ctp, line 17]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 16:30:22 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 16:31:09 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\add.ctp, line 17]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 16:31:09 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /Projeto/Cake/separacoes/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 16:31:49 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-14 17:40:45 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-14 17:54:42 Error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for uuid: ""
+Request URL: /Projeto/Cake/separacoes/view/58c7ec36-44e9-4357-b291-074c130e3a9f
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(341): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(352): Cake\ORM\Query->first()
+#10 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1127): Cake\ORM\Query->firstOrFail()
+#11 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(35): Cake\ORM\Table->get(false)
+#12 [internal function]: App\Controller\SeparacoesController->view('58c7ec36-44e9-4...')
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#15 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#16 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2015-07-14 17:56:00 Error: [BadMethodCallException] Unknown method "get"
+Request URL: /Projeto/Cake/separacoes/view/58c7ec36-44e9-4357-b291-074c130e3a9f
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Query.php(800): Cake\ORM\Query->_call('get', Array)
+#1 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(36): Cake\ORM\Query->__call('get', Array)
+#2 C:\xampp\htdocs\Projeto\Cake\src\Controller\SeparacoesController.php(36): Cake\ORM\Query->get(false)
+#3 [internal function]: App\Controller\SeparacoesController->view('58c7ec36-44e9-4...')
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\SeparacoesController))
+#7 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-07-14 18:02:14 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\view.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 18:02:15 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /Projeto/Cake/separacoes/view/58c7ec36-44e9-4357-b291-074c130e3a9f
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 18:02:21 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\view.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 18:02:21 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /Projeto/Cake/separacoes/view/58c7ec36-44e9-4357-b291-074c130e3a9f
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 18:02:26 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\view.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 18:02:26 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /Projeto/Cake/separacoes/view/58c7ec36-44e9-4357-b291-074c130e3a9f
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 18:02:37 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\view.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 18:02:38 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /Projeto/Cake/separacoes/view/58c7ec36-44e9-4357-b291-074c130e3a9f
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 18:03:05 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\view.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 18:03:05 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /Projeto/Cake/separacoes/view/58c7ec36-44e9-4357-b291-074c130e3a9f
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 18:03:11 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\view.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 18:03:12 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /Projeto/Cake/separacoes/view/58c7ec36-44e9-4357-b291-074c130e3a9f
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 18:05:04 Error: Fatal Error (4): syntax error, unexpected 'h' (T_STRING), expecting ',' or ';' in [C:\xampp\htdocs\Projeto\Cake\src\Template\Separacoes\view.ctp, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 18:05:04 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'h' (T_STRING), expecting ',' or ';'
+Request URL: /Projeto/Cake/separacoes/view/58c7ec36-44e9-4357-b291-074c130e3a9f
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 19:59:32 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+

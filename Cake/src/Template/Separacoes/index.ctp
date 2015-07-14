@@ -11,6 +11,7 @@
            <!--  <th><?= $this->Paginator->sort('separacoesid', 'Separações ID') ?></th>
             <th><?= $this->Paginator->sort('fk_lotebandejas', 'Lote bandejas') ?></th> -->
             <th><?= $this->Paginator->sort('data_separacao', 'Data') ?></th>
+            <th><?= $this->Paginator->sort('hora_finalizacao', 'Horário de finalização') ?></th>
             <th><?= $this->Paginator->sort('n_separacao', 'Nº separação') ?></th>
             <th><?= $this->Paginator->sort('qtd_colheres_macho', 'Qtd colheres macho') ?></th>
             <th><?= $this->Paginator->sort('qtd_colheres_femea', 'Qtd colheres femea') ?></th>
@@ -23,7 +24,8 @@
         <tr>
           <!--   <td><?= h($separaco->separacoesid) ?></td> linkando com costagem
             <td><?= h($separaco->fk_lotebandejas) ?></td> -->
-            <td><?= h($separaco->data_separacao) ?></td>
+            <td><?= h(strstr($separaco->data_separacao, ',', true)) ?></td>
+            <td><?= h($separaco->hora_finalizacao) ?></td>
             <td><?= $this->Number->format($separaco->n_separacao) ?></td>
             <td><?= $this->Number->format($separaco->qtd_colheres_macho) ?></td>
             <td><?= $this->Number->format($separaco->qtd_colheres_femea) ?></td>
@@ -31,8 +33,8 @@
             <td class="actions">
                 <?= $this->Html->link(__('Vizualizar'), ['action' => 'view', $separaco->separacoesid]) ?>
                 <br>
-                <?= $this->Html->link(__('Editar'), ['action' => 'edit', $separaco->separacoesid]) ?>
-                <br>
+             <!--    <?= $this->Html->link(__('Editar'), ['action' => 'edit', $separaco->separacoesid]) ?>
+                <br> -->
 <!--                 <?= $this->Html->link(__('Contagem'), ['controller' => 'costagem', 'action' => 'list_add', $separaco->separacoesid])?>
                 <br>
                 <?= $this->Html->link(__('Controle'), ['controller' => 'controle', 'action' => 'list_add', $separaco->separacoesid])?>

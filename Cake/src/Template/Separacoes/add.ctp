@@ -7,14 +7,20 @@
 <div class="separacoes form large-10 medium-9 columns">
     <?= $this->Form->create($separaco); ?>
     <fieldset>
-        <legend><?= __('Add Separaco') ?></legend>
+        <legend><?= __('Adicionar Separação') ?></legend>
         <?php
-            echo $this->Form->input('fk_lotebandejas', ['label' => 'Lote bandeja']);
-            echo $this->Form->input('data_separacao', array('empty' => true, 'default' => ''), ['label' => 'Data']);
+            $this->Form->templates([
+                'dateWidget' => '<div class="input time">{{day}}{{month}}{{year}}{{hour}}{{minute}}{{second}}{{meridian}}</div>'
+            ]);
+
+            echo '<label> Código do lote </label>';
+            echo $this->Form->select('fk_lotebandejas', $options);
+            echo '<label> Data/horário da finalização</label>';
+            echo $this->Form->datetime('time_separacao', array('empty' => false, 'default' => ''));
             echo $this->Form->input('n_separacao', ['label' => 'Nº separação']);
             echo $this->Form->input('qtd_colheres_macho', ['label' => 'Quantidade de colheres macho']);
-            echo $this->Form->input('qtd_colheres_femea', ['label' => 'Quantidade de colheres fêmeas']);
-            echo $this->Form->input('hora_finalizacao', ['label' => 'hora da finalização']);
+            echo $this->Form->input('qtd_colheres_femea', ['label' => 'Quantidade de colheres fêmeas']);     
+         //   echo $this->Form->input('hora_finalizacao', ['type' => 'time', 'label' => 'Hora de finalização']);
             echo $this->Form->input('qtd_bdj_descart_ap_separ', ['label' => 'Quandidade de bandejas descartadas ao separar']);
         ?>
     </fieldset>
