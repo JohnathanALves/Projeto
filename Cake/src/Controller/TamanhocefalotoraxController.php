@@ -48,7 +48,7 @@ class TamanhocefalotoraxController extends AppController
             if (empty($error)) {
                 $this->Tamanhocefalotorax->save($tamanhocefalotorax);
                 $this->Flash->success('O registro de tamanho do cefalotórax foi salvo.');
-                return $this->redirect(['action' => 'list_add', $controle_id]);
+                return $this->redirect(['action' => 'list_add', $controle_id, $separacao_id]);
             } else {
                 $this->Flash->error('O registro de tamanho do cefalotórax não pôde ser salvo, por favor, tente novamente.');
             }
@@ -65,7 +65,7 @@ class TamanhocefalotoraxController extends AppController
      * @return void Redirects to list_add.
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function deleteNoReturn($id = null, $controle_id = null)
+    public function deleteNoReturn($id = null, $controle_id = null, $separacao_id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
         $tamanhocefalotorax = $this->Tamanhocefalotorax->get($id);
@@ -74,7 +74,7 @@ class TamanhocefalotoraxController extends AppController
         } else {
             $this->Flash->error('O registro de tamanho do cefalotórax não pôde ser deletada, por favor, tente novamente.');
         }
-        return $this->redirect(['action' => 'list_add', $controle_id]);
+        return $this->redirect(['action' => 'list_add', $controle_id, $separacao_id]);
     }
 
     /**

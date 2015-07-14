@@ -50,7 +50,7 @@ class AmostrarepasseController extends AppController
             if (empty($error)) {
                 $this->Amostrarepasse->save($amostrarepasse);
                 $this->Flash->success('O repasse da amostra foi salvo.');
-                return $this->redirect(['action' => 'list_add', $controle_id]);
+                return $this->redirect(['action' => 'list_add', $controle_id, $separacao_id]);
             } else {
                 $this->Flash->error('O repasse da amostra não pôde ser salvo, por favor, tente novamente.');
             }
@@ -67,7 +67,7 @@ class AmostrarepasseController extends AppController
     * @author Leonardo Cavalcante do Prado, Angelo Gustavo e Gabriel Rafael
     * @return the redirect action
     */
-    public function deleteNoReturn($id = null, $controle_id = null)
+    public function deleteNoReturn($id = null, $controle_id = null, $separacao_id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
         $amostrarepasse = $this->Amostrarepasse->get($id);
@@ -76,7 +76,7 @@ class AmostrarepasseController extends AppController
         } else {
             $this->Flash->error('O repasse da amostra não pôde ser deletado, por favor tente novamente.');
         }
-        return $this->redirect( ['action'=> 'list_add', $controle_id] );
+        return $this->redirect( ['action'=> 'list_add', $controle_id, $separacao_id] );
     }
 
     /**

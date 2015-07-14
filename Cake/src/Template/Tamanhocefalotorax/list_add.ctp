@@ -25,7 +25,7 @@
             <td><?= $this->Number->format($list->macho) ?></td>
             <td><?= $this->Number->format($list->femea) ?></td>
             <td class="actions">
-                <?= $this->Form->postLink(__('Deletar'), ['action' => 'deleteNoReturn', $list->tamanhocefalotoraxid, $list->fk_controle], ['confirm' => __('Tem certeza de que deseja deletar # {0}?', $list->tamanhocefalotoraxid)]) ?>
+                <?= $this->Form->postLink(__('Deletar'), ['action' => 'deleteNoReturn', $list->tamanhocefalotoraxid, $list->fk_controle, $separacao_id], ['confirm' => __('Tem certeza de que deseja deletar # {0}?', $list->tamanhocefalotoraxid)]) ?>
             </td>
         </tr>
     <?php endforeach; ?>

@@ -56,7 +56,7 @@
                 echo $this->Form->input('qtd_macho', ['label' => 'Quantidade de machos']);
                 echo $this->Form->input('qtd_femea', ['label' => 'Quantidade de fêmeas']);
                 echo $this->Form->input('nome_responsavel', ['label' => 'Nome do responsável']);
-                echo $this->Form->input('sexo', ['label' => 'Sexo']);
+                echo $this->Form->select('sexo', ['M' => 'Masculino', 'F' => 'Feminino'], ['label' => 'Sexo']);
             ?>
         </fieldset>
     <?= $this->Form->button(__('Enviar')) ?>
