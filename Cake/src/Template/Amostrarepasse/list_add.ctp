@@ -27,7 +27,7 @@
             <td><?= $this->Number->format($list->qtd_femeas) ?></td>
             <td><?= h($list->nome_responsavel) ?></td>
             <td class="actions">
-                <?= $this->Form->postLink(__('Deletar'), ['action' => 'deleteNoReturn', $list->amostrarepasseid, $list->fk_controle ], ['confirm' => __('Tem certeza de que deseja deletar # {0}?', $list->amostrarepasseid)]) ?>
+                <?= $this->Form->postLink(__('Deletar'), ['action' => 'deleteNoReturn', $list->amostrarepasseid, $list->fk_controle, $separacao_id ], ['confirm' => __('Tem certeza de que deseja deletar # {0}?', $list->amostrarepasseid)]) ?>
             </td>
         </tr>
 

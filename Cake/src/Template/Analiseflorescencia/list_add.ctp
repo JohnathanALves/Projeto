@@ -27,7 +27,7 @@
             <td><?= $this->Number->format($list->qtd_total_larvas_florescentes) ?></td>
             <td><?= h($list->nome_responsavel) ?></td>
             <td class="actions">
-                <?= $this->Form->postLink(__('Delete'), ['action' => 'deleteNoReturn', $list->analiseflorescenciaid, $list->fk_controle], ['confirm' => __('Are you sure you want to delete # {0}?', $list->analiseflorescenciaid)]) ?>
+                <?= $this->Form->postLink(__('Delete'), ['action' => 'deleteNoReturn', $list->analiseflorescenciaid, $list->fk_controle, $separacao_id], ['confirm' => __('Are you sure you want to delete # {0}?', $list->analiseflorescenciaid)]) ?>
             </td>
         </tr>
 

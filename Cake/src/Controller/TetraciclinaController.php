@@ -30,7 +30,7 @@ class TetraciclinaController extends AppController
 
             if ($this->Tetraciclina->save($tetraciclina)) {
                 $this->Flash->success('O controle da tetraciclina foi salvo.');
-                return $this->redirect(['action' => 'list_add', $controle_id]);
+                return $this->redirect(['action' => 'list_add', $controle_id, $separacao_id]);
             } else {
                 $this->Flash->error('O controle da tetraciclina não pôde ser salvo, por favor, tente novamente.');
             }
@@ -47,7 +47,7 @@ class TetraciclinaController extends AppController
      * @return void Redirects to list_add.
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function deleteNoReturn($id = null, $controle_id = null)
+    public function deleteNoReturn($id = null, $controle_id = null, $separacao_id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
         $tetraciclina = $this->Tetraciclina->get($id);
@@ -56,7 +56,7 @@ class TetraciclinaController extends AppController
         } else {
             $this->Flash->error('O controle da tetraciclina não pôde ser deletada, por favor, tente novamente.');
         }
-        return $this->redirect(['action' => 'list_add', $controle_id]);
+        return $this->redirect(['action' => 'list_add', $controle_id, $separacao_id]);
     }
 
     /**

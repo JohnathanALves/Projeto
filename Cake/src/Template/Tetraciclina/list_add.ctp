@@ -31,7 +31,7 @@
             <td><?= $this->Number->format($list->n_dias) ?></td>
             <td><?= h($list->nome_responsavel) ?></td>
             <td class="actions">
-            <?= $this->Form->postLink(__('Deletar'), ['action' => 'deleteNoReturn', $list->tetraciclinaid, $list->fk_controle], ['confirm' => __('Tem certeza de que deseja deletar # {0}?', $list->tetraciclinaid)]) ?>
+            <?= $this->Form->postLink(__('Deletar'), ['action' => 'deleteNoReturn', $list->tetraciclinaid, $list->fk_controle, $separacao_id], ['confirm' => __('Tem certeza de que deseja deletar # {0}?', $list->tetraciclinaid)]) ?>
             </td>
         </tr>
 
