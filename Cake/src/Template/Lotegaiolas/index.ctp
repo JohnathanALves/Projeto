@@ -1,14 +1,14 @@
 <div class="actions columns large-2 medium-3">
     <h3><?= __('Menu') ?></h3>
     <ul class="side-nav">
-        <li><?= $this->Html->link(__('Novo Lote de gaiola'), ['action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('Novo Lote de gaiola'), ['action' => 'add_dependant']) ?></li>
     </ul>
 </div>
 <div class="lotegaiolas index large-10 medium-9 columns">
     <table cellpadding="0" cellspacing="0">
     <thead>
         <tr>
-            <th><?= $this->Paginator->sort('lotegaiolasid') ?></th>
+            <!--<th><?= $this->Paginator->sort('lotegaiolasid') ?></th>-->
             <th><?= $this->Paginator->sort('codigo_lote') ?></th>
             <th class="actions"><?= __('Actions') ?></th>
         </tr>
@@ -16,7 +16,7 @@
     <tbody>
     <?php foreach ($lotegaiolas as $lotegaiola): ?>
         <tr>
-            <td><?= h($lotegaiola->lotegaiolasid) ?></td>
+            <!--<td><?= h($lotegaiola->lotegaiolasid) ?></td>-->
             <td><?= h($lotegaiola->codigo_lote) ?></td>
             <td class="actions">
                 <?= $this->Html->link(__('Nova Produção Ovos'), ['controller' => 'producaoovos','action' => 'list_add', $lotegaiola->lotegaiolasid,$lotegaiola->codigo_lote]) ?> <br>

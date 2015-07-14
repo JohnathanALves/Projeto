@@ -58,6 +58,7 @@ class LotegaiolasController extends AppController
         $this->set('lotegaiolas', $codigo_lote);
         $this->set('_serialize', ['lotegaiola']);
 
+
     }
 
 
@@ -81,6 +82,24 @@ class LotegaiolasController extends AppController
         }
         $this->set(compact('lotegaiola'));
         $this->set('_serialize', ['lotegaiola']);
+    }
+
+
+    public function add_dependant() {
+        $this->loadModel('Montagem');
+        $lotesDisponiveis = $this->Montagem->find('all')->where(["tipo_bandeja ~*"=>"c"]);
+        $this->set('montagem',  $this->paginate($lotesDisponiveis));
+        $this->set('_serialize', ['montagem']);
+    }
+
+    public function new_lote($id=null) {
+        $lotegaiola = $this->Lotegaiolas->newEntity();
+        $lotegaiola->set(['codigo_lote'=>$id]);
+            if ($this->Lotegaiolas->save($lotegaiola)) {
+                $this->Flash->success('Novo lote de gaiolas salvo com sucesso.');
+            } else {
+                $this->Flash->error('O Lote de gaiolas não pôde ser salvo. Tente novamente.');
+            }
     }
 
     /**
@@ -118,6 +137,11 @@ class LotegaiolasController extends AppController
     public function delete($id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
+        $this->loadModel('producaoovos');
+        $this->loadModel('mortalidadespupas');
+
+        //$producaoovos = $this->producaoovos->find('all')->delete()->where(['fk_lotegaiolas' => $id])->execute();
+        //$mortalidadepupas = $this->mortalidadespupas->find('all')->delete()->where(['fk_lotegaiolas' => $id])->execute();
         $lotegaiola = $this->Lotegaiolas->get($id);
         if ($this->Lotegaiolas->delete($lotegaiola)) {
             $this->Flash->success('The lotegaiola has been deleted.');
