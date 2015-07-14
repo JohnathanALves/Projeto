@@ -31,9 +31,15 @@
             <td><?= $this->Number->format($montagem->qtd_bandejas_montadas) ?></td>
             <td><?= h($montagem->tipo_bandeja) ?></td>
             <td class="actions">
+<<<<<<< HEAD
+                <?= $this->Html->link(__('Visualizar'), ['action' => 'viewAllInfo', $montagem->fk_lotebandejas]) ?>
+                <?= $this->Html->link(__('Editar'), ['action' => 'edit', $montagem->montagemid]) ?>
+                <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $montagem->montagemid], ['confirm' => __('Are you sure you want to delete # {0}?', $montagem->montagemid)]) ?>
+=======
                 <?= $this->Html->link(__('Visualizar'), ['action' => 'viewAllInfo', $montagem->fk_lotebandejas]) ?> <br>
                 <?= $this->Html->link(__('Editar'), ['action' => 'edit', $montagem->montagemid]) ?>
                 <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $montagem->montagemid], ['confirm' => __('Tem certeza que deseja apagar essa montagem?')]) ?>
+>>>>>>> 63b8c055af43ed416d199ee60eebbff41ef52c62
             </td>
         </tr>
 

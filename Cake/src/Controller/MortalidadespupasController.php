@@ -37,20 +37,26 @@ class MortalidadespupasController extends AppController
         $this->set('_serialize', ['mortalidadespupa']);
     }
 
-    public function list_add($idLote = null)
+    public function list_add($idLote = null, $codigo_lote)
     {  
+
+         $this->loadModel('Lotegaiolas');
+
         $query = $this->Mortalidadespupas->find('all')->where(['fk_lotegaiolas' => $idLote]);
         $this->paginate = [ 'maxLimit' => 3 ];
-        $this->set('mortalidadespupa', $this->paginate($query));
+        $this->set('mortalidadespupas', $this->paginate($query));
 
+
+        $this->set('codigo_lote', $codigo_lote);
         $mortalidadespupa = $this->Mortalidadespupas->newEntity();
-        //$this->set('n_bequer', $n_bequer);
+        
+
         if ($this->request->is('post')) {
             $mortalidadespupa = $this->Mortalidadespupas->patchEntity($mortalidadespupa, $this->request->data);
             $mortalidadespupa->set(['fk_lotegaiolas' => $idLote]);
             if ($this->Mortalidadespupas->save($mortalidadespupa)) {
                 $this->Flash->success('Mortalidade adicionada com sucesso.');
-                return $this->redirect(['action' => 'list_add', $idLote]);
+                return $this->redirect(['action' => 'list_add', $idLote, $codigo_lote]);
             } else {
                 $this->Flash->error('Não foi possível adicionar a produção. Por favor, tente novamente.');
             }

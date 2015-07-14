@@ -36,6 +36,31 @@ class LotegaiolasController extends AppController
         $this->set('lotegaiola', $lotegaiola);
         $this->set('_serialize', ['lotegaiola']);
     }
+    
+     public function view_All_Info($fk_lotegaiolas = null,$codigo_lote)
+    {
+        $this->loadModel('producaoovos');
+        $this->loadModel('mortalidadespupas');
+
+        $producaoovos = $this->producaoovos->find('all')->where(['fk_lotegaiolas' => $fk_lotegaiolas]);
+        //$lotegaiola  =  $this->Lotegaiolas->find('all')->where(['codigo_lote' => $codigo_lote]);  // alterar
+        $lotegaiola = $codigo_lote;
+
+        //$lotegaiola = $this->Lotegaiolas->get($fk_lotegaiolas, [
+        //   'contain' => []
+        //]);    -- Arrumar
+
+        $mortalidadepupas = $this->mortalidadespupas->find('all')->where(['fk_lotegaiolas' => $fk_lotegaiolas]);
+        
+        $this->paginate = [ 'maxLimit' => 3 ];   
+        $this->set('producaoovos', $this->paginate($producaoovos));
+        $this->set('mortalidadespupas', $this->paginate($mortalidadepupas));
+        $this->set('lotegaiolas', $codigo_lote);
+        $this->set('_serialize', ['lotegaiola']);
+
+    }
+
+
 
     /**
      * Add method
