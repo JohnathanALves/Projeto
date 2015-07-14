@@ -16351,3 +16351,202 @@ Stack Trace:
 #2 {main}
 
 
+2015-07-14 13:06:56 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-14 13:07:46 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-14 13:17:37 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  update or delete on table "lotegaiolas" violates foreign key constraint "fk_mortalidadespupas_lotegaiolas" on table "mortalidadespupas"
+DETAIL:  Key (lotegaiolasid)=(638f3df6-71a8-450a-a8d2-4eea24495def) is still referenced from table "mortalidadespupas".
+Request URL: /Projeto/Cake/lotegaiolas/delete/638f3df6-71a8-450a-a8d2-4eea24495def
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1577): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\Lotegaiola), Object(ArrayObject))
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1582): Cake\Database\Connection->transactional(Object(Closure))
+#9 C:\xampp\htdocs\Projeto\Cake\src\Controller\LotegaiolasController.php(123): Cake\ORM\Table->delete(Object(App\Model\Entity\Lotegaiola))
+#10 [internal function]: App\Controller\LotegaiolasController->delete('638f3df6-71a8-4...')
+#11 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotegaiolasController))
+#14 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+
+2015-07-14 13:19:06 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  update or delete on table "lotegaiolas" violates foreign key constraint "fk_mortalidadespupas_lotegaiolas" on table "mortalidadespupas"
+DETAIL:  Key (lotegaiolasid)=(638f3df6-71a8-450a-a8d2-4eea24495def) is still referenced from table "mortalidadespupas".
+Request URL: /Projeto/Cake/lotegaiolas/delete/638f3df6-71a8-450a-a8d2-4eea24495def
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1577): Cake\ORM\Table->_processDelete(Object(App\Model\Entity\Lotegaiola), Object(ArrayObject))
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1582): Cake\Database\Connection->transactional(Object(Closure))
+#9 C:\xampp\htdocs\Projeto\Cake\src\Controller\LotegaiolasController.php(123): Cake\ORM\Table->delete(Object(App\Model\Entity\Lotegaiola))
+#10 [internal function]: App\Controller\LotegaiolasController->delete('638f3df6-71a8-4...')
+#11 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotegaiolasController))
+#14 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+
+2015-07-14 13:35:20 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "lotegaiolas"
+Request URL: /Projeto/Cake/lotegaiolas/edit/392e9044-e1b9-4ec3-aa09-20cb3e3a6537
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1127): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\Projeto\Cake\src\Controller\LotegaiolasController.php(98): Cake\ORM\Table->get('392e9044-e1b9-4...', Array)
+#2 [internal function]: App\Controller\LotegaiolasController->edit('392e9044-e1b9-4...')
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotegaiolasController))
+#6 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-07-14 14:10:03 Error: [PDOException] SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "regexp"
+LINE 1: ...odigo" FROM lotebandejas Lotebandejas WHERE codigo regexp $1
+                                                              ^
+Request URL: /Projeto/Cake/lotegaiolas/add_dependant
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(132): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\Projeto\Cake\src\Template\Lotegaiolas\add_dependant.ctp(12): Cake\ORM\Query->getIterator()
+#10 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#14 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#15 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotegaiolasController))
+#16 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2015-07-14 14:10:29 Error: [PDOException] SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "regexp"
+LINE 1: ...odigo" FROM lotebandejas Lotebandejas WHERE codigo regexp $1
+                                                              ^
+Request URL: /Projeto/Cake/lotegaiolas/add_dependant
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Query.php(657): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Query.php(608): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(132): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\Projeto\Cake\src\Template\Lotegaiolas\add_dependant.ctp(12): Cake\ORM\Query->getIterator()
+#10 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#14 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#15 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotegaiolasController))
+#16 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2015-07-14 14:19:01 Error: Fatal Error (1): Call to a member function find() on boolean in [C:\xampp\htdocs\Projeto\Cake\src\Controller\LotegaiolasController.php, line 90]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 14:19:01 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /Projeto/Cake/lotegaiolas/add_dependant
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 90)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 14:20:06 Error: Fatal Error (1): Call to a member function find() on boolean in [C:\xampp\htdocs\Projeto\Cake\src\Controller\LotegaiolasController.php, line 90]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 14:20:06 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /Projeto/Cake/lotegaiolas/add_dependant
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 90)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 14:28:57 Error: Fatal Error (4): syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in [C:\xampp\htdocs\Projeto\Cake\src\Controller\LotegaiolasController.php, line 95]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-14 14:28:58 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING)
+Request URL: /Projeto/Cake/lotegaiolas/add_dependant
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 95)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-14 14:31:38 Error: [Cake\View\Exception\MissingTemplateException] Template file "Lotegaiolas\new_lote.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Lotegaiolas\\new_lote.ctp',
+)
+Request URL: /Projeto/Cake/lotegaiolas/new_lote/14e3ddba-d2e7-4cd7-b816-1e6300a4a792
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotegaiolasController))
+#4 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
