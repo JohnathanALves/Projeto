@@ -8,13 +8,14 @@
     </ul>
 </div>
 <div class="lotetransporte view large-10 medium-9 columns">
-    <h2><?= h($lotetransporte->lotetransporteid) ?></h2>
+    <h2>Lote.</h2>
+    <h2><?= h('Número da separação: '.$n_separacao) ?></h2>
     <div class="row">
         <div class="large-5 columns strings">
-            <h6 class="subheader"><?= __('Lote transporte ID') ?></h6>
+          <!--   <h6 class="subheader"><?= __('Lote transporte ID') ?></h6>
             <p><?= h($lotetransporte->lotetransporteid) ?></p>
             <h6 class="subheader"><?= __('Separação') ?></h6>
-            <p><?= h($lotetransporte->fk_separacao) ?></p>
+            <p><?= h($lotetransporte->fk_separacao) ?></p> -->
             <h6 class="subheader"><?= __('Cor lote') ?></h6>
             <p><?= h($lotetransporte->cor_lote) ?></p>
             <h6 class="subheader"><?= __('Nome do motorista') ?></h6>
@@ -25,7 +26,7 @@
             <p><?= h($lotetransporte->nome_encarregado_montagem_rd11) ?></p>
         </div>
         <div class="large-2 columns numbers end">
-            <h6 class="subheader"><?= __('nº transporte') ?></h6>
+            <h6 class="subheader"><?= __('nº do transporte') ?></h6>
             <p><?= $this->Number->format($lotetransporte->n_transporte) ?></p>
             <h6 class="subheader"><?= __('qtd colheres célula') ?></h6>
             <p><?= $this->Number->format($lotetransporte->qtd_colheres_celula) ?></p>

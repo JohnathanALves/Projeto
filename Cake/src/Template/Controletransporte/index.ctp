@@ -44,4 +44,19 @@
         </ul>
         <p><?= $this->Paginator->counter() ?></p>
     </div>
+
+    <?= $this->Form->create($controletransporte); ?>
+    <fieldset>
+        <legend><?= __('Formulário Controle Transporte') ?></legend>
+        <?php
+            // echo $this->Form->input('fk_lotetransporte',['label' => 'Transporte ID']);
+            echo $this->Form->input('hora_controle',['label' => 'Horário']);
+            echo $this->Form->input('situação_dia1',['label' => 'Situação dia1']);
+            echo $this->Form->input('situação_dia2',['label' => 'Situação dia2']);
+            echo $this->Form->input('situação_dia3',['label' => 'Situação dia3']);
+            echo $this->Form->input('comentario',['label' => 'Comentário']);
+        ?>
+    </fieldset>
+    <?= $this->Form->button(__('Enviar')) ?>
+    <?= $this->Form->end() ?>
 </div>

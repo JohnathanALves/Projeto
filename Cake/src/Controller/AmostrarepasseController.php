@@ -21,10 +21,12 @@ class AmostrarepasseController extends AppController
     public function list_add( $controle_id = null , $separacao_id = null) 
     {
         $query = $this->Amostrarepasse->find('all')->where( ['fk_controle' => $controle_id] );
+
         $this->paginate = [ 'maxLimit' => 5 ];
         $this->set('amostras', $this->paginate($query));
         $this->set('controle_id', $controle_id);
         $this->set('separacao_id', $separacao_id);
+        
         $amostrarepasse = $this->Amostrarepasse->newEntity();
 
         $validator = new Validator();

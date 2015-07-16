@@ -9,7 +9,46 @@ use App\Controller\AppController;
  * @property \App\Model\Table\ControletransporteTable $Controletransporte */
 class ControletransporteController extends AppController
 {
+    public function list_add($lote_transporte_id = null) 
+    {
+        $query = $this->Controletransporte->find('all')->where( ['fk_lotetransporte' => $lote_transporte_id] );
+   
+        $this->paginate = [ 'maxLimit' => 5 ];
+        $this->set('list_ctrl_trans', $this->paginate($query));
+        $this->set('lote_transporte_id', $lote_transporte_id);
 
+        $c_transporte = $this->Controletransporte->newEntity();
+
+        if ($this->request->is('post')) {
+            $c_transporte = $this->Controletransporte->patchEntity($c_transporte, $this->request->data);
+            $c_transporte->set( ['fk_lotetransporte' => $lote_transporte_id] );
+
+            $time_controle = $this->request->data('hora_controle');
+            $c_transporte->set(['hora_controle' => $time_controle['hour'].':'.$time_controle['minute']]);
+
+            if ($this->Controletransporte->save($c_transporte)) {
+                $this->Flash->success('O controle do transporte foi salvo.');
+                return $this->redirect(['action' => 'list_add', $lote_transporte_id]);
+            } else {
+                $this->Flash->error('O controle do transporte não pôde ser salvo. Por favor, tente novamente.');
+            }
+        }
+        $this->set(compact('c_transporte'));
+        $this->set('_serialize', ['c_transporte']);
+    }
+
+    public function deleteNoReturn($id = null, $lote_transporte_id = null)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+        $c_transporte = $this->Controletransporte->get($id);
+
+        if ($this->Controletransporte->delete($c_transporte)) {
+            $this->Flash->success('A célula foi deletada.');
+        } else {
+            $this->Flash->error('A célula não pôde ser deletada, por favor, tente novamente.');
+        }
+        return $this->redirect(['action' => 'list_add', $lote_transporte_id]);
+    }
     /**
      * Index method
      *

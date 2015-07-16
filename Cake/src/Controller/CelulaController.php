@@ -10,6 +10,46 @@ use App\Controller\AppController;
 class CelulaController extends AppController
 {
 
+    public function list_add($controle_transporte_id = null, $lote_id = null) 
+    {
+        $query = $this->Celula->find('all')->where( ['fk_controletransporte' => $controle_transporte_id] );
+   
+        $this->paginate = [ 'maxLimit' => 5 ];
+        
+        $this->set('list_celula', $this->paginate($query));
+        $this->set('controle_transporte_id', $controle_transporte_id);
+        $this->set('lote_id', $lote_id);
+
+        $celula = $this->Celula->newEntity();
+
+        if ($this->request->is('post')) {
+            $celula = $this->Celula->patchEntity($celula, $this->request->data);
+            $celula->set( ['fk_controletransporte' => $controle_transporte_id] );
+
+            if ($this->Celula->save($celula)) {
+                $this->Flash->success('A célula foi salva.');
+                return $this->redirect(['action' => 'list_add', $controle_transporte_id]);
+            } else {
+                $this->Flash->error('A célula não pôde ser salva. Por favor, tente novamente.');
+            }
+        }
+        $this->set(compact('celula'));
+        $this->set('_serialize', ['celula']);
+    }
+
+    public function deleteNoReturn($id = null, $controle_transporte_id = null)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+        $celula = $this->Celula->get($id);
+
+        if ($this->Celula->delete($celula)) {
+            $this->Flash->success('A célula foi deletada.');
+        } else {
+            $this->Flash->error('A célula não pôde ser deletada, por favor, tente novamente.');
+        }
+        return $this->redirect(['action' => 'list_add', $controle_transporte_id]);
+    }
+
     /**
      * Index method
      *

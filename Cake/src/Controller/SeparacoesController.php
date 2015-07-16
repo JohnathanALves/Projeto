@@ -63,6 +63,7 @@ class SeparacoesController extends AppController
             $separaco = $this->Separacoes->patchEntity($separaco, $this->request->data);
 
             $time_separacao = $this->request->data('time_separacao');
+            
             $separaco->set(['data_separacao' => $time_separacao['year'].'-'.$time_separacao['month'].'-'.$time_separacao['day']]);
             $separaco->set(['hora_finalizacao' => $time_separacao['hour'].':'.$time_separacao['minute']]);
 

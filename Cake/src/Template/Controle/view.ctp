@@ -14,13 +14,13 @@
         </ul>
 </div>
 <div class="controle view large-10 medium-9 columns">
-    <h2><?= h($controle->controleid) ?></h2>
+    <h2> Controle </h2>
     <div class="row">
         <div class="large-5 columns strings">
-            <h6 class="subheader"><?= __('Controle ID') ?></h6>
+          <!--   <h6 class="subheader"><?= __('Controle ID') ?></h6>
             <p><?= h($controle->controleid) ?></p>
-            <h6 class="subheader"><?= __('Separações ID') ?></h6>
-            <p><?= h($controle->fk_separacoes) ?></p>
+            <h6 class="subheader"><?= __('Separações ID') ?></h6> -->
+         <!--    <p><?= h($controle->fk_separacoes) ?></p> -->
             <h6 class="subheader"><?= __('Nome do Responsável') ?></h6>
             <p><?= h($controle->nome_responsavel) ?></p>
         </div>
