@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\I18n\Time;
 
 /**
  * Montagem Controller
@@ -18,6 +19,7 @@ class MontagemController extends AppController
      */
     public function viewAllInfo($fk_lotebandejas = null)
     {
+        Time::$defaultLocale = 'pt-BR';
         $this->loadModel('bequer');
         $this->loadModel('lotebandejas');
 
@@ -44,10 +46,12 @@ class MontagemController extends AppController
     /**
      * Index method
      *
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
      * @return void
      */
     public function indexTodos()
     {
+        Time::$defaultLocale = 'pt-BR';
         $this->set('montagem', $this->paginate($this->Montagem->find('all') ));
         $this->set('_serialize', ['montagem']);
     }
@@ -55,10 +59,12 @@ class MontagemController extends AppController
     /**
      * Index method
      *
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
      * @return void
      */
     public function index()
     {
+        Time::$defaultLocale = 'pt-BR';
         $this->set('montagem', $this->paginate($this->Montagem->find('all')->distinct(['fk_lotebandejas'])));
         $this->set('_serialize', ['montagem']);
     }
@@ -87,6 +93,7 @@ class MontagemController extends AppController
      */
     public function add()
     {
+        Time::$defaultLocale = 'pt-BR';
         $this->loadModel('Lotebandejas');
         $this->loadModel('Bequer');
 
@@ -100,26 +107,36 @@ class MontagemController extends AppController
             ]
         ])->where(['c.fk_bequer IS NULL']);
 
-        $lotesList = $lotesDisponiveis->find('list', [ 'value' => 'lotebandejasid', 'valueField' => 'codigo' ]);
+        $lotesList = $lotesDisponiveis->find('list', ['value' => 'lotebandejasid','valueField' => 'codigo' ]);
         $this->set('optionLotes', $lotesList);
 
-        $bequerList = $this->Bequer->find('list', [ 'value' => 'bequerid','valueField' => 'n_bequer' ]);
+        $bequerList = $this->Bequer->find('list', [ 'value' => 'bequerid','valueField' => 'n_bequer' , 'order' => ['n_bequer' => 'desc']]);
         $this->set('optionBequer', $bequerList);
 
         $montagem = $this->Montagem->newEntity();
         if ($this->request->is('post')) {
             $arrayBequer = $this->request->data('list_bequer');
-            foreach ($arrayBequer as $value) {
-                $montagem = $this->Montagem->newEntity();
-                $montagem = $this->Montagem->patchEntity($montagem, $this->request->data);
-                $montagem->set(['fk_bequer' => $value ]);
-                if ($this->Montagem->save($montagem)) {
-                    $this->Flash->success('Cadastro de montagem adicionado com sucesso.');
-                } else {
-                    $this->Flash->error('Não foi possível adicionar o cadastro de montagem. Por favor, tente novamente.');
+            if($arrayBequer == '')
+                $this->Flash->error('Por favor selecione um béquer.');
+            else
+            {
+                $lotebandejasForm = $this->request->data('fk_lotebandejas');
+                $lotebandejasQuery = $this->Lotebandejas->get($lotebandejasForm);
+                $tipoBandejaConst= $this->request->data('tipo_bandeja').$lotebandejasQuery->codigo;
+                foreach ($arrayBequer as $value) {
+                    $montagem = $this->Montagem->newEntity();
+                    $montagem = $this->Montagem->patchEntity($montagem, $this->request->data);
+                    $montagem->set(['fk_bequer' => $value ]);
+                    $montagem->set(['tipo_bandeja' => $tipoBandejaConst]);
+
+                    if ($this->Montagem->save($montagem)) {
+                        $this->Flash->success('Cadastro de montagem adicionado com sucesso.');
+                    } else {
+                        $this->Flash->error('Não foi possível adicionar o cadastro de montagem. Por favor, tente novamente.');
+                    }
                 }
+                return $this->redirect(['action' => 'index']);
             }
-            return $this->redirect(['action' => 'index']);
             
         }
         $this->set(compact('montagem'));
@@ -149,6 +166,33 @@ class MontagemController extends AppController
         }
         $this->set(compact('montagem'));
         $this->set('_serialize', ['montagem']);
+    }
+
+    /**
+     * Delete method
+     *
+     * @author Gustavo Marques | Genival Rocha | Caroline Machado
+     * @param string|null $id Montagem id.
+     * @return void Redirects to index.
+     * @throws \Cake\Network\Exception\NotFoundException When record not found.
+     */
+    public function deleteAll($id = null)
+    {
+        //$this->deleteAll(['fk_lotebandejas' => $id])
+
+        $this->request->allowMethod(['post', 'delete']);
+        //$montagem = $this->Montagem->get($id);
+        $montagemArray = $this->Montagem->find('all')->where(['fk_lotebandejas' => $id]);
+        foreach ($montagemArray as $value)
+        {
+            if ($this->Montagem->delete($value)) {
+                $this->Flash->success('Cadastro de montagem removido com sucesso.');
+            } else {
+                $this->Flash->error('Não foi possível remover o cadastro de montagem. Por favor, tente novamente.');
+                return $this->redirect(['action' => 'index']);
+            }
+        }
+        return $this->redirect(['action' => 'index']);
     }
 
     /**

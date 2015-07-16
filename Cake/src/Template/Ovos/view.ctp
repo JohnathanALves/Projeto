@@ -18,7 +18,7 @@
         </div>
         <div class="large-2 columns numbers end">
             <h6 class="subheader"><?= __('Data Origem Dos Ovos') ?></h6>
-            <p><?= $this->Number->format($ovo->data_origem_dos_ovos) ?></p>
+            <p><?= h($ovo->data_origem_dos_ovos) ?></p>
             <h6 class="subheader"><?= __('Gramas Ovos Utilizados') ?></h6>
             <p><?= $this->Number->format($ovo->gramas_ovos_utilizados) ?></p>
         </div>

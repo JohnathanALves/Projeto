@@ -3,7 +3,7 @@
     <ul class="side-nav">
         <li><?= $this->Html->link(__('Nova Montagem'), ['action' => 'add']) ?></li>
         <li><?= $this->Html->link(__('Exibir por lote'), ['action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('Exibir tudo'), ['action' => 'indexTodos']) ?></li>
+        <li><?= $this->Html->link(__('Exibir por béquer'), ['action' => 'indexTodos']) ?></li>
     </ul>
 </div>
 <div class="montagem index large-10 medium-9 columns">
@@ -16,7 +16,7 @@
             <th><?= $this->Paginator->sort('data_montagem','Data Montagem') ?></th>
             <th><?= $this->Paginator->sort('nome_responsavel','Nome do Responsável') ?></th>
             <th><?= $this->Paginator->sort('qtd_bandejas_montadas', 'Quantidade de bandejas montadas') ?></th>
-            <th><?= $this->Paginator->sort('tipo_bandeja', 'Tipo da bandeja') ?></th>
+            <th><?= $this->Paginator->sort('tipo_bandeja', 'Tipo do lote') ?></th>
             <th class="actions"><?= __('Opções') ?></th>
         </tr>
     </thead>

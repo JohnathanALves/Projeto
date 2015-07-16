@@ -9,18 +9,20 @@
     <fieldset>
         <legend><?= __('Adicionar Montagem') ?></legend>
         <?php
-
+            $this->Form->templates([
+                'dateWidget' => '<div class="input time">{{day}}{{month}}{{year}}{{hour}}{{minute}}{{second}}{{meridian}}</div>'
+            ]);
             //echo $this->Form->input('fk_lotebandejas');
             //echo $this->Form->input('fk_bequer');
-            echo 'Lote da bandeja';
+            echo '<label>Lote da bandeja</label>';
             echo $this->Form->select('fk_lotebandejas', $optionLotes, ['empty' => '(Escolha uma opção)']);
-            echo 'Numero do béquer';
+            echo '<label>Tipo do lote</label>';
+            echo $this->Form->select('tipo_bandeja',['S'=>'Supressão', 'C'=>'Colônia'], ['empty' => '(Escolha uma opção)']);
+            echo '<label>Numero do béquer</label>';
             echo $this->Form->select('list_bequer', $optionBequer, ['multiple' => true]);
             echo $this->Form->input('data_montagem', array('empty' => true, 'default' => ''));
             echo $this->Form->input('nome_responsavel',['label' => 'Nome Responsável']);
             echo $this->Form->input('qtd_bandejas_montadas',['label'=>'Quantidade de bandejas montadas']);
-            echo 'Tipo da bandeja';
-            echo $this->Form->select('tipo_bandeja',['G'=>'Gaiola', 'C'=>'Controle'], ['empty' => '(Escolha uma opção)']);
             //echo $this->Form->input('tipo_bandeja');
         ?>
     </fieldset>

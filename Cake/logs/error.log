@@ -18996,6 +18996,7 @@ Stack Trace:
 #15 {main}
 
 
+<<<<<<< HEAD
 2015-07-16 16:51:30 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\Projeto\Cake\src\Controller\LotetransporteController.php, line 92]
 Trace:
 Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
@@ -19013,6 +19014,9 @@ Stack Trace:
 
 
 2015-07-16 16:51:40 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+=======
+2015-07-16 18:41:51 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+>>>>>>> b25ca171534a20531d12c2332d445f8205470a2e
 Exception Attributes: array (
   'controller' => 'LoginMoscamedController',
   'action' => 'js',
@@ -19027,6 +19031,7 @@ Stack Trace:
 #3 {main}
 
 
+<<<<<<< HEAD
 2015-07-16 16:51:46 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
 Exception Attributes: array (
   'controller' => 'LoginMoscamedController',
@@ -20150,3 +20155,5 @@ Stack Trace:
 #2 {main}
 
 
+=======
+>>>>>>> b25ca171534a20531d12c2332d445f8205470a2e

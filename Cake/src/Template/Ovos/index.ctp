@@ -20,7 +20,7 @@
         <tr>
             <td><?= h($ovo->ovosid) ?></td>
             <td><?= h($ovo->fk_bequer) ?></td>
-            <td><?= $this->Number->format($ovo->data_origem_dos_ovos) ?></td>
+            <td><?= h($ovo->data_origem_dos_ovos) ?></td>
             <td><?= $this->Number->format($ovo->gramas_ovos_utilizados) ?></td>
             <td class="actions">
                 <?= $this->Html->link(__('View'), ['action' => 'view', $ovo->ovosid]) ?>

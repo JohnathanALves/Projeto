@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\I18n\Time;
 
 /**
  * Ovos Controller
@@ -18,7 +19,7 @@ class OvosController extends AppController
      */
     public function viewAllInfo($idBequer = null)
     {
-
+    	Time::$defaultLocale = 'pt-BR';
         $this->set('fk_bequer', $idBequer);
         $ovosQuery = $this->Ovos->find('all')->where(['fk_bequer' => $idBequer]);
                 
@@ -51,7 +52,8 @@ class OvosController extends AppController
      * @return void Redireciona para mesma pagina.
      */
     public function list_add($idBequer = null,$n_bequer = null)
-    {  
+    {
+        Time::$defaultLocale = 'pt-BR';
         $ovosQuery = $this->Ovos->find('all')->where(['fk_bequer' => $idBequer]);
         $this->paginate = [ 'maxLimit' => 3 ];
         $this->set('ListOvos', $this->paginate($ovosQuery));
