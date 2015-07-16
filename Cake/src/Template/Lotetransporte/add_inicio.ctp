@@ -16,9 +16,9 @@
             echo $this->Form->input('cor_lote', ['label' => 'Cor lote']);
             echo $this->Form->input('qtd_c25_completas_envio', ['label' => 'qtd c25 completas envio']);
             echo $this->Form->input('qtd_c25_incompletas_envio', ['label' => 'qtd c25 incompletas envio']);
-            echo $this->Form->input('hora_entrada_bod', ['label' => 'hora entrada bod']);
-            echo $this->Form->input('hora_saida_upat', ['label' => 'hora saída upat']);
-            echo $this->Form->input('hora_saida_moscamed', ['label' => 'hora saida moscamed']);
+            echo $this->Form->input('hora_entrada_bod', ['type' => 'time', 'label' => 'hora entrada bod']);
+            echo $this->Form->input('hora_saida_upat', ['type' =>'time', 'label' => 'hora saída upat']);
+            echo $this->Form->input('hora_saida_moscamed', ['type' => 'time', 'label' => 'hora saida moscamed']);
             echo $this->Form->input('nome_motorista', ['label' => 'Nome do motorista']);
             echo $this->Form->input('nome_supervisor_envio', ['label' => 'Nome do supervisor do envio']);
             // echo $this->Form->input('data_recebimento', array('empty' => true, 'default' => ''), ['label' => 'Data do recebimento']);

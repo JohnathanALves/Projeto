@@ -18996,3 +18996,1157 @@ Stack Trace:
 #15 {main}
 
 
+2015-07-16 16:51:30 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\Projeto\Cake\src\Controller\LotetransporteController.php, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-16 16:51:31 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '}'
+Request URL: /Projeto/Cake/lotetransporte
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 92)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-16 16:51:40 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-16 16:51:46 Error: [Cake\Controller\Exception\MissingActionException] Action LoginMoscamedController::js() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LoginMoscamedController',
+  'action' => 'js',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/login_moscamed/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LoginMoscamedController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-16 16:54:43 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type time: ""
+Request URL: /Projeto/Cake/lotetransporte/add_inicio
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1462): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1382): Cake\ORM\Table->_insert(Object(App\Model\Entity\Lotetransporte), Array)
+#7 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1313): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Lotetransporte), Object(ArrayObject))
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(1314): Cake\Database\Connection->transactional(Object(Closure))
+#10 C:\xampp\htdocs\Projeto\Cake\src\Controller\LotetransporteController.php(73): Cake\ORM\Table->save(Object(App\Model\Entity\Lotetransporte))
+#11 [internal function]: App\Controller\LotetransporteController->add_inicio()
+#12 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(410): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotetransporteController))
+#15 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2015-07-16 16:56:36 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\Projeto\Cake\src\Controller\LotetransporteController.php, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-16 16:56:37 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Projeto/Cake/lotetransporte/add_inicio
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 61)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-16 17:21:50 Error: [Cake\Controller\Exception\MissingActionException] Action LotetransporteController::view_All_info() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LotetransporteController',
+  'action' => 'view_All_info',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/lotetransporte/view_All_info/231ce644-05e4-4406-ad82-3f99d3e2fe76
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotetransporteController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-16 17:22:24 Error: [Cake\Controller\Exception\MissingActionException] Action LotetransporteController::view_All_info() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'LotetransporteController',
+  'action' => 'view_All_info',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/lotetransporte/view_All_info/231ce644-05e4-4406-ad82-3f99d3e2fe76
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotetransporteController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-16 17:22:31 Error: [Cake\View\Exception\MissingTemplateException] Template file "Lotetransporte\view_all_info.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Lotetransporte\\view_all_info.ctp',
+)
+Request URL: /Projeto/Cake/lotetransporte/viewAllInfo/36eb7267-79f5-4f80-a5f3-773b2971cc68
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotetransporteController))
+#4 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-07-16 17:22:51 Error: [Cake\View\Exception\MissingTemplateException] Template file "Lotetransporte\view_all_info.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Lotetransporte\\view_all_info.ctp',
+)
+Request URL: /Projeto/Cake/lotetransporte/viewAllInfo/36eb7267-79f5-4f80-a5f3-773b2971cc68
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotetransporteController))
+#4 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-07-16 17:22:55 Error: [Cake\View\Exception\MissingTemplateException] Template file "Lotetransporte\view_all_info.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Lotetransporte\\view_all_info.ctp',
+)
+Request URL: /Projeto/Cake/lotetransporte/viewAllInfo/36eb7267-79f5-4f80-a5f3-773b2971cc68
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotetransporteController))
+#4 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-07-16 17:23:11 Error: [Cake\View\Exception\MissingTemplateException] Template file "Lotetransporte\view_all_info.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Lotetransporte\\view_all_info.ctp',
+)
+Request URL: /Projeto/Cake/lotetransporte/viewAllInfo/36eb7267-79f5-4f80-a5f3-773b2971cc68
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotetransporteController))
+#4 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-07-16 17:24:36 Error: [Cake\View\Exception\MissingTemplateException] Template file "Lotetransporte\view_all_info.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Lotetransporte\\view_all_info.ctp',
+)
+Request URL: /Projeto/Cake/lotetransporte/viewAllInfo/36eb7267-79f5-4f80-a5f3-773b2971cc68
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotetransporteController))
+#4 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-07-16 17:24:40 Error: [Cake\View\Exception\MissingTemplateException] Template file "Lotetransporte\view_all_info.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Lotetransporte\\view_all_info.ctp',
+)
+Request URL: /Projeto/Cake/lotetransporte/viewAllInfo/36eb7267-79f5-4f80-a5f3-773b2971cc68
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotetransporteController))
+#4 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-07-16 17:25:15 Error: [Cake\View\Exception\MissingTemplateException] Template file "Lotetransporte\view_all_info.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Lotetransporte\\view_all_info.ctp',
+)
+Request URL: /Projeto/Cake/lotetransporte/viewAllInfo/36eb7267-79f5-4f80-a5f3-773b2971cc68
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotetransporteController))
+#4 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-07-16 17:25:50 Error: [Cake\View\Exception\MissingTemplateException] Template file "Lotetransporte\view_all_info.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Lotetransporte\\view_all_info.ctp',
+)
+Request URL: /Projeto/Cake/lotetransporte/viewAllInfo/36eb7267-79f5-4f80-a5f3-773b2971cc68
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\LotetransporteController))
+#4 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-07-16 17:26:15 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Lotetransporte\view_All_info.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 17:26:15 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Lotetransporte\view_All_info.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 17:26:15 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 79]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Lotetransporte\view_All_info.ctp, line 79
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 17:26:50 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Lotetransporte\view_All_info.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 17:26:50 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Lotetransporte\view_All_info.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 17:26:50 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 79]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Lotetransporte\view_All_info.ctp, line 79
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 17:27:27 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Lotetransporte\view_All_info.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 17:27:27 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Lotetransporte\view_All_info.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 17:27:27 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 79]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Lotetransporte\view_All_info.ctp, line 79
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 17:27:44 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Lotetransporte\view_All_info.ctp, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 17:27:44 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Lotetransporte\view_All_info.ctp, line 51
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 17:27:44 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 79]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Lotetransporte\view_All_info.ctp, line 79
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 17:32:52 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 16]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-16 17:32:52 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ','
+Request URL: /Projeto/Cake/lotetransporte/viewAllInfo/36eb7267-79f5-4f80-a5f3-773b2971cc68
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 16)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-16 17:37:00 Error: [Cake\Controller\Exception\MissingActionException] Action TemperaturatransporteController::viewAllInfo() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'TemperaturatransporteController',
+  'action' => 'viewAllInfo',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/temperaturatransporte/viewAllInfo/b0caaf84-a38d-45d4-9d63-0fed55101c70
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TemperaturatransporteController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-16 17:58:46 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\Projeto\Cake\src\Template\Lotetransporte\view_All_info.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-16 17:58:46 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /Projeto/Cake/lotetransporte/viewAllInfo/231ce644-05e4-4406-ad82-3f99d3e2fe76
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-16 18:02:43 Error: [Cake\Controller\Exception\MissingActionException] Action ControletransporteController::viewAllInfo() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ControletransporteController',
+  'action' => 'viewAllInfo',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/controletransporte/viewAllInfo
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ControletransporteController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-16 18:05:55 Error: [Cake\View\Exception\MissingTemplateException] Template file "Controletransporte\view_all_info.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Controletransporte\\view_all_info.ctp',
+)
+Request URL: /Projeto/Cake/controletransporte/viewAllInfo
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Controller\Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ControletransporteController))
+#4 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-07-16 18:11:09 Error: Fatal Error (4): syntax error, unexpected ']', expecting variable (T_VARIABLE) or '$' in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\list_add.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-16 18:11:10 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ']', expecting variable (T_VARIABLE) or '$'
+Request URL: /Projeto/Cake/controletransporte/list_add/231ce644-05e4-4406-ad82-3f99d3e2fe76
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-16 18:23:46 Error: Fatal Error (4): syntax error, unexpected ']' in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-16 18:23:47 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ']'
+Request URL: /Projeto/Cake/controletransporte/viewAllInfo/231ce644-05e4-4406-ad82-3f99d3e2fe76
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-16 18:23:51 Error: Fatal Error (4): syntax error, unexpected ']' in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-16 18:23:52 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ']'
+Request URL: /Projeto/Cake/controletransporte/viewAllInfo/231ce644-05e4-4406-ad82-3f99d3e2fe76
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-16 18:24:03 Error: Fatal Error (4): syntax error, unexpected ']' in [C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-16 18:24:03 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ']'
+Request URL: /Projeto/Cake/controletransporte/viewAllInfo/231ce644-05e4-4406-ad82-3f99d3e2fe76
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-16 18:24:40 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:24:40 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:24:40 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:24:40 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:24:40 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:24:55 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:24:55 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:24:55 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:24:55 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:24:55 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:25:07 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:25:07 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:25:07 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:25:07 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:25:07 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:25:37 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:25:37 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:25:37 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:25:37 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:25:37 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:16 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:16 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:16 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:16 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:16 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:32 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:32 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:32 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:32 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:32 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:39 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:39 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:39 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:39 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:26:39 Warning: Warning (4096): Argument 3 passed to Cake\View\Helper\HtmlHelper::link() must be of the type array, string given, called in C:\xampp\htdocs\Projeto\Cake\src\Template\Controletransporte\view_All_info.ctp on line 32 and defined in [C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\View\Helper\HtmlHelper.php, line 332]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 332
+include - APP/Template\Controletransporte\view_All_info.ctp, line 32
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-07-16 18:27:20 Error: [Cake\Controller\Exception\MissingActionException] Action CelulaController::viewAllInfo() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'CelulaController',
+  'action' => 'viewAllInfo',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Projeto/Cake/celula/viewAllInfo/a0c11cdc-b271-4e1b-a052-162c3d7f19c1/231ce644-05e4-4406-ad82-3f99d3e2fe76
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CelulaController))
+#2 C:\xampp\htdocs\Projeto\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-07-16 18:30:28 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\xampp\htdocs\Projeto\Cake\src\Controller\CelulaController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-16 18:30:28 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '='
+Request URL: /Projeto/Cake/celula/viewAllInfo/a0c11cdc-b271-4e1b-a052-162c3d7f19c1/231ce644-05e4-4406-ad82-3f99d3e2fe76
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-16 18:32:07 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\xampp\htdocs\Projeto\Cake\src\Controller\CelulaController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-16 18:32:07 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '='
+Request URL: /Projeto/Cake/celula/viewAllInfo/a0c11cdc-b271-4e1b-a052-162c3d7f19c1/231ce644-05e4-4406-ad82-3f99d3e2fe76
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-16 18:32:24 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\xampp\htdocs\Projeto\Cake\src\Controller\CelulaController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-16 18:32:24 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '='
+Request URL: /Projeto/Cake/celula/viewAllInfo/a0c11cdc-b271-4e1b-a052-162c3d7f19c1/231ce644-05e4-4406-ad82-3f99d3e2fe76
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-16 18:32:33 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\Projeto\Cake\src\Controller\CelulaController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-16 18:32:33 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Projeto/Cake/celula/viewAllInfo/a0c11cdc-b271-4e1b-a052-162c3d7f19c1/231ce644-05e4-4406-ad82-3f99d3e2fe76
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-16 19:09:59 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\xampp\htdocs\Projeto\Cake\src\Template\Celula\view_All_info.ctp, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-16 19:09:59 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /Projeto/Cake/celula/viewAllInfo/a0c11cdc-b271-4e1b-a052-162c3d7f19c1/231ce644-05e4-4406-ad82-3f99d3e2fe76
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

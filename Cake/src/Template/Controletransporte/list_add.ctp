@@ -1,3 +1,10 @@
+<div class="actions columns large-2 medium-3">
+    <h3><?= __('Votar para') ?></h3>
+    <ul class="side-nav">
+        <li><?= $this->Html->link(__('Lote transporte'), ['controller'=> 'lotetransporte', 'action' => 'viewAllInfo', $lote_transporte_id]) ?></li>
+        <li><?= $this->Html->link(__('Visualizar controle transporte'), ['action' => 'viewAllInfo', $lote_transporte_id]) ?></li>
+    </ul>
+</div>
 <div class="controletransporte index large-10 medium-9 columns">
     <table cellpadding="0" cellspacing="0">
     <thead>
@@ -23,7 +30,7 @@
             <td><?= h($list->situação_dia3) ?></td>
             <td><?= h($list->comentario) ?></td>
             <td class="actions">
-                <?= $this->Html->link(__('Células'), ['controller' => 'celula', 'action' => 'list_add', $list->controletransporteid, $list->fk_lotetransporte] )?>
+                <?= $this->Html->link(__('Células'), ['controller' => 'celula', 'action' => 'viewAllInfo', $list->controletransporteid, $list->fk_lotetransporte] )?>
                 <br>
                 <?= $this->Form->postLink(__('Deletar'), ['action' => 'deleteNoReturn', $list->controletransporteid, $list->fk_lotetransporte], ['confirm' => __('Are you sure you want to delete # {0}?', $list->controletransporteid)]) ?>
             </td>

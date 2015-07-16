@@ -1,7 +1,9 @@
 <div class="actions columns large-2 medium-3">
     <h3><?= __('Voltar para') ?></h3>
     <ul class="side-nav">
-        <li><?= $this->Html->link(__('Controle Transporte'), ['controller' => 'controletransporte', 'action' => 'list_add', $lote_id]) ?></li>
+        <li><?= $this->Html->link(__('Controle Transporte'), ['controller' => 'controletransporte', 'action' => 'viewAllInfo', $lote_id]) ?></li>
+        <li><?= $this->Html->link(__('Lote Transporte'), ['controller' => 'lotetransporte', 'action' => 'viewAllInfo', $lote_id]) ?></li>
+        <li><?= $this->Html->link(__('Visualizar Células'), ['action' => 'viewAllInfo', $controle_transporte_id, $lote_id]) ?></li>
 </div>
 <div class="celula index large-10 medium-9 columns">
     <table cellpadding="0" cellspacing="0">
@@ -16,6 +18,7 @@
         </tr>
     </thead>
     <tbody>
+
     <?php foreach ($list_celula as $list): ?>
         <tr>
           <!--   <td><?= h($celula->celulaid) ?></td>
@@ -26,11 +29,11 @@
             <td class="actions">
                <!-- <?= $this->Html->link(__('View'), ['action' => 'view', $celula->celulaid]) ?> 
                 <?= $this->Html->link(__('Edit'), ['action' => 'edit', $celula->celulaid]) ?> -->
-                <?= $this->Form->postLink(__('Deletar'), ['action' => 'deleteNoReturn', $list->celulaid, $list->fk_controletransporte], ['confirm' => __('Tem certeza de que deseja deletar # {0}?', $list->celulaid)]) ?>
+                <?= $this->Form->postLink(__('Deletar'), ['action' => 'deleteNoReturn', $list->celulaid, $list->fk_controletransporte, $lote_id], ['confirm' => __('Tem certeza de que deseja deletar # {0}?', $list->celulaid)]) ?>
             </td>
         </tr>
-
     <?php endforeach; ?>
+
     </tbody>
     </table>
     <div class="paginator">

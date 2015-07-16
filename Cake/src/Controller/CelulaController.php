@@ -9,11 +9,22 @@ use App\Controller\AppController;
  * @property \App\Model\Table\CelulaTable $Celula */
 class CelulaController extends AppController
 {
+    public function viewAllInfo($controle_transporte_id = null, $lote_id = null)
+    {
+        $query = $this->Celula->find('all')->where( ['fk_controletransporte' => $controle_transporte_id] );
+        //$this->paginate = [ 'maxLimit' => 5 ];
+
+        $this->set('list_celula', $this->paginate($query));
+
+        $this->set('lote_id', $lote_id);
+        $this->set('controle_transporte_id', $controle_transporte_id);
+
+        $this->set('_serialize', ['celula']);
+    }
 
     public function list_add($controle_transporte_id = null, $lote_id = null) 
     {
         $query = $this->Celula->find('all')->where( ['fk_controletransporte' => $controle_transporte_id] );
-   
         $this->paginate = [ 'maxLimit' => 5 ];
         
         $this->set('list_celula', $this->paginate($query));
@@ -28,7 +39,7 @@ class CelulaController extends AppController
 
             if ($this->Celula->save($celula)) {
                 $this->Flash->success('A célula foi salva.');
-                return $this->redirect(['action' => 'list_add', $controle_transporte_id]);
+                return $this->redirect(['action' => 'list_add', $controle_transporte_id, $lote_id]);
             } else {
                 $this->Flash->error('A célula não pôde ser salva. Por favor, tente novamente.');
             }
@@ -37,7 +48,7 @@ class CelulaController extends AppController
         $this->set('_serialize', ['celula']);
     }
 
-    public function deleteNoReturn($id = null, $controle_transporte_id = null)
+    public function deleteNoReturn($id = null, $controle_transporte_id = null, $lote_id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
         $celula = $this->Celula->get($id);
@@ -47,7 +58,7 @@ class CelulaController extends AppController
         } else {
             $this->Flash->error('A célula não pôde ser deletada, por favor, tente novamente.');
         }
-        return $this->redirect(['action' => 'list_add', $controle_transporte_id]);
+        return $this->redirect(['action' => 'list_add', $controle_transporte_id, $lote_id]);
     }
 
     /**

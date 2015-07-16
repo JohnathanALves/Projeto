@@ -9,6 +9,16 @@ use App\Controller\AppController;
  * @property \App\Model\Table\ControletransporteTable $Controletransporte */
 class ControletransporteController extends AppController
 {
+    public function viewAllInfo($lote_transporte_id = null)
+    {
+        $query = $this->Controletransporte->find('all')->where( ['fk_lotetransporte' => $lote_transporte_id] );
+
+        $this->set('lote_transporte_id', $lote_transporte_id);
+        $this->set('list_ctrl_trans', $this->paginate($query));
+        $this->set('lote_transporte_id', $lote_transporte_id);
+        $this->set('_serialize', ['controletransporte']);
+    }
+
     public function list_add($lote_transporte_id = null) 
     {
         $query = $this->Controletransporte->find('all')->where( ['fk_lotetransporte' => $lote_transporte_id] );

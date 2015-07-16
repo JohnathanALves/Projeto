@@ -27,12 +27,12 @@
             // echo $this->Form->input('nome_motorista', ['label' => 'Nome do motorista']);
             // echo $this->Form->input('nome_supervisor_envio', ['label' => 'Nome do supervisor do envio']);
             echo $this->Form->input('data_recebimento', array('empty' => true, 'default' => ''), ['label' => 'Data do recebimento']);
-            echo $this->Form->input('hora_chegada_lemi', ['label' => 'horário de chegada lemi']);
+            echo $this->Form->input('hora_chegada_lemi', ['type' => 'time', 'label' => 'horário de chegada lemi']);
             echo $this->Form->input('qtd_c25_completas_recebimento', ['label' => 'qtd c25 completas recebidas']);
             echo $this->Form->input('qtd_celulas_incompletas_recebimento', ['label' => 'qtd células incompletas recebidas']);
             echo $this->Form->input('nome_encarregado_montagem_rd11', ['label' => 'Nome do encarredado Montagem rd11']);
-            echo $this->Form->input('hora_inicio_montagem_rd11', ['label' => 'Hora de inicio da montagem rd11']);
-            echo $this->Form->input('hora_termino_montagem_rd11', ['label' => 'Hora de término da montagem rd11']);
+            echo $this->Form->input('hora_inicio_montagem_rd11', ['type' => 'time', 'label' => 'Hora de inicio da montagem rd11']);
+            echo $this->Form->input('hora_termino_montagem_rd11', ['type' => 'time','label' => 'Hora de término da montagem rd11']);
             echo $this->Form->input('qnt_celula_rd11', ['label' => 'qnt célula rd11']);
             echo $this->Form->input('qnt_rd11_montadas', ['label' => 'qnt rd11 montadas']);
             echo $this->Form->input('qnt_total_machos_enviados', ['label' => 'qnt total de machos enviados']);

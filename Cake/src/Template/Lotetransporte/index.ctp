@@ -2,7 +2,7 @@
     <h3><?= __('Menu') ?></h3>
     <ul class="side-nav">
         <li><?= $this->Html->link(__('Novo lote transporte'), ['action' => 'add_inicio']) ?></li>
-        <li><?= $this->Html->link(__('Adicionar informações de recebimento'), ['action' => 'add_fim']) ?></li>
+        <!-- <li><?= $this->Html->link(__('Adicionar informações de recebimento'), ['action' => 'add_fim']) ?></li> -->
     </ul>
 </div>
 <div class="lotetransporte index large-10 medium-9 columns">
@@ -30,8 +30,8 @@
             <td><?= $this->Number->format($lotetransporte->qtd_c25_completas_envio) ?></td>
             <td><?= $this->Number->format($lotetransporte->qtd_c25_incompletas_envio) ?></td>
             <td class="actions">
-                <li><?= $this->Html->link(__('Adicionar informações de recebimento'), ['action' => 'add_fim', $lotetransporte->lotetransporteid]) ?></li> <br>
-                <?= $this->Html->link(__('Visualizar'), ['action' => 'view', $lotetransporte->lotetransporteid]) ?> <br>
+                <?= $this->Html->link(__('Adicionar informações de recebimento'), ['action' => 'add_fim', $lotetransporte->lotetransporteid]) ?> <br>
+                <?= $this->Html->link(__('Visualizar'), ['action' => 'viewAllInfo', $lotetransporte->lotetransporteid]) ?> <br>
                 <?= $this->Html->link(__('Editar'), ['action' => 'edit', $lotetransporte->lotetransporteid]) ?> <br>
                 <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $lotetransporte->lotetransporteid], ['confirm' => __('Tem certeza de que deseja deletar: # {0}?', $lotetransporte->lotetransporteid)]) ?> 
             </td>

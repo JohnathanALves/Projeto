@@ -9,7 +9,6 @@ use App\Controller\AppController;
  * @property \App\Model\Table\LiberacaoTable $Liberacao */
 class LiberacaoController extends AppController
 {
-
     /**
      * Index method
      *
