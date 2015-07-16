@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\I18n\Time;
 
 /**
  * Alimentacao Controller
@@ -19,7 +20,7 @@ class AlimentacaoController extends AppController
      */
     public function viewAllInfo($fk_lotebandejas = null)
     {
-
+        Time::$defaultLocale = 'pt-BR';
         $this->set('fk_lotebandejas', $fk_lotebandejas);
         $alimentacaoQuery = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $fk_lotebandejas]);
                 
@@ -54,6 +55,7 @@ class AlimentacaoController extends AppController
      */
     public function list_add($fk_lotebandejas = null,$n_bandeja = null)
     {  
+        Time::$defaultLocale = 'pt-BR';
         $alimentacaoQuery = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $fk_lotebandejas]);
         $this->paginate = [ 'maxLimit' => 3 ];
         $this->set('ListAlimentacao', $this->paginate($alimentacaoQuery));

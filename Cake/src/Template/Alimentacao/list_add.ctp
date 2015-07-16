@@ -40,11 +40,14 @@
 
     <?= $this->Form->create($alimentacao); ?>
     <fieldset>
-        <legend><?= __('Adicionar Alimentacao') ?></legend>
+        <legend><?= __('Adicionar Alimentação') ?></legend>
         <?php
+            $this->Form->templates([
+                'dateWidget' => '<div class="input time">{{day}}{{month}}{{year}}{{hour}}{{minute}}{{second}}{{meridian}}</div>'
+            ]);
             //echo $this->Form->input('fk_lotebandejas');
-            echo $this->Form->input('dia', array('empty' => true, 'default' => ''));
-            echo $this->Form->input('variacao');
+            echo $this->Form->input('dia', ['label'=>'Data'], array('empty' => false, 'default' => ''));
+            echo $this->Form->input('variacao', ['label'=>'Variação']);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Adicionar')) ?>

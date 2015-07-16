@@ -3,7 +3,7 @@
     <ul class="side-nav">
         <li><?= $this->Html->link(__('Nova Montagem'), ['action' => 'add']) ?></li>
         <li><?= $this->Html->link(__('Exibir por lote'), ['action' => 'indexLote']) ?></li>
-        <li><?= $this->Html->link(__('Exibir tudo'), ['action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('Exibir por béquer'), ['action' => 'index']) ?></li>
     </ul>
 </div>
 <div class="montagem index large-10 medium-9 columns">

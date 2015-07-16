@@ -15,7 +15,7 @@
             <th><?= $this->Paginator->sort('data_montagem','Data Montagem') ?></th>
             <th><?= $this->Paginator->sort('nome_responsavel','Nome do Responsável') ?></th>
             <th><?= $this->Paginator->sort('qtd_bandejas_montadas', 'Quantidade de bandejas montadas') ?></th>
-            <th><?= $this->Paginator->sort('tipo_bandeja', 'Tipo da bandeja') ?></th>
+            <th><?= $this->Paginator->sort('tipo_bandeja', 'Tipo do lote') ?></th>
             <!--<th class="actions"><?= __('Actions') ?></th>-->
         </tr>
     </thead>
@@ -25,7 +25,7 @@
             <!--<td><?= h($montagem->montagemid) ?></td>-->
             <!--<td><?= h($montagem->fk_lotebandejas) ?></td>-->
             <!--<td><?= h($montagem->fk_bequer) ?></td>-->
-            <td><?= h($montagem->data_montagem) ?></td>
+            <td><?= substr($montagem->data_montagem,0,8) ?></td>
             <td><?= h($montagem->nome_responsavel) ?></td>
             <td><?= $this->Number->format($montagem->qtd_bandejas_montadas) ?></td>
             <td><?= h($montagem->tipo_bandeja) ?></td>
@@ -85,8 +85,8 @@
                 <!--<td><?= h($bequer->bequerid) ?></td>-->
                 <td><?= $this->Number->format($bequer->n_bequer) ?></td>
                 <td><?= $this->Number->format($bequer->volume) ?></td>
-                <td><?= h($bequer->data_fim_eclosao) ?></td>
-                <td><?= h($bequer->data_inicio_eclosao) ?></td>
+                <td><?= substr($bequer->data_fim_eclosao,0,8) ?></td>
+                <td><?= substr($bequer->data_inicio_eclosao,0,8) ?></td>
                 <td><?= $this->Number->format($bequer->contagem_amostra) ?></td>
                 <td><?= h($bequer->hora_inicio_eclosao) ?></td>
                 <td><?= h($bequer->hora_fim_eclosao) ?></td>

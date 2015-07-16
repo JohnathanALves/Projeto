@@ -17,7 +17,7 @@
         <tr>
             <!--<td><?= h($list->ovosid) ?></td>-->
             <!--<td><?= h($list->fk_bequer) ?></td>-->
-            <td><?= $this->Number->format($list->data_origem_dos_ovos) ?></td>
+            <td><?= h($list->data_origem_dos_ovos) ?></td>
             <td><?= $this->Number->format($list->gramas_ovos_utilizados) ?></td>
             <td class="actions">
                 <!--<?= $this->Html->link(__('View'), ['action' => 'view', $ovo->ovosid]) ?>-->
@@ -43,6 +43,9 @@
         <legend><?= __('Adicionar ovos') ?></legend>
         <?php
             //echo $this->Form->text('ovosid');
+            $this->Form->templates([
+                'dateWidget' => '<div class="input time">{{day}}{{month}}{{year}}{{hour}}{{minute}}{{second}}{{meridian}}</div>'
+            ]);
             echo $this->Form->input('data_origem_dos_ovos');
             echo $this->Form->input('gramas_ovos_utilizados');
         ?>

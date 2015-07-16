@@ -44,7 +44,7 @@ class OvosTable extends Table
             ->notEmpty('fk_bequer');
             
         $validator
-            ->add('data_origem_dos_ovos', 'valid', ['rule' => 'numeric'])
+            ->add('data_origem_dos_ovos', 'valid', ['rule' => 'date'])
             ->allowEmpty('data_origem_dos_ovos');
             
         $validator

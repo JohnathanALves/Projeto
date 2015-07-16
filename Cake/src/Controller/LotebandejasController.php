@@ -2,6 +2,8 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\I18n\Time;
+
 
 /**
  * Lotebandejas Controller
@@ -18,13 +20,14 @@ class LotebandejasController extends AppController
      */
     public function viewAllInfo($idlotebandejas = null)
     {
+        Time::$defaultLocale = 'pt-BR';
         $this->loadModel('Alimentacao');
         $alimeQuery = $this->Alimentacao->find('all')->where(['fk_lotebandejas' => $idlotebandejas]);
         $lotebandeja = $this->Lotebandejas->get($idlotebandejas, [
             'contain' => []
         ]);
         
-        //$this->paginate = [ 'maxLimit' => 3, 'order' => ['Ovos.data_origem_dos_ovos' => 'desc', 'Aliquota.n_aliquota' => 'desc'] ];   
+        $this->paginate = [ 'maxLimit' => 11 ];   
         $this->set('alimentacao', $this->paginate($alimeQuery));
         $this->set('lotebandeja', $lotebandeja);
         $this->set('_serialize', ['lotebandeja']);
