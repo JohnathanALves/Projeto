@@ -1,2 +1,2 @@
-Cake/tmp/**
-Cake/logs/error
+Cake/tmp/*.*
+Cake/tmp/debu
